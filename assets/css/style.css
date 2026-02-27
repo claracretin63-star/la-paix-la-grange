@@ -81,15 +81,27 @@ body {
 }
 
 .logo {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.6rem;
+  text-decoration: none;
+  color: var(--text);
+}
+
+.logo-image {
+  height: 40px;
+  width: auto;
+  display: block;
+}
+
+.logo-text {
   font-size: 1.1rem;
   text-transform: uppercase;
   letter-spacing: 0.22em;
-  text-decoration: none;
-  color: var(--text);
   font-weight: 500;
 }
 
-.logo span {
+.logo-text span {
   color: var(--accent);
 }
 
