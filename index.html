@@ -2,24 +2,22 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>La Paix La Grange – Restaurant</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Restaurant La Paix La Grange – cuisine de saison dans une ambiance chaleureuse.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Paix La Grange – Accueil</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-content">
-      <a href="index.html" class="logo">
-        <img src="img/logo.png" alt="La Paix La Grange" class="logo-image">
-        <span class="logo-text">La Paix <span>La Grange</span></span>
-      </a>
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">La Paix La Grange</a>
+      </div>
       <nav class="main-nav">
         <a href="la-maison.html">La maison</a>
-        <a href="carte.html">La carte</a>
+        <a href="carte.html">Carte</a>
         <a href="vins.html">Vins</a>
         <a href="galerie.html">Galerie</a>
-        <a href="contact.html" class="btn-nav">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
@@ -27,78 +25,48 @@
   <main>
     <section class="hero">
       <div class="container hero-content">
-        <div>
-          <h1>Une table de caractère, au cœur de la campagne</h1>
-          <p>
-            La Paix La Grange est un restaurant de terroir où produits de saison,
-            cuisine précise et accueil chaleureux se rencontrent.
-          </p>
-          <div class="hero-actions">
-            <a href="carte.html" class="btn-primary">Découvrir la carte</a>
-            <a href="contact.html" class="btn-secondary">Réserver une table</a>
-          </div>
-          <p class="hero-meta">
-            Ouvert du mardi au samedi – service midi & soir
-          </p>
-        </div>
-        <div class="hero-card">
-          <h2>Menu du moment</h2>
-          <ul>
-            <li><strong>Œuf parfait</strong>, crème de champignons, noisettes</li>
-            <li><strong>Quasi de veau rôti</strong>, légumes de saison</li>
-            <li><strong>Tarte fine aux pommes</strong>, glace à la vanille</li>
-          </ul>
-          <p class="price">Menu <strong>39 €</strong></p>
+        <h1>Bienvenue à La Paix La Grange</h1>
+        <p>Un lieu de charme à la campagne pour se retrouver, partager et savourer.</p>
+        <div class="hero-actions">
+          <a class="btn primary" href="carte.html">Découvrir la carte</a>
+          <a class="btn ghost" href="contact.html">Réserver une table</a>
         </div>
       </div>
     </section>
 
-    <section class="section" id="section-atouts">
-      <div class="container grid-3">
-        <div class="card">
-          <h3>Produits locaux</h3>
-          <p>Nous travaillons au plus près des producteurs et artisans de la région.</p>
-        </div>
-        <div class="card">
-          <h3>Cuisine de saison</h3>
-          <p>Une carte courte, évolutive, qui suit le rythme du marché.</p>
-        </div>
-        <div class="card">
-          <h3>Ambiance chaleureuse</h3>
-          <p>Bois, pierre et lumières douces pour un moment convivial.</p>
-        </div>
-      </div>
-    </section>
+    <section class="home-sections container">
+      <article class="card">
+        <h2>La maison</h2>
+        <p>Découvrez l'histoire du lieu, son ambiance chaleureuse et l'équipe qui vous accueille.</p>
+        <a href="la-maison.html" class="link">En savoir plus</a>
+      </article>
 
-    <section class="section section-alt">
-      <div class="container two-cols">
-        <div>
-          <h2>Privatiser le restaurant</h2>
-          <p>
-            Anniversaire, repas de famille, évènement d’entreprise… Notre salle principale
-            peut accueillir jusqu’à 40 convives assis.
-          </p>
-          <p>
-            N’hésite pas à nous contacter pour imaginer un menu sur mesure.
-          </p>
-          <a href="contact.html" class="btn-outline">Parler de votre projet</a>
-        </div>
-        <div class="info-block">
-          <h3>Horaires</h3>
-          <p>Mardi – Samedi : 12h00–14h00, 19h30–22h00</p>
-          <h3>Adresse</h3>
-          <p>12, chemin de la Grange<br>12345 Nom-de-la-ville</p>
-        </div>
-      </div>
+      <article class="card">
+        <h2>La carte</h2>
+        <p>Une cuisine de saison, inspirée des produits locaux et des envies du moment.</p>
+        <a href="carte.html" class="link">Voir la carte</a>
+      </article>
+
+      <article class="card">
+        <h2>Les vins</h2>
+        <p>Une sélection de vignerons indépendants et de belles découvertes à partager.</p>
+        <a href="vins.html" class="link">Découvrir les vins</a>
+      </article>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>© La Paix La Grange – Tous droits réservés</p>
-      <p><a href="contact.html">Réservations</a> · <a href="mailto:contact@lapaixlagrange.fr">contact@lapaixlagrange.fr</a></p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
+      <p class="footer-meta">Site vitrine – La Paix La Grange</p>
     </div>
   </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 </html>
-

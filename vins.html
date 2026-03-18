@@ -2,96 +2,70 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Carte des vins – La Paix La Grange</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Une sélection de vins de vignerons indépendants, bios et natures.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Paix La Grange – Vins</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-content">
-      <a href="index.html" class="logo">La Paix <span>La Grange</span></a>
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">La Paix La Grange</a>
+      </div>
       <nav class="main-nav">
         <a href="la-maison.html">La maison</a>
-        <a href="carte.html">La carte</a>
+        <a href="carte.html">Carte</a>
         <a href="vins.html" class="active">Vins</a>
         <a href="galerie.html">Galerie</a>
-        <a href="contact.html" class="btn-nav">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="page">
-    <section class="page-header">
-      <div class="container narrow">
-        <h1>Carte des vins</h1>
-        <p>
-          Une cave vivante, centrée sur les vignerons indépendants, souvent bios ou natures,
-          et des cuvées choisies pour la table.
-        </p>
+    <section class="page-hero">
+      <div class="container">
+        <h1>La cave & les vins</h1>
+        <p>Une sélection de vignerons indépendants et de cuvées coups de cœur.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container wine-grid">
-        <div>
-          <h2>Blancs</h2>
-          <ul class="wine-list">
-            <li>
-              <span class="wine-name">Loire – Chenin sec</span>
-              <span class="wine-meta">Domaine Exemple · 2022</span>
-            </li>
-            <li>
-              <span class="wine-name">Bourgogne – Chardonnay</span>
-              <span class="wine-meta">Domaine des Collines · 2021</span>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Rouges</h2>
-          <ul class="wine-list">
-            <li>
-              <span class="wine-name">Beaujolais – Gamay</span>
-              <span class="wine-meta">Domaine du Vent · 2022</span>
-            </li>
-            <li>
-              <span class="wine-name">Rhône – Syrah</span>
-              <span class="wine-meta">Les Terrasses · 2020</span>
-            </li>
-          </ul>
-        </div>
-
-        <div>
-          <h2>Bulles & rosés</h2>
-          <ul class="wine-list">
-            <li>
-              <span class="wine-name">Pétillant naturel</span>
-              <span class="wine-meta">Cuvée des Amis · 2022</span>
-            </li>
-            <li>
-              <span class="wine-name">Rosé de Provence</span>
-              <span class="wine-meta">Domaine du Midi · 2023</span>
-            </li>
-          </ul>
-        </div>
+    <section class="container page-content two-columns">
+      <div>
+        <h2>Philosophie</h2>
+        <p>
+          La carte des vins met en avant des domaines respectueux de leurs terroirs, avec une attention particulière
+          pour les vins de caractère, digestes et vivants.
+        </p>
+        <p>
+          La sélection évolue régulièrement, au gré des découvertes et des rencontres avec les vignerons.
+        </p>
       </div>
-
-      <div class="container narrow menu-note">
-        <p class="small">
-          La carte des vins évolue régulièrement – n’hésite pas à demander conseil en salle
-          pour des accords mets & vins.
+      <div>
+        <h2>Quelques exemples</h2>
+        <ul class="list">
+          <li>Blancs frais et minéraux pour accompagner les entrées et poissons.</li>
+          <li>Rouges souples et gourmands pour les viandes et plats mijotés.</li>
+          <li>Bulles fines pour les moments de fête et d’apéritif.</li>
+        </ul>
+        <p>
+          N’hésitez pas à demander conseil à l’équipe en salle pour trouver l’accord qui vous ressemble.
         </p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>© La Paix La Grange – Tous droits réservés</p>
-      <p><a href="contact.html">Réservations</a></p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
     </div>
   </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 </html>
-

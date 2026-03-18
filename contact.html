@@ -2,85 +2,83 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Contact & réservations – La Paix La Grange</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Réservations et contact pour le restaurant La Paix La Grange.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Paix La Grange – Contact</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-content">
-      <a href="index.html" class="logo">La Paix <span>La Grange</span></a>
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">La Paix La Grange</a>
+      </div>
       <nav class="main-nav">
         <a href="la-maison.html">La maison</a>
-        <a href="carte.html">La carte</a>
+        <a href="carte.html">Carte</a>
         <a href="vins.html">Vins</a>
         <a href="galerie.html">Galerie</a>
-        <a href="contact.html" class="btn-nav active">Contact</a>
+        <a href="contact.html" class="active">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="page">
-    <section class="page-header">
-      <div class="container narrow">
-        <h1>Contact & réservations</h1>
-        <p>Pour toute demande d’information ou réservation, tu peux nous joindre :</p>
+    <section class="page-hero">
+      <div class="container">
+        <h1>Contact & accès</h1>
+        <p>Pour une réservation, une privatisation ou toute question, écrivez-nous.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container two-cols">
-        <div>
-          <h2>Coordonnées</h2>
-          <p><strong>Téléphone :</strong> +41 27 283 13 79</p>
-          <p><strong>Email :</strong> <a href="mailto:
-            restaurantgp2026@gmail.com">restaurantgp2026@gmail.com</a></p>
-          <p><strong>Adresse :</strong><br>Rue Centrale 156<br>1983 Evolène</p>
+    <section class="container page-content contact-layout">
+      <div class="contact-block">
+        <h2>Coordonnées</h2>
+        <p><strong>Adresse :</strong><br>À compléter</p>
+        <p><strong>Téléphone :</strong><br>À compléter</p>
+        <p><strong>E-mail :</strong><br>À compléter</p>
+        <p><strong>Horaires d’ouverture :</strong><br>À compléter</p>
+      </div>
 
-          <h3>Horaires</h3>
-          <p>Mardi – Dimanche : 10H00-22h00</p>
-        </div>
-
-        <div>
-          <h2>Formulaire de contact</h2>
-          <!-- Formulaire simple ; tu peux le connecter plus tard à un service -->
-          <form class="contact-form" action="#" method="post">
-            <div class="form-group">
-              <label for="name">Nom</label>
-              <input type="text" id="name" name="name" required>
-            </div>
-            <div class="form-group">
-              <label for="email">E-mail</label>
-              <input type="email" id="email" name="email" required>
-            </div>
-            <div class="form-group">
-              <label for="guests">Nombre de couverts</label>
-              <input type="number" id="guests" name="guests" min="1" max="20">
-            </div>
-            <div class="form-group">
-              <label for="date">Date souhaitée</label>
-              <input type="date" id="date" name="date">
-            </div>
-            <div class="form-group">
-              <label for="message">Message</label>
-              <textarea id="message" name="message" rows="4"></textarea>
-            </div>
-            <button type="submit" class="btn-primary">Envoyer la demande</button>
-            <p class="small">
-              En envoyant ce formulaire, votre demande sera traitée dans les plus brefs délais.
-            </p>
-          </form>
-        </div>
+      <div class="contact-block">
+        <h2>Formulaire de contact</h2>
+        <form class="contact-form">
+          <div class="form-row">
+            <label for="name">Nom</label>
+            <input type="text" id="name" name="name" placeholder="Votre nom">
+          </div>
+          <div class="form-row">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="vous@example.com">
+          </div>
+          <div class="form-row">
+            <label for="subject">Objet</label>
+            <input type="text" id="subject" name="subject" placeholder="Réservation, information…">
+          </div>
+          <div class="form-row">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message"></textarea>
+          </div>
+          <button type="submit" class="btn primary">Envoyer</button>
+          <p class="form-note">
+            Ce formulaire est statique pour l’instant : il faudra connecter l’envoi à une solution d’e-mail ou de
+            gestion de formulaires.
+          </p>
+        </form>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>© La Paix La Grange – Tous droits réservés</p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
     </div>
   </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 </html>
-

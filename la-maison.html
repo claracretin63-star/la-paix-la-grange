@@ -2,83 +2,71 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>La maison – La Paix La Grange</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Découvrez l’histoire, l’équipe et l’esprit du restaurant La Paix La Grange.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Paix La Grange – La maison</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-content">
-      <a href="index.html" class="logo">La Paix <span>La Grange</span></a>
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">La Paix La Grange</a>
+      </div>
       <nav class="main-nav">
         <a href="la-maison.html" class="active">La maison</a>
-        <a href="carte.html">La carte</a>
+        <a href="carte.html">Carte</a>
         <a href="vins.html">Vins</a>
         <a href="galerie.html">Galerie</a>
-        <a href="contact.html" class="btn-nav">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="page">
-    <section class="page-header">
-      <div class="container narrow">
+    <section class="page-hero">
+      <div class="container">
         <h1>La maison</h1>
+        <p>Un ancien corps de ferme entièrement rénové, entre pierre, bois et lumière.</p>
+      </div>
+    </section>
+
+    <section class="container page-content two-columns">
+      <div>
+        <h2>L’esprit du lieu</h2>
         <p>
-          Une ancienne grange restaurée, un feu qui crépite l’hiver, une terrasse au vert l’été :
-          La Paix La Grange est pensée comme une maison de campagne ouverte à tous.
+          La Paix La Grange est un lieu de vie chaleureux, pensé comme une grande maison où l’on se sent immédiatement
+          à l’aise. La salle, ouverte sur l’extérieur, marie matériaux bruts et touches contemporaines.
+        </p>
+        <p>
+          Ici, on prend le temps : de bien manger, de bien boire, de discuter, de célébrer. L’équipe vous accompagne
+          avec simplicité et attention.
         </p>
       </div>
-    </section>
-
-    <section class="section">
-      <div class="container two-cols">
-        <div>
-          <h2>L’esprit du lieu</h2>
-          <p>
-            Ici, tout est question de simplicité et de sincérité. Une courte carte,
-            des assiettes lisibles, un service attentif mais sans chichis.
-          </p>
-          <p>
-            Nous voulons que chacun se sente comme chez des amis, autour d’une belle table.
-          </p>
-        </div>
-        <div>
-          <h2>La cuisine</h2>
-          <p>
-            Notre cuisine s’attache aux cuissons justes, aux jus concentrés, aux assaisonnements
-            précis. Nous mettons en avant les légumes, les poissons de petits bateaux et les
-            viandes d’éleveurs engagés.
-          </p>
-        </div>
-      </div>
-    </section>
-
-    <section class="section section-alt">
-      <div class="container two-cols">
-        <div>
-          <h2>Le chef</h2>
-          <p>
-            Après plusieurs années passées dans de belles maisons, le chef a souhaité créer un
-            lieu à taille humaine, centré sur le goût et le partage.
-          </p>
-        </div>
-        <div class="quote">
-          <p>
-            « La cuisine doit rester une histoire de plaisir et de générosité, jamais de démonstration. »
-          </p>
-        </div>
+      <div>
+        <h2>L’équipe</h2>
+        <p>
+          Derrière la maison, une équipe passionnée : en cuisine comme en salle, chacun apporte son savoir-faire
+          pour créer une expérience conviviale et sincère.
+        </p>
+        <p>
+          Nous travaillons avec des producteurs de proximité, artisans et vignerons engagés, pour proposer une cuisine
+          vivante et une carte qui évolue au fil des saisons.
+        </p>
       </div>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>© La Paix La Grange – Tous droits réservés</p>
-      <p><a href="contact.html">Réservations</a></p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
     </div>
   </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 </html>
-

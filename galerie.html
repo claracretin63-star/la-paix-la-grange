@@ -2,62 +2,72 @@
 <html lang="fr">
 <head>
   <meta charset="UTF-8">
-  <title>Galerie – La Paix La Grange</title>
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="Quelques images de la salle, de la terrasse et des assiettes du restaurant La Paix La Grange.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>La Paix La Grange – Galerie</title>
   <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
   <header class="site-header">
-    <div class="container header-content">
-      <a href="index.html" class="logo">La Paix <span>La Grange</span></a>
+    <div class="container header-inner">
+      <div class="logo">
+        <a href="index.html">La Paix La Grange</a>
+      </div>
       <nav class="main-nav">
         <a href="la-maison.html">La maison</a>
-        <a href="carte.html">La carte</a>
+        <a href="carte.html">Carte</a>
         <a href="vins.html">Vins</a>
         <a href="galerie.html" class="active">Galerie</a>
-        <a href="contact.html" class="btn-nav">Contact</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </div>
   </header>
 
   <main class="page">
-    <section class="page-header">
-      <div class="container narrow">
+    <section class="page-hero">
+      <div class="container">
         <h1>Galerie</h1>
-        <p>Un aperçu de l’atmosphère de La Paix La Grange.</p>
+        <p>Quelques ambiances de la maison, de la salle et des assiettes.</p>
       </div>
     </section>
 
-    <section class="section">
-      <div class="container gallery-grid">
-        <!-- Remplace les images par tes vraies photos -->
-        <figure class="gallery-item placeholder">
-          <div class="img"></div>
-          <figcaption>La salle principale</figcaption>
-        </figure>
-        <figure class="gallery-item placeholder">
-          <div class="img"></div>
-          <figcaption>La terrasse aux beaux jours</figcaption>
-        </figure>
-        <figure class="gallery-item placeholder">
-          <div class="img"></div>
-          <figcaption>Un plat signature</figcaption>
-        </figure>
-        <figure class="gallery-item placeholder">
-          <div class="img"></div>
-          <figcaption>Le comptoir</figcaption>
-        </figure>
+    <section class="container page-content">
+      <div class="gallery-grid">
+        <div class="gallery-item placeholder">
+          <span>Photo 1</span>
+        </div>
+        <div class="gallery-item placeholder">
+          <span>Photo 2</span>
+        </div>
+        <div class="gallery-item placeholder">
+          <span>Photo 3</span>
+        </div>
+        <div class="gallery-item placeholder">
+          <span>Photo 4</span>
+        </div>
+        <div class="gallery-item placeholder">
+          <span>Photo 5</span>
+        </div>
+        <div class="gallery-item placeholder">
+          <span>Photo 6</span>
+        </div>
       </div>
+      <p class="gallery-note">
+        Remplacez ces emplacements par vos propres photos (format horizontal recommandé).
+      </p>
     </section>
   </main>
 
   <footer class="site-footer">
-    <div class="container footer-content">
-      <p>© La Paix La Grange – Tous droits réservés</p>
-      <p><a href="contact.html">Réservations</a></p>
+    <div class="container footer-inner">
+      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
     </div>
   </footer>
+
+  <script>
+    const yearSpan = document.getElementById('year');
+    if (yearSpan) {
+      yearSpan.textContent = new Date().getFullYear();
+    }
+  </script>
 </body>
 </html>
-
