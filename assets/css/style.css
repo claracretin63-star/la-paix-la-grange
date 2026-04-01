@@ -1,19 +1,25 @@
 :root {
-  --bg: #f6f3ef;
-  --bg-alt: #ffffff;
-  --text: #2b2724;
-  --muted: #7a746d;
-  --primary: #b77a4b;
-  --primary-soft: rgba(183, 122, 75, 0.14);
-  --border: #e0d7cf;
-  --accent: #6b4f3d;
-  --radius-lg: 16px;
-  --radius-md: 10px;
-  --shadow-soft: 0 12px 30px rgba(32, 23, 14, 0.09);
-  /* Fond page : noir (cartes / blocs clairs inchangés : --text, --muted) */
-  --page-bg: #0a0a0a;
-  --page-bg-mid: #111111;
+  /* Charte sombre unifiée (moderne, peu de couleurs) */
+  --page-bg: #050505;
+  --page-bg-mid: #0a0a0a;
   --page-bg-deep: #000000;
+  --surface: #121212;
+  --surface-2: #181818;
+  --surface-border: rgba(255, 255, 255, 0.07);
+  --surface-border-strong: rgba(255, 255, 255, 0.11);
+  --text: #f5f5f5;
+  --muted: #a3a3a3;
+  --muted-dim: #737373;
+  /* Accent unique chaleureux (restaurant) */
+  --primary: #c9a962;
+  --primary-dim: #a88b4a;
+  --primary-soft: rgba(201, 169, 98, 0.14);
+  --accent: #d4b978;
+  --border: var(--surface-border);
+  --radius-lg: 14px;
+  --radius-md: 10px;
+  --shadow-soft: 0 0 0 1px rgba(255, 255, 255, 0.05), 0 12px 40px rgba(0, 0, 0, 0.55);
+  --shadow-glow: 0 0 24px rgba(201, 169, 98, 0.12);
 }
 
 *,
@@ -22,14 +28,12 @@
   box-sizing: border-box;
 }
 
-/* Fond noir sur toute la hauteur ; légers halos gris neutres (pas de bleu) */
 html {
   min-height: 100%;
   background-color: var(--page-bg-deep);
   background-image:
-    radial-gradient(ellipse 120% 90% at 12% 0%, rgba(48, 48, 48, 0.4) 0%, transparent 52%),
-    radial-gradient(circle at 100% 42%, rgba(38, 38, 38, 0.32) 0%, transparent 48%),
-    linear-gradient(165deg, var(--page-bg-mid) 0%, var(--page-bg) 44%, var(--page-bg-deep) 100%);
+    radial-gradient(ellipse 90% 60% at 50% -15%, rgba(55, 55, 55, 0.22) 0%, transparent 50%),
+    linear-gradient(180deg, var(--page-bg-mid) 0%, var(--page-bg-deep) 100%);
 }
 
 body {
@@ -37,8 +41,13 @@ body {
   min-height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
   background: transparent;
-  color: rgba(245, 242, 237, 0.92);
+  color: var(--text);
   -webkit-font-smoothing: antialiased;
+}
+
+::selection {
+  background: var(--primary-soft);
+  color: var(--text);
 }
 
 button,
@@ -67,9 +76,9 @@ a {
   position: sticky;
   top: 0;
   z-index: 10;
-  backdrop-filter: blur(16px);
-  background: linear-gradient(to bottom, rgba(22, 22, 22, 0.96), rgba(0, 0, 0, 0.92));
-  border-bottom: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(20px) saturate(1.1);
+  background: rgba(0, 0, 0, 0.72);
+  border-bottom: 1px solid var(--surface-border);
 }
 
 .header-inner {
@@ -84,24 +93,15 @@ a {
   align-items: center;
   padding: 8px 14px;
   border-radius: 12px;
-  /* Zone « carte » douce : le logo reste lisible sans bloc blanc dur sur le header sombre */
-  background: linear-gradient(
-    155deg,
-    rgba(246, 243, 239, 0.16) 0%,
-    rgba(255, 255, 255, 0.06) 100%
-  );
-  border: 1px solid rgba(255, 255, 255, 0.14);
-  box-shadow:
-    0 4px 18px rgba(0, 0, 0, 0.22),
-    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--surface-border);
 }
 
 .site-logo {
   height: 60px;
   width: auto;
   display: block;
-  /* Sépare légèrement le graphisme du fond sans changer les couleurs du fichier */
-  filter: drop-shadow(0 1px 3px rgba(0, 0, 0, 0.35));
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
 
 .main-nav {
@@ -115,7 +115,11 @@ a {
 .main-nav a {
   position: relative;
   padding-bottom: 4px;
-  color: rgba(230, 225, 218, 0.55);
+  color: var(--muted);
+}
+
+.main-nav a:hover {
+  color: var(--text);
 }
 
 .main-nav a::after {
@@ -135,7 +139,7 @@ a {
 }
 
 .main-nav a.active {
-  color: rgba(250, 247, 242, 0.95);
+  color: var(--text);
 }
 
 .hero {
@@ -157,20 +161,22 @@ a {
   font-family: "Georgia", "Times New Roman", serif;
   font-size: clamp(2.4rem, 3vw + 1.2rem, 3.1rem);
   margin-bottom: 16px;
-  color: rgba(252, 250, 247, 0.98);
+  color: var(--text);
+  letter-spacing: -0.02em;
 }
 
 .hero p {
   font-size: 1.05rem;
-  color: rgba(220, 214, 206, 0.82);
+  color: var(--muted);
   margin-bottom: 28px;
-  line-height: 1.6;
+  line-height: 1.65;
+  max-width: 36em;
 }
 
 .hero-side-logo {
   isolation: isolate;
-  background: radial-gradient(circle at top left, #fdfaf7 0, #f7f2ec 45%, #f2ebe3 100%);
-  border: 1px solid rgba(224, 215, 207, 0.92);
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
   border-radius: var(--radius-md);
   padding: 14px;
   box-shadow: var(--shadow-soft);
@@ -181,13 +187,14 @@ a {
   height: auto;
   display: block;
   border-radius: 8px;
-  filter: sepia(0.28) saturate(0.78) brightness(1.04) contrast(1.05);
+  opacity: 0.96;
 }
 
 .hero-side-logo p {
   margin: 8px 0 0;
   font-size: 0.84rem;
-  color: var(--muted);
+  color: var(--muted-dim);
+  line-height: 1.45;
 }
 
 .hero-actions {
@@ -211,24 +218,26 @@ a {
 }
 
 .btn.primary {
-  background: var(--primary);
-  color: #fff;
-  box-shadow: 0 14px 30px rgba(109, 70, 39, 0.45);
+  background: linear-gradient(145deg, #d4b978 0%, var(--primary) 45%, var(--primary-dim) 100%);
+  color: #0a0a0a;
+  font-weight: 600;
+  box-shadow: var(--shadow-glow);
 }
 
 .btn.primary:hover {
   transform: translateY(-1px);
-  box-shadow: 0 18px 40px rgba(109, 70, 39, 0.5);
+  filter: brightness(1.06);
 }
 
 .btn.ghost {
   background: transparent;
-  border-color: rgba(255, 255, 255, 0.28);
-  color: rgba(248, 245, 240, 0.92);
+  border-color: var(--surface-border-strong);
+  color: var(--text);
 }
 
 .btn.ghost:hover {
-  background: rgba(255, 255, 255, 0.1);
+  background: rgba(255, 255, 255, 0.06);
+  border-color: rgba(255, 255, 255, 0.18);
 }
 
 .home-sections {
@@ -249,10 +258,10 @@ a {
 }
 
 .home-info-card {
-  background: rgba(255, 255, 255, 0.78);
-  border: 1px solid rgba(224, 215, 207, 0.9);
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
   border-radius: var(--radius-md);
-  padding: 16px 16px 14px;
+  padding: 18px 18px 16px;
   box-shadow: var(--shadow-soft);
 }
 
@@ -261,7 +270,8 @@ a {
   text-transform: none;
   letter-spacing: 0.02em;
   font-size: 1rem;
-  color: var(--accent);
+  font-weight: 600;
+  color: var(--text);
 }
 
 .home-info-card p {
@@ -269,6 +279,20 @@ a {
   color: var(--muted);
   line-height: 1.55;
   font-size: 0.92rem;
+}
+
+.home-info-card a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.home-info-card a:hover {
+  color: var(--primary);
+}
+
+.home-info-card .social-links a {
+  text-decoration: none;
 }
 
 .social-links {
@@ -308,17 +332,23 @@ a {
 .home-info-copy {
   margin: 14px 0 0;
   text-align: center;
-  color: rgba(200, 195, 188, 0.72);
+  color: var(--muted-dim);
   font-size: 0.86rem;
 }
 
 .card {
   color: var(--text);
-  background: radial-gradient(circle at top left, #fdfaf7 0, #f7f2ec 40%, #f2ebe3 100%);
+  background: var(--surface);
   border-radius: var(--radius-lg);
-  padding: 22px 22px 24px;
+  padding: 24px 24px 26px;
   box-shadow: var(--shadow-soft);
-  border: 1px solid rgba(255, 255, 255, 0.9);
+  border: 1px solid var(--surface-border);
+  transition: border-color 0.2s ease-out, box-shadow 0.2s ease-out;
+}
+
+.card:hover {
+  border-color: var(--surface-border-strong);
+  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(255, 255, 255, 0.03);
 }
 
 .card h2 {
@@ -342,6 +372,10 @@ a {
   padding-bottom: 2px;
 }
 
+.link:hover {
+  color: var(--primary);
+}
+
 .link::after {
   content: "";
   position: absolute;
@@ -349,7 +383,8 @@ a {
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: var(--accent);
+  background: var(--primary);
+  opacity: 0.85;
 }
 
 .page {
@@ -364,31 +399,44 @@ a {
   font-family: "Georgia", "Times New Roman", serif;
   font-size: 2.1rem;
   margin-bottom: 8px;
-  color: rgba(252, 250, 247, 0.98);
+  color: var(--text);
+  letter-spacing: -0.02em;
 }
 
 .page-hero p {
   margin: 0;
-  color: rgba(200, 195, 188, 0.85);
+  color: var(--muted);
 }
 
 .page-content {
   color: var(--text);
-  background: rgba(255, 255, 255, 0.9);
+  background: var(--surface-2);
   margin-top: 12px;
-  padding: 28px 26px 32px;
+  padding: 32px 30px 36px;
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
-  border: 1px solid rgba(255, 255, 255, 0.95);
+  border: 1px solid var(--surface-border);
 }
 
 .page-content h2 {
   margin-top: 0;
+  color: var(--text);
+  font-weight: 600;
 }
 
 .page-content p {
-  line-height: 1.7;
+  line-height: 1.75;
   color: var(--muted);
+}
+
+.page-content a {
+  color: var(--accent);
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.page-content a:hover {
+  color: var(--primary);
 }
 
 .two-columns {
@@ -417,7 +465,7 @@ a {
 
 .menu-section li {
   padding: 10px 0;
-  border-bottom: 1px dashed rgba(190, 178, 165, 0.6);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
 }
 
 .menu-item-name {
@@ -446,9 +494,9 @@ a {
 }
 
 .menu-tab {
-  border: 1px solid rgba(190, 178, 165, 0.8);
-  background: rgba(255, 255, 255, 0.72);
-  color: var(--text);
+  border: 1px solid var(--surface-border);
+  background: rgba(0, 0, 0, 0.35);
+  color: var(--muted);
   border-radius: 999px;
   padding: 0.52rem 0.95rem;
   font-size: 0.78rem;
@@ -459,16 +507,17 @@ a {
 }
 
 .menu-tab:hover {
-  border-color: rgba(183, 122, 75, 0.6);
+  border-color: var(--surface-border-strong);
+  color: var(--text);
   transform: translateY(-1px);
-  box-shadow: 0 8px 18px rgba(63, 43, 24, 0.12);
 }
 
 .menu-tab.is-active {
-  background: var(--primary);
-  color: #fff;
-  border-color: var(--primary);
-  box-shadow: 0 10px 20px rgba(124, 83, 52, 0.28);
+  background: linear-gradient(145deg, #d4b978 0%, var(--primary) 100%);
+  color: #0a0a0a;
+  font-weight: 600;
+  border-color: transparent;
+  box-shadow: var(--shadow-glow);
 }
 
 .menu-panel {
@@ -504,11 +553,11 @@ a {
 
 .wine-card {
   color: var(--text);
-  background: rgba(255, 255, 255, 0.74);
-  border: 1px solid rgba(224, 215, 207, 0.9);
+  background: var(--surface);
+  border: 1px solid var(--surface-border);
   border-radius: var(--radius-md);
   box-shadow: var(--shadow-soft);
-  padding: 16px;
+  padding: 18px;
 }
 
 .wine-card h2 {
@@ -520,7 +569,7 @@ a {
   font-size: 0.96rem;
   text-transform: none;
   letter-spacing: 0.02em;
-  color: var(--accent);
+  color: var(--primary);
 }
 
 .wine-subheading {
@@ -539,7 +588,7 @@ a {
 
 .wine-list li {
   padding: 9px 0;
-  border-bottom: 1px dashed rgba(190, 178, 165, 0.6);
+  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
 }
 
 .wine-name {
@@ -587,11 +636,12 @@ a {
 }
 
 .gallery-item.placeholder {
-  background: linear-gradient(135deg, var(--primary-soft), rgba(78, 107, 104, 0.15));
+  background: linear-gradient(135deg, var(--surface) 0%, var(--surface-2) 100%);
+  border: 1px dashed var(--surface-border);
   display: flex;
   align-items: center;
   justify-content: center;
-  color: rgba(43, 39, 36, 0.7);
+  color: var(--muted-dim);
   font-size: 0.9rem;
   text-transform: uppercase;
   letter-spacing: 0.14em;
@@ -606,9 +656,10 @@ a {
 .gallery-note code {
   font-size: 0.88em;
   font-family: ui-monospace, "Cascadia Code", monospace;
-  background: rgba(43, 39, 36, 0.07);
+  background: rgba(255, 255, 255, 0.06);
   padding: 0.12em 0.4em;
   border-radius: 4px;
+  color: var(--accent);
 }
 
 .contact-layout {
@@ -644,10 +695,11 @@ a {
 .form-row input,
 .form-row textarea {
   border-radius: 999px;
-  border: 1px solid rgba(190, 178, 165, 0.9);
+  border: 1px solid var(--surface-border);
   padding: 10px 13px;
   font: inherit;
-  background: rgba(255, 255, 255, 0.92);
+  background: rgba(0, 0, 0, 0.45);
+  color: var(--text);
   outline: none;
   transition: border-color 0.12s ease-out, box-shadow 0.12s ease-out, background 0.12s ease-out;
 }
@@ -661,8 +713,8 @@ a {
 .form-row input:focus,
 .form-row textarea:focus {
   border-color: var(--primary);
-  box-shadow: 0 0 0 1px rgba(183, 122, 75, 0.4);
-  background: #fff;
+  box-shadow: 0 0 0 1px var(--primary-soft);
+  background: rgba(0, 0, 0, 0.55);
 }
 
 .form-note {
@@ -672,10 +724,10 @@ a {
 }
 
 .site-footer {
-  border-top: 1px solid rgba(255, 255, 255, 0.1);
-  padding: 20px 0 26px;
+  border-top: 1px solid var(--surface-border);
+  padding: 22px 0 28px;
   font-size: 0.85rem;
-  color: rgba(200, 195, 188, 0.65);
+  color: var(--muted-dim);
 }
 
 .footer-inner {
