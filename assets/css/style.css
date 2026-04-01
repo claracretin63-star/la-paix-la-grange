@@ -646,6 +646,48 @@ a {
   box-shadow: var(--shadow-glow);
 }
 
+/* Onglet « Menu enfant » : repère visuel type bulle */
+.menu-tab--enfant {
+  border-color: rgba(201, 168, 130, 0.45);
+  color: var(--accent);
+}
+
+.menu-tab--enfant:hover {
+  border-color: rgba(201, 168, 130, 0.65);
+  color: var(--cream);
+}
+
+.menu-tab--enfant.is-active {
+  color: var(--marron-deep);
+  border-color: transparent;
+}
+
+.menu-enfant-bubble {
+  max-width: 32rem;
+  margin: 0 auto;
+  padding: 1.85rem 2rem 1.95rem;
+  border-radius: 22px;
+  border: 1px solid rgba(201, 168, 130, 0.28);
+  background:
+    linear-gradient(165deg, rgba(245, 240, 232, 0.09) 0%, transparent 55%),
+    var(--surface);
+  box-shadow: var(--shadow-soft), inset 0 1px 0 rgba(245, 240, 232, 0.06);
+}
+
+.menu-enfant-bubble h2 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+  font-family: var(--font-display);
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--text);
+}
+
+.menu-enfant-bubble .menu-note {
+  margin-bottom: 0;
+  line-height: 1.65;
+}
+
 .menu-panel {
   display: none;
 }
