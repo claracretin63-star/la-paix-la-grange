@@ -190,14 +190,37 @@ a {
   max-width: 38rem;
 }
 
-.hero h1 {
-  font-family: var(--font-display);
+/* Titre accueil : hiérarchie contemporaine (sans-serif, surtitre + bloc) */
+.hero-title {
+  margin: 0 0 1.35rem;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 0;
+}
+
+.hero-title-kicker {
+  font-family: var(--font-sans);
+  font-size: 0.6875rem;
   font-weight: 600;
-  font-size: clamp(2.5rem, 1.5rem + 3.5vw, 3.35rem);
-  margin-bottom: 1.25rem;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 0.75rem;
+  padding-bottom: 0.65rem;
+  border-bottom: 1px solid rgba(201, 168, 130, 0.35);
+  width: 100%;
+  max-width: min(100%, 20rem);
+}
+
+.hero-title-main {
+  display: block;
+  font-family: var(--font-sans);
+  font-weight: 700;
+  font-size: clamp(2.1rem, 4.5vw + 0.85rem, 3.65rem);
+  letter-spacing: -0.045em;
+  line-height: 1.02;
   color: var(--text);
-  letter-spacing: -0.03em;
-  line-height: 1.05;
 }
 
 .hero p {
