@@ -9,10 +9,11 @@
   --text: #f4f4f5;
   --muted: #a1a1aa;
   --muted-dim: #71717a;
-  --primary: #c9a962;
-  --primary-dim: #a88b4a;
-  --primary-soft: rgba(201, 169, 98, 0.18);
-  --accent: #dcc090;
+  /* Accents neutres (pas de jaune / doré) */
+  --primary: #f4f4f5;
+  --primary-dim: #a1a1aa;
+  --primary-soft: rgba(244, 244, 245, 0.12);
+  --accent: #c4c4c8;
   --border: var(--surface-border);
   --font-sans: "DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
@@ -20,7 +21,7 @@
   --radius-md: 12px;
   --radius-sm: 8px;
   --shadow-soft: 0 0 0 1px rgba(255, 255, 255, 0.04), 0 20px 50px rgba(0, 0, 0, 0.58);
-  --shadow-glow: 0 0 36px rgba(201, 169, 98, 0.15);
+  --shadow-glow: 0 8px 28px rgba(0, 0, 0, 0.45);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
   --duration: 0.4s;
@@ -37,7 +38,7 @@ html {
   background-color: var(--page-bg-deep);
   background-image:
     radial-gradient(ellipse 100% 70% at 50% -18%, rgba(65, 65, 65, 0.18) 0%, transparent 52%),
-    radial-gradient(ellipse 60% 45% at 100% 0%, rgba(201, 169, 98, 0.04) 0%, transparent 45%),
+    radial-gradient(ellipse 60% 45% at 100% 0%, rgba(90, 90, 100, 0.1) 0%, transparent 45%),
     linear-gradient(180deg, var(--page-bg-mid) 0%, var(--page-bg-deep) 100%);
 }
 
@@ -109,23 +110,21 @@ a {
 .logo a {
   display: inline-flex;
   align-items: center;
-  padding: 8px 14px;
-  border-radius: var(--radius-md);
-  background: rgba(255, 255, 255, 0.035);
-  border: 1px solid var(--surface-border);
-  transition: border-color var(--duration) var(--ease-out), background var(--duration) var(--ease-out);
+  padding: 0;
+  border-radius: 0;
+  background: none;
+  border: none;
+  transition: opacity var(--duration) var(--ease-out);
 }
 
 .logo a:hover {
-  border-color: var(--surface-border-strong);
-  background: rgba(255, 255, 255, 0.055);
+  opacity: 0.82;
 }
 
 .site-logo {
-  height: 60px;
+  height: 52px;
   width: auto;
   display: block;
-  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.5));
 }
 
 .main-nav {
@@ -155,7 +154,7 @@ a {
   bottom: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.2));
   border-radius: 1px;
   transition: width var(--duration) var(--ease-out);
 }
@@ -260,15 +259,15 @@ a {
 }
 
 .btn.primary {
-  background: linear-gradient(145deg, #e4d4a8 0%, var(--primary) 42%, var(--primary-dim) 100%);
-  color: #0c0c0c;
+  background: linear-gradient(145deg, #fafafa 0%, #e4e4e7 55%, #d4d4d8 100%);
+  color: #0a0a0a;
   box-shadow: var(--shadow-glow);
 }
 
 .btn.primary:hover {
   transform: translateY(-2px);
-  filter: brightness(1.05);
-  box-shadow: var(--shadow-glow), 0 12px 28px rgba(0, 0, 0, 0.35);
+  filter: brightness(1.03);
+  box-shadow: var(--shadow-glow), 0 12px 32px rgba(0, 0, 0, 0.4);
 }
 
 .btn.primary:active {
@@ -341,7 +340,7 @@ a {
 }
 
 .home-info-card a:hover {
-  color: var(--primary);
+  color: var(--text);
 }
 
 .home-info-card .social-links a {
@@ -436,7 +435,7 @@ a {
 }
 
 .link:hover {
-  color: var(--primary);
+  color: var(--text);
 }
 
 .link::after {
@@ -446,8 +445,8 @@ a {
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, var(--primary), var(--accent));
-  opacity: 0.9;
+  background: linear-gradient(90deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.12));
+  opacity: 0.95;
   transform-origin: left;
   transition: transform var(--duration) var(--ease-out);
 }
@@ -516,7 +515,7 @@ a {
 }
 
 .page-content a:hover {
-  color: var(--primary);
+  color: var(--text);
 }
 
 .two-columns {
@@ -602,8 +601,8 @@ a {
 }
 
 .menu-tab.is-active {
-  background: linear-gradient(145deg, #e4d4a8 0%, var(--primary) 42%, var(--primary-dim) 100%);
-  color: #0c0c0c;
+  background: linear-gradient(145deg, #fafafa 0%, #e4e4e7 100%);
+  color: #0a0a0a;
   font-weight: 600;
   border-color: transparent;
   box-shadow: var(--shadow-glow);
@@ -672,7 +671,9 @@ a {
   font-size: 0.96rem;
   text-transform: none;
   letter-spacing: 0.02em;
-  color: var(--primary);
+  color: var(--text);
+  font-weight: 600;
+  opacity: 0.92;
 }
 
 .wine-subheading {
@@ -775,7 +776,7 @@ a {
   background: rgba(255, 255, 255, 0.06);
   padding: 0.12em 0.4em;
   border-radius: 4px;
-  color: var(--accent);
+  color: var(--muted);
 }
 
 .contact-layout {
@@ -831,8 +832,8 @@ a {
 
 .form-row input:focus,
 .form-row textarea:focus {
-  border-color: rgba(201, 169, 98, 0.55);
-  box-shadow: 0 0 0 3px var(--primary-soft);
+  border-color: rgba(255, 255, 255, 0.35);
+  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
   background: rgba(0, 0, 0, 0.55);
 }
 
@@ -912,7 +913,7 @@ a {
   }
 
   .site-logo {
-    height: 54px;
+    height: 46px;
   }
 
   .menu-tab {
