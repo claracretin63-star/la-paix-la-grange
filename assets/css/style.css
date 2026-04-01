@@ -465,6 +465,14 @@ a {
   font-size: 0.9rem;
 }
 
+.wine-panel {
+  display: none;
+}
+
+.wine-panel.is-active {
+  display: block;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
