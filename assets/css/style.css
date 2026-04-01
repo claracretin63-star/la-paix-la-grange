@@ -400,6 +400,71 @@ a {
   color: var(--muted);
 }
 
+.wine-intro {
+  margin-bottom: 1rem;
+}
+
+.wine-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.wine-card {
+  background: rgba(255, 255, 255, 0.74);
+  border: 1px solid rgba(224, 215, 207, 0.9);
+  border-radius: var(--radius-md);
+  box-shadow: var(--shadow-soft);
+  padding: 16px;
+}
+
+.wine-card h2 {
+  margin: 0 0 10px;
+}
+
+.wine-card h3 {
+  margin: 12px 0 6px;
+  font-size: 0.88rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--accent);
+}
+
+.wine-subheading {
+  margin: 10px 0 4px;
+  font-size: 0.82rem;
+  font-weight: 600;
+  letter-spacing: 0.06em;
+  color: var(--muted);
+}
+
+.wine-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wine-list li {
+  padding: 9px 0;
+  border-bottom: 1px dashed rgba(190, 178, 165, 0.6);
+}
+
+.wine-name {
+  display: block;
+  font-weight: 600;
+}
+
+.wine-meta {
+  display: block;
+  color: var(--muted);
+  font-size: 0.9rem;
+}
+
+.wine-note {
+  margin-top: 12px;
+  font-size: 0.9rem;
+}
+
 .gallery-grid {
   display: grid;
   grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -532,6 +597,10 @@ a {
   }
 
   .contact-layout {
+    grid-template-columns: 1fr;
+  }
+
+  .wine-grid {
     grid-template-columns: 1fr;
   }
 
