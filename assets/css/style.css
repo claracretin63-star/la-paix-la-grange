@@ -11,9 +11,9 @@
   --radius-md: 10px;
   --shadow-soft: 0 12px 30px rgba(32, 23, 14, 0.09);
   /* Fond page : noir bleu nuit (texte des cartes inchangé via --text / --muted) */
-  --page-bg: #0a0e14;
-  --page-bg-mid: #0f1522;
-  --page-bg-deep: #070a10;
+  --page-bg: #0c1428;
+  --page-bg-mid: #132038;
+  --page-bg-deep: #070b14;
 }
 
 *,
@@ -22,13 +22,21 @@
   box-sizing: border-box;
 }
 
+/* Fond sur html : couvre tout l’écran (évite bandes claires) et bleu plus lisible */
+html {
+  min-height: 100%;
+  background-color: var(--page-bg-deep);
+  background-image:
+    radial-gradient(ellipse 120% 80% at 15% 0%, rgba(45, 75, 120, 0.45) 0%, transparent 55%),
+    radial-gradient(circle at 100% 40%, rgba(35, 60, 100, 0.35) 0%, transparent 50%),
+    linear-gradient(165deg, var(--page-bg-mid) 0%, var(--page-bg) 42%, var(--page-bg-deep) 100%);
+}
+
 body {
   margin: 0;
+  min-height: 100vh;
   font-family: system-ui, -apple-system, BlinkMacSystemFont, "SF Pro Text", "Segoe UI", sans-serif;
-  background:
-    radial-gradient(ellipse 120% 80% at 15% 0%, rgba(30, 55, 85, 0.35) 0%, transparent 55%),
-    radial-gradient(circle at 100% 40%, rgba(20, 40, 65, 0.25) 0%, transparent 50%),
-    linear-gradient(165deg, var(--page-bg-mid) 0%, var(--page-bg) 42%, var(--page-bg-deep) 100%);
+  background: transparent;
   color: rgba(245, 242, 237, 0.92);
   -webkit-font-smoothing: antialiased;
 }
