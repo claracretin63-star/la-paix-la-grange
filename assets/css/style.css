@@ -291,6 +291,48 @@ a {
   margin-top: 8px;
 }
 
+.menu-tabs {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin-bottom: 1.2rem;
+}
+
+.menu-tab {
+  border: 1px solid rgba(190, 178, 165, 0.8);
+  background: rgba(255, 255, 255, 0.72);
+  color: var(--text);
+  border-radius: 999px;
+  padding: 0.52rem 0.95rem;
+  font-size: 0.78rem;
+  letter-spacing: 0.11em;
+  text-transform: uppercase;
+  cursor: pointer;
+  transition: all 0.18s ease;
+}
+
+.menu-tab:hover {
+  border-color: rgba(183, 122, 75, 0.6);
+}
+
+.menu-tab.is-active {
+  background: var(--primary);
+  color: #fff;
+  border-color: var(--primary);
+}
+
+.menu-panel {
+  display: none;
+}
+
+.menu-panel.is-active {
+  display: block;
+}
+
+.menu-panel .menu-section + .menu-section {
+  margin-top: 1.2rem;
+}
+
 .list {
   padding-left: 1.2rem;
 }
@@ -430,6 +472,7 @@ a {
   .contact-layout {
     grid-template-columns: 1fr;
   }
+
 }
 
 @media (max-width: 640px) {
@@ -441,6 +484,11 @@ a {
 
   .main-nav {
     flex-wrap: wrap;
+  }
+
+  .menu-tab {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
   }
 
   .hero {
@@ -466,4 +514,5 @@ a {
   .page-content {
     padding-inline: 18px;
   }
+
 }
