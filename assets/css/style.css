@@ -137,32 +137,21 @@ a {
   line-height: 1.6;
 }
 
-.hero-badge {
-  display: inline-flex;
-  align-items: center;
-  padding: 0.42rem 0.78rem;
-  border-radius: 999px;
-  border: 1px solid rgba(190, 178, 165, 0.8);
-  background: rgba(255, 255, 255, 0.75);
-  font-size: 0.78rem;
-  letter-spacing: 0.08em;
-  text-transform: uppercase;
-  color: var(--accent);
-  margin-top: -8px;
-  margin-bottom: 24px;
-}
-
 .hero-side-logo {
-  background: rgba(255, 255, 255, 0.75);
-  border: 1px solid rgba(224, 215, 207, 0.9);
+  isolation: isolate;
+  background: radial-gradient(circle at top left, #fdfaf7 0, #f7f2ec 45%, #f2ebe3 100%);
+  border: 1px solid rgba(224, 215, 207, 0.92);
   border-radius: var(--radius-md);
-  padding: 12px;
+  padding: 14px;
   box-shadow: var(--shadow-soft);
 }
 
 .hero-village-logo {
   width: 100%;
   height: auto;
+  display: block;
+  border-radius: 8px;
+  filter: sepia(0.28) saturate(0.78) brightness(1.04) contrast(1.05);
 }
 
 .hero-side-logo p {
