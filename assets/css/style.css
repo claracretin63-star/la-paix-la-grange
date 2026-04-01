@@ -26,6 +26,13 @@ body {
   -webkit-font-smoothing: antialiased;
 }
 
+button,
+input,
+textarea,
+select {
+  font: inherit;
+}
+
 img {
   max-width: 100%;
   display: block;
@@ -106,6 +113,13 @@ a {
   padding: 80px 0 64px;
 }
 
+.hero-row {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 320px;
+  gap: 1.2rem;
+  align-items: start;
+}
+
 .hero-content {
   max-width: 640px;
 }
@@ -121,6 +135,40 @@ a {
   color: var(--muted);
   margin-bottom: 28px;
   line-height: 1.6;
+}
+
+.hero-badge {
+  display: inline-flex;
+  align-items: center;
+  padding: 0.42rem 0.78rem;
+  border-radius: 999px;
+  border: 1px solid rgba(190, 178, 165, 0.8);
+  background: rgba(255, 255, 255, 0.75);
+  font-size: 0.78rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-top: -8px;
+  margin-bottom: 24px;
+}
+
+.hero-side-logo {
+  background: rgba(255, 255, 255, 0.75);
+  border: 1px solid rgba(224, 215, 207, 0.9);
+  border-radius: var(--radius-md);
+  padding: 12px;
+  box-shadow: var(--shadow-soft);
+}
+
+.hero-village-logo {
+  width: 100%;
+  height: auto;
+}
+
+.hero-side-logo p {
+  margin: 8px 0 0;
+  font-size: 0.84rem;
+  color: var(--muted);
 }
 
 .hero-actions {
@@ -191,9 +239,9 @@ a {
 
 .home-info-card h2 {
   margin: 0 0 10px;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  font-size: 0.86rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
+  font-size: 1rem;
   color: var(--accent);
 }
 
@@ -424,17 +472,17 @@ a {
 
 .wine-card h3 {
   margin: 12px 0 6px;
-  font-size: 0.88rem;
-  text-transform: uppercase;
-  letter-spacing: 0.08em;
+  font-size: 0.96rem;
+  text-transform: none;
+  letter-spacing: 0.02em;
   color: var(--accent);
 }
 
 .wine-subheading {
   margin: 10px 0 4px;
-  font-size: 0.82rem;
+  font-size: 0.9rem;
   font-weight: 600;
-  letter-spacing: 0.06em;
+  letter-spacing: 0.01em;
   color: var(--muted);
 }
 
@@ -590,6 +638,10 @@ a {
 
   .home-sections {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+
+  .hero-row {
+    grid-template-columns: 1fr;
   }
 
   .home-info-grid {
