@@ -6,10 +6,10 @@
   --primary: #b77a4b;
   --primary-soft: rgba(183, 122, 75, 0.14);
   --border: #e0d7cf;
-  --accent: #4e6b68;
+  --accent: #6b4f3d;
   --radius-lg: 16px;
   --radius-md: 10px;
-  --shadow-soft: 0 18px 45px rgba(15, 10, 5, 0.12);
+  --shadow-soft: 0 12px 30px rgba(32, 23, 14, 0.09);
 }
 
 *,
@@ -316,12 +316,15 @@ a {
 
 .menu-tab:hover {
   border-color: rgba(183, 122, 75, 0.6);
+  transform: translateY(-1px);
+  box-shadow: 0 8px 18px rgba(63, 43, 24, 0.12);
 }
 
 .menu-tab.is-active {
   background: var(--primary);
   color: #fff;
   border-color: var(--primary);
+  box-shadow: 0 10px 20px rgba(124, 83, 52, 0.28);
 }
 
 .menu-panel {
