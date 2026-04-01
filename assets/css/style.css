@@ -4,23 +4,29 @@
   --page-bg-deep: #000000;
   --surface: #111111;
   --surface-2: #171717;
-  --surface-border: rgba(255, 255, 255, 0.06);
-  --surface-border-strong: rgba(255, 255, 255, 0.12);
-  --text: #f4f4f5;
-  --muted: #a1a1aa;
-  --muted-dim: #71717a;
-  /* Accents neutres (pas de jaune / doré) */
-  --primary: #f4f4f5;
-  --primary-dim: #a1a1aa;
-  --primary-soft: rgba(244, 244, 245, 0.12);
-  --accent: #c4c4c8;
+  /* Crème & marron (remplace blanc froid / gris) */
+  --cream: #f5f0e8;
+  --cream-mid: #ebe4d8;
+  --cream-dim: #d8cfc0;
+  --marron: #6b4f3d;
+  --marron-deep: #3d2a22;
+  --marron-light: #9a7b66;
+  --surface-border: rgba(245, 240, 232, 0.07);
+  --surface-border-strong: rgba(245, 240, 232, 0.14);
+  --text: #f5f0e8;
+  --muted: #b5a99a;
+  --muted-dim: #8a7c6e;
+  --primary: #f5f0e8;
+  --primary-dim: #c9b8a8;
+  --primary-soft: rgba(245, 240, 232, 0.14);
+  --accent: #c9a882;
   --border: var(--surface-border);
   --font-sans: "DM Sans", ui-sans-serif, system-ui, -apple-system, "Segoe UI", sans-serif;
   --font-display: "Cormorant Garamond", Georgia, "Times New Roman", serif;
   --radius-lg: 16px;
   --radius-md: 12px;
   --radius-sm: 8px;
-  --shadow-soft: 0 0 0 1px rgba(255, 255, 255, 0.04), 0 20px 50px rgba(0, 0, 0, 0.58);
+  --shadow-soft: 0 0 0 1px rgba(245, 240, 232, 0.05), 0 20px 50px rgba(0, 0, 0, 0.58);
   --shadow-glow: 0 8px 28px rgba(0, 0, 0, 0.45);
   --ease-out: cubic-bezier(0.16, 1, 0.3, 1);
   --ease-smooth: cubic-bezier(0.22, 1, 0.36, 1);
@@ -37,8 +43,8 @@ html {
   min-height: 100%;
   background-color: var(--page-bg-deep);
   background-image:
-    radial-gradient(ellipse 100% 70% at 50% -18%, rgba(65, 65, 65, 0.18) 0%, transparent 52%),
-    radial-gradient(ellipse 60% 45% at 100% 0%, rgba(90, 90, 100, 0.1) 0%, transparent 45%),
+    radial-gradient(ellipse 100% 70% at 50% -18%, rgba(80, 65, 55, 0.2) 0%, transparent 52%),
+    radial-gradient(ellipse 60% 45% at 100% 0%, rgba(107, 79, 61, 0.1) 0%, transparent 45%),
     linear-gradient(180deg, var(--page-bg-mid) 0%, var(--page-bg-deep) 100%);
 }
 
@@ -55,8 +61,8 @@ body {
 }
 
 ::selection {
-  background: var(--primary-soft);
-  color: var(--text);
+  background: rgba(107, 79, 61, 0.45);
+  color: var(--cream);
 }
 
 button,
@@ -77,7 +83,7 @@ a {
 }
 
 :focus-visible {
-  outline: 2px solid var(--primary);
+  outline: 2px solid var(--accent);
   outline-offset: 3px;
 }
 
@@ -154,7 +160,7 @@ a {
   bottom: 0;
   width: 0;
   height: 2px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.55), rgba(255, 255, 255, 0.2));
+  background: linear-gradient(90deg, var(--accent), var(--marron));
   border-radius: 1px;
   transition: width var(--duration) var(--ease-out);
 }
@@ -204,7 +210,7 @@ a {
 
 .hero-side-logo {
   isolation: isolate;
-  background: linear-gradient(165deg, rgba(255, 255, 255, 0.04) 0%, transparent 45%), var(--surface);
+  background: linear-gradient(165deg, rgba(245, 240, 232, 0.05) 0%, transparent 45%), var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-lg);
   padding: 1rem;
@@ -214,7 +220,7 @@ a {
 
 .hero-side-logo:hover {
   border-color: var(--surface-border-strong);
-  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(201, 168, 130, 0.12);
 }
 
 .hero-village-logo {
@@ -259,14 +265,14 @@ a {
 }
 
 .btn.primary {
-  background: linear-gradient(145deg, #fafafa 0%, #e4e4e7 55%, #d4d4d8 100%);
-  color: #0a0a0a;
+  background: linear-gradient(145deg, #faf6ef 0%, var(--cream-mid) 45%, var(--cream-dim) 100%);
+  color: var(--marron-deep);
   box-shadow: var(--shadow-glow);
 }
 
 .btn.primary:hover {
   transform: translateY(-2px);
-  filter: brightness(1.03);
+  filter: brightness(1.04);
   box-shadow: var(--shadow-glow), 0 12px 32px rgba(0, 0, 0, 0.4);
 }
 
@@ -281,8 +287,8 @@ a {
 }
 
 .btn.ghost:hover {
-  background: rgba(255, 255, 255, 0.06);
-  border-color: rgba(255, 255, 255, 0.22);
+  background: rgba(245, 240, 232, 0.08);
+  border-color: rgba(201, 168, 130, 0.35);
 }
 
 .home-sections {
@@ -303,7 +309,7 @@ a {
 }
 
 .home-info-card {
-  background: linear-gradient(165deg, rgba(255, 255, 255, 0.03) 0%, transparent 55%), var(--surface);
+  background: linear-gradient(165deg, rgba(245, 240, 232, 0.04) 0%, transparent 55%), var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-lg);
   padding: 1.35rem 1.4rem 1.25rem;
@@ -340,7 +346,7 @@ a {
 }
 
 .home-info-card a:hover {
-  color: var(--text);
+  color: var(--cream);
 }
 
 .home-info-card .social-links a {
@@ -371,7 +377,7 @@ a {
 }
 
 .social-links a:focus-visible {
-  outline: 2px solid var(--primary);
+  outline: 2px solid var(--accent);
   outline-offset: 2px;
 }
 
@@ -390,7 +396,7 @@ a {
 
 .card {
   color: var(--text);
-  background: linear-gradient(165deg, rgba(255, 255, 255, 0.04) 0%, transparent 50%), var(--surface);
+  background: linear-gradient(165deg, rgba(245, 240, 232, 0.045) 0%, transparent 50%), var(--surface);
   border-radius: var(--radius-lg);
   padding: 1.65rem 1.65rem 1.75rem;
   box-shadow: var(--shadow-soft);
@@ -404,7 +410,7 @@ a {
 .card:hover {
   transform: translateY(-4px);
   border-color: var(--surface-border-strong);
-  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(255, 255, 255, 0.04), 0 24px 48px rgba(0, 0, 0, 0.35);
+  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(245, 240, 232, 0.05), 0 24px 48px rgba(0, 0, 0, 0.35);
 }
 
 .card h2 {
@@ -435,7 +441,7 @@ a {
 }
 
 .link:hover {
-  color: var(--text);
+  color: var(--cream);
 }
 
 .link::after {
@@ -445,7 +451,7 @@ a {
   bottom: 0;
   width: 100%;
   height: 1px;
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.45), rgba(255, 255, 255, 0.12));
+  background: linear-gradient(90deg, var(--accent), rgba(107, 79, 61, 0.65));
   opacity: 0.95;
   transform-origin: left;
   transition: transform var(--duration) var(--ease-out);
@@ -485,7 +491,7 @@ a {
 .page-content {
   color: var(--text);
   background:
-    linear-gradient(180deg, rgba(255, 255, 255, 0.045) 0%, transparent 38%),
+    linear-gradient(180deg, rgba(245, 240, 232, 0.05) 0%, transparent 38%),
     var(--surface-2);
   margin-top: 1.5rem;
   padding: clamp(1.75rem, 4vw, 2.75rem) clamp(1.5rem, 4vw, 2.5rem);
@@ -515,7 +521,7 @@ a {
 }
 
 .page-content a:hover {
-  color: var(--text);
+  color: var(--cream);
 }
 
 .two-columns {
@@ -547,7 +553,7 @@ a {
 
 .menu-section li {
   padding: 10px 0;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  border-bottom: 1px dashed rgba(201, 168, 130, 0.22);
 }
 
 .menu-item-name {
@@ -601,8 +607,8 @@ a {
 }
 
 .menu-tab.is-active {
-  background: linear-gradient(145deg, #fafafa 0%, #e4e4e7 100%);
-  color: #0a0a0a;
+  background: linear-gradient(145deg, #faf6ef 0%, var(--cream-mid) 100%);
+  color: var(--marron-deep);
   font-weight: 600;
   border-color: transparent;
   box-shadow: var(--shadow-glow);
@@ -641,7 +647,7 @@ a {
 
 .wine-card {
   color: var(--text);
-  background: linear-gradient(165deg, rgba(255, 255, 255, 0.03) 0%, transparent 55%), var(--surface);
+  background: linear-gradient(165deg, rgba(245, 240, 232, 0.04) 0%, transparent 55%), var(--surface);
   border: 1px solid var(--surface-border);
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
@@ -655,7 +661,7 @@ a {
 .wine-card:hover {
   transform: translateY(-3px);
   border-color: var(--surface-border-strong);
-  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(255, 255, 255, 0.03);
+  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(201, 168, 130, 0.1);
 }
 
 .wine-card h2 {
@@ -671,9 +677,8 @@ a {
   font-size: 0.96rem;
   text-transform: none;
   letter-spacing: 0.02em;
-  color: var(--text);
+  color: var(--accent);
   font-weight: 600;
-  opacity: 0.92;
 }
 
 .wine-subheading {
@@ -692,7 +697,7 @@ a {
 
 .wine-list li {
   padding: 9px 0;
-  border-bottom: 1px dashed rgba(255, 255, 255, 0.1);
+  border-bottom: 1px dashed rgba(201, 168, 130, 0.22);
 }
 
 .wine-name {
@@ -773,10 +778,10 @@ a {
 .gallery-note code {
   font-size: 0.88em;
   font-family: ui-monospace, "Cascadia Code", monospace;
-  background: rgba(255, 255, 255, 0.06);
+  background: rgba(107, 79, 61, 0.25);
   padding: 0.12em 0.4em;
   border-radius: 4px;
-  color: var(--muted);
+  color: var(--cream-mid);
 }
 
 .contact-layout {
@@ -832,8 +837,8 @@ a {
 
 .form-row input:focus,
 .form-row textarea:focus {
-  border-color: rgba(255, 255, 255, 0.35);
-  box-shadow: 0 0 0 3px rgba(255, 255, 255, 0.08);
+  border-color: rgba(201, 168, 130, 0.55);
+  box-shadow: 0 0 0 3px rgba(107, 79, 61, 0.35);
   background: rgba(0, 0, 0, 0.55);
 }
 
