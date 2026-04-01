@@ -63,7 +63,7 @@ a {
 }
 
 .site-logo {
-  height: 48px;
+  height: 60px;
   width: auto;
   display: block;
 }
@@ -487,6 +487,10 @@ a {
 
   .main-nav {
     flex-wrap: wrap;
+  }
+
+  .site-logo {
+    height: 54px;
   }
 
   .menu-tab {
