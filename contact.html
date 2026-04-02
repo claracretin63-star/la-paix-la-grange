@@ -7,7 +7,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
   <title>La Paix La Grange – Contact</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=20260417">
+  <link rel="stylesheet" href="assets/css/style.css?v=20260418">
 </head>
 <body>
   <header class="site-header">
@@ -46,14 +46,16 @@
 
       <div class="contact-block">
         <h2>Formulaire de contact</h2>
-        <form class="contact-form">
+        <form class="contact-form" action="https://formsubmit.co/restaurantgp2026@gmail.com" method="POST">
+          <input type="hidden" name="_subject" value="Message depuis le site La Paix La Grange">
+          <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="form-row">
             <label for="name">Nom</label>
-            <input type="text" id="name" name="name" placeholder="Votre nom">
+            <input type="text" id="name" name="name" placeholder="Votre nom" required>
           </div>
           <div class="form-row">
             <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="vous@example.com">
+            <input type="email" id="email" name="email" placeholder="vous@example.com" required>
           </div>
           <div class="form-row">
             <label for="subject">Objet</label>
@@ -61,12 +63,11 @@
           </div>
           <div class="form-row">
             <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Votre message"></textarea>
+            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
           </div>
           <button type="submit" class="btn primary">Envoyer</button>
           <p class="form-note">
-            Ce formulaire est statique pour l’instant : il faudra connecter l’envoi à une solution d’e-mail ou de
-            gestion de formulaires.
+            Votre message nous est envoyé par e-mail ; nous vous répondrons dans les meilleurs délais.
           </p>
         </form>
       </div>
