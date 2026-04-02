@@ -365,8 +365,36 @@ a {
   color: var(--marron-deep);
 }
 
-.page-home .hero p {
+.page-home .hero .hero-content p {
   color: rgba(61, 42, 34, 0.78);
+}
+
+/* Encart « Plus beaux villages » : lisible sur bandeau crème (texte + logo) */
+.page-home .hero .hero-side-logo {
+  background: linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 50%), var(--surface);
+  border-color: rgba(245, 240, 232, 0.18);
+  box-shadow:
+    var(--shadow-soft),
+    0 0 0 1px rgba(0, 0, 0, 0.35);
+}
+
+.page-home .hero .hero-side-logo:hover {
+  border-color: rgba(245, 240, 232, 0.28);
+  box-shadow:
+    var(--shadow-soft),
+    0 0 0 1px rgba(201, 168, 130, 0.2),
+    0 12px 40px rgba(0, 0, 0, 0.45);
+}
+
+.page-home .hero .hero-village-logo {
+  opacity: 1;
+  background: #fff;
+  padding: 0.65rem 0.75rem;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+}
+
+.page-home .hero .hero-side-logo p {
+  color: var(--muted);
 }
 
 .page-home .hero .btn.ghost {
