@@ -965,6 +965,54 @@ a {
   letter-spacing: 0.04em;
 }
 
+.footer-legal {
+  width: 100%;
+  flex-basis: 100%;
+  margin: 0.35rem 0 0;
+  text-align: center;
+  font-size: 0.76rem;
+  letter-spacing: 0.06em;
+}
+
+.footer-legal a {
+  color: var(--muted-dim);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(201, 168, 130, 0.25);
+  transition: color var(--duration) var(--ease-out), border-color var(--duration) var(--ease-out);
+}
+
+.footer-legal a:hover {
+  color: var(--accent);
+  border-bottom-color: rgba(201, 168, 130, 0.45);
+}
+
+.contact-block .social-links--contact {
+  margin: 0.35rem 0 1rem;
+}
+
+.legal-content h2 {
+  font-family: var(--font-display);
+  font-size: 1.15rem;
+  font-weight: 600;
+  margin: 2rem 0 0.65rem;
+  color: var(--text);
+}
+
+.legal-content h2:first-child {
+  margin-top: 0;
+}
+
+.legal-content p {
+  color: var(--muted);
+  line-height: 1.65;
+  margin: 0 0 1rem;
+  max-width: 42rem;
+}
+
+.legal-back {
+  margin-top: 2.25rem;
+}
+
 @media (max-width: 900px) {
   .main-nav {
     gap: 1rem;

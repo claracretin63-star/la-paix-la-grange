@@ -7,7 +7,7 @@
   const STORAGE_KEY = 'lplg-lang';
   const DEFAULT_LANG = 'fr';
   const SUPPORTED = ['fr', 'en', 'de'];
-  const CACHE_BUST = '20260424';
+  const CACHE_BUST = '20260426';
 
   function getSavedLang() {
     try {
