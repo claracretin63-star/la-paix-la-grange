@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://claracretin63-star.github.io/la-paix-la-grange/sitemap.xml
