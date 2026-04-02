@@ -6,51 +6,64 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <title>La Paix La Grange – Galerie</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=20260423">
+  <title data-i18n="meta.galerie">La Paix La Grange – Galerie</title>
+  <link rel="stylesheet" href="assets/css/style.css?v=20260424">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">
-        <a href="index.html" aria-label="Accueil La Paix La Grange">
+        <a href="index.html" data-i18n-aria="aria.homeLogo" aria-label="Accueil La Paix La Grange">
           <img src="assets/img/Logo de La Paix La Grange.png" alt="Logo La Paix La Grange" class="site-logo" width="220" height="48">
         </a>
       </div>
-      <nav class="main-nav">
-        <a href="la-maison.html">La maison</a>
-        <a href="carte.html">Carte</a>
-        <a href="vins.html">Vins</a>
-        <a href="galerie.html" class="active">Galerie</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="header-tools">
+        <nav class="main-nav">
+          <a href="la-maison.html" data-i18n="nav.maison">La maison</a>
+          <a href="carte.html" data-i18n="nav.carte">Carte</a>
+          <a href="vins.html" data-i18n="nav.vins">Vins</a>
+          <a href="galerie.html" class="active" data-i18n="nav.galerie">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-switch" role="group" data-i18n-aria="aria.lang">
+          <button type="button" class="lang-btn" data-set-lang="fr" title="Français" aria-label="Français">
+            <svg class="lang-flag" viewBox="0 0 3 2" aria-hidden="true"><rect fill="#002395" width="1" height="2"/><rect fill="#fff" x="1" width="1" height="2"/><rect fill="#ED2939" x="2" width="1" height="2"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="en" title="English" aria-label="English">
+            <svg class="lang-flag" viewBox="0 0 60 30" aria-hidden="true"><path fill="#012169" d="M0 0h60v30H0z"/><path fill="#fff" d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path fill="none" stroke="#C8102E" stroke-width="4" d="M0 0l60 30M60 0L0 30"/><path fill="#fff" d="M25 0h10v30H25zM0 10h60v10H0z"/><path fill="#C8102E" d="M27 0h6v30h-6zM0 12h60v6H0z"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="de" title="Deutsch" aria-label="Deutsch">
+            <svg class="lang-flag" viewBox="0 0 5 3" aria-hidden="true"><rect fill="#000" width="5" height="1"/><rect fill="#DD0000" y="1" width="5" height="1"/><rect fill="#FFCE00" y="2" width="5" height="1"/></svg>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="page">
     <section class="page-hero">
       <div class="container">
-        <h1>Galerie</h1>
-        <p>Quelques ambiances de la maison, de la salle et des assiettes.</p>
+        <h1 data-i18n="galerie.heroTitle">Galerie</h1>
+        <p data-i18n="galerie.heroSub">Quelques ambiances de la maison, de la salle et des assiettes.</p>
       </div>
     </section>
 
     <section class="container page-content">
       <div class="gallery-grid">
         <figure class="gallery-item">
-          <img src="assets/img/gallery/photo-04.png" alt="Façade du Café Restaurant de la Paix et La Grange, chalets en bois et montagne" width="1200" height="900" loading="lazy">
+          <img src="assets/img/gallery/photo-04.png" alt="" data-i18n-alt="galerie.img1" width="1200" height="900" loading="lazy">
         </figure>
         <figure class="gallery-item">
-          <img src="assets/img/gallery/photo-01.png" alt="Fondue au fromage servie dans un pain, fils de fromage" width="1200" height="900" loading="lazy">
+          <img src="assets/img/gallery/photo-01.png" alt="" data-i18n-alt="galerie.img2" width="1200" height="900" loading="lazy">
         </figure>
         <figure class="gallery-item">
-          <img src="assets/img/gallery/photo-02.png" alt="Terrasse avec vue sur les montagnes et cocktail" width="1200" height="900" loading="lazy">
+          <img src="assets/img/gallery/photo-02.png" alt="" data-i18n-alt="galerie.img3" width="1200" height="900" loading="lazy">
         </figure>
         <figure class="gallery-item">
-          <img src="assets/img/gallery/photo-03.png" alt="Village alpin enneigé et sommets sous un ciel bleu" width="1200" height="900" loading="lazy">
+          <img src="assets/img/gallery/photo-03.png" alt="" data-i18n-alt="galerie.img4" width="1200" height="900" loading="lazy">
         </figure>
         <figure class="gallery-item">
-          <img src="assets/img/gallery/photo-05.png" alt="Vue panoramique sur le village et les sommets enneigés" width="1200" height="900" loading="lazy">
+          <img src="assets/img/gallery/photo-05.png" alt="" data-i18n-alt="galerie.img5" width="1200" height="900" loading="lazy">
         </figure>
       </div>
     </section>
@@ -58,15 +71,10 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
+      <p>© <span id="year"></span> La Paix La Grange – <span data-i18n="common.footerRights">Tous droits réservés.</span></p>
     </div>
   </footer>
 
-  <script>
-    const yearSpan = document.getElementById('year');
-    if (yearSpan) {
-      yearSpan.textContent = new Date().getFullYear();
-    }
-  </script>
+  <script defer src="assets/js/i18n.js?v=20260424"></script>
 </body>
 </html>

@@ -6,48 +6,61 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <title>La Paix La Grange – Vins</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=20260423">
+  <title data-i18n="meta.vins">La Paix La Grange – Vins</title>
+  <link rel="stylesheet" href="assets/css/style.css?v=20260424">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">
-        <a href="index.html" aria-label="Accueil La Paix La Grange">
+        <a href="index.html" data-i18n-aria="aria.homeLogo" aria-label="Accueil La Paix La Grange">
           <img src="assets/img/Logo de La Paix La Grange.png" alt="Logo La Paix La Grange" class="site-logo" width="220" height="48">
         </a>
       </div>
-      <nav class="main-nav">
-        <a href="la-maison.html">La maison</a>
-        <a href="carte.html">Carte</a>
-        <a href="vins.html" class="active">Vins</a>
-        <a href="galerie.html">Galerie</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="header-tools">
+        <nav class="main-nav">
+          <a href="la-maison.html" data-i18n="nav.maison">La maison</a>
+          <a href="carte.html" data-i18n="nav.carte">Carte</a>
+          <a href="vins.html" class="active" data-i18n="nav.vins">Vins</a>
+          <a href="galerie.html" data-i18n="nav.galerie">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-switch" role="group" data-i18n-aria="aria.lang">
+          <button type="button" class="lang-btn" data-set-lang="fr" title="Français" aria-label="Français">
+            <svg class="lang-flag" viewBox="0 0 3 2" aria-hidden="true"><rect fill="#002395" width="1" height="2"/><rect fill="#fff" x="1" width="1" height="2"/><rect fill="#ED2939" x="2" width="1" height="2"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="en" title="English" aria-label="English">
+            <svg class="lang-flag" viewBox="0 0 60 30" aria-hidden="true"><path fill="#012169" d="M0 0h60v30H0z"/><path fill="#fff" d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path fill="none" stroke="#C8102E" stroke-width="4" d="M0 0l60 30M60 0L0 30"/><path fill="#fff" d="M25 0h10v30H25zM0 10h60v10H0z"/><path fill="#C8102E" d="M27 0h6v30h-6zM0 12h60v6H0z"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="de" title="Deutsch" aria-label="Deutsch">
+            <svg class="lang-flag" viewBox="0 0 5 3" aria-hidden="true"><rect fill="#000" width="5" height="1"/><rect fill="#DD0000" y="1" width="5" height="1"/><rect fill="#FFCE00" y="2" width="5" height="1"/></svg>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="page">
     <section class="page-hero">
       <div class="container">
-        <h1>La cave & les vins</h1>
-        <p>Une sélection de vignerons indépendants et de cuvées coups de cœur.</p>
+        <h1 data-i18n="vins.heroTitle">La cave & les vins</h1>
+        <p data-i18n="vins.heroSub">Une sélection de vignerons indépendants et de cuvées coups de cœur.</p>
       </div>
     </section>
 
     <section class="container page-content">
-      <p class="wine-intro">
+      <p class="wine-intro" data-i18n="vins.intro">
         Notre carte des vins évolue selon les arrivages et les sélections de nos domaines partenaires.
       </p>
 
-      <nav class="menu-tabs" aria-label="Navigation carte des vins">
-        <button class="menu-tab is-active" data-wine-target="vin-blanc" type="button">Vin blanc</button>
-        <button class="menu-tab" data-wine-target="vin-rouge" type="button">Vin rouge</button>
+      <nav class="menu-tabs" data-i18n-aria="aria.wineNav" aria-label="Navigation carte des vins">
+        <button class="menu-tab is-active" data-wine-target="vin-blanc" type="button" data-i18n="vins.tabWhite">Vin blanc</button>
+        <button class="menu-tab" data-wine-target="vin-rouge" type="button" data-i18n="vins.tabRed">Vin rouge</button>
       </nav>
 
       <div class="wine-panel is-active" data-wine-panel="vin-blanc">
         <article class="wine-card">
-          <h2>Vins blancs</h2>
+          <h2 data-i18n="vins.h2white">Vins blancs</h2>
           <h3>Domaine La Cave des Amandiers</h3>
           <ul class="wine-list">
             <li><span class="wine-name">Petite Arvine</span></li>
@@ -66,7 +79,7 @@
 
       <div class="wine-panel" data-wine-panel="vin-rouge">
         <article class="wine-card">
-          <h2>Vins rouges</h2>
+          <h2 data-i18n="vins.h2red">Vins rouges</h2>
           <h3>Gregor Kuonen</h3>
           <ul class="wine-list">
             <li><span class="wine-name">Pinot Noir Réserve du Caveau</span></li>
@@ -92,33 +105,26 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
+      <p>© <span id="year"></span> La Paix La Grange – <span data-i18n="common.footerRights">Tous droits réservés.</span></p>
     </div>
   </footer>
 
+  <script defer src="assets/js/i18n.js?v=20260424"></script>
   <script>
-    const yearSpan = document.getElementById('year');
-    if (yearSpan) {
-      yearSpan.textContent = new Date().getFullYear();
-    }
-
-    const wineTabs = document.querySelectorAll('[data-wine-target]');
-    const winePanels = document.querySelectorAll('[data-wine-panel]');
-
-    wineTabs.forEach((tab) => {
-      tab.addEventListener('click', () => {
-        const target = tab.getAttribute('data-wine-target');
-
-        wineTabs.forEach((item) => item.classList.remove('is-active'));
-        winePanels.forEach((panel) => panel.classList.remove('is-active'));
-
-        tab.classList.add('is-active');
-        const panel = document.querySelector(`[data-wine-panel="${target}"]`);
-        if (panel) {
-          panel.classList.add('is-active');
-        }
+    (function () {
+      const wineTabs = document.querySelectorAll('[data-wine-target]');
+      const winePanels = document.querySelectorAll('[data-wine-panel]');
+      wineTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const target = tab.getAttribute('data-wine-target');
+          wineTabs.forEach((item) => item.classList.remove('is-active'));
+          winePanels.forEach((panel) => panel.classList.remove('is-active'));
+          tab.classList.add('is-active');
+          const panel = document.querySelector('[data-wine-panel="' + target + '"]');
+          if (panel) panel.classList.add('is-active');
+        });
       });
-    });
+    })();
   </script>
 </body>
 </html>

@@ -6,75 +6,88 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <title>La Paix La Grange – Contact</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=20260423">
+  <title data-i18n="meta.contact">La Paix La Grange – Contact</title>
+  <link rel="stylesheet" href="assets/css/style.css?v=20260424">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">
-        <a href="index.html" aria-label="Accueil La Paix La Grange">
+        <a href="index.html" data-i18n-aria="aria.homeLogo" aria-label="Accueil La Paix La Grange">
           <img src="assets/img/Logo de La Paix La Grange.png" alt="Logo La Paix La Grange" class="site-logo" width="220" height="48">
         </a>
       </div>
-      <nav class="main-nav">
-        <a href="la-maison.html">La maison</a>
-        <a href="carte.html">Carte</a>
-        <a href="vins.html">Vins</a>
-        <a href="galerie.html">Galerie</a>
-        <a href="contact.html" class="active">Contact</a>
-      </nav>
+      <div class="header-tools">
+        <nav class="main-nav">
+          <a href="la-maison.html" data-i18n="nav.maison">La maison</a>
+          <a href="carte.html" data-i18n="nav.carte">Carte</a>
+          <a href="vins.html" data-i18n="nav.vins">Vins</a>
+          <a href="galerie.html" data-i18n="nav.galerie">Galerie</a>
+          <a href="contact.html" class="active" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-switch" role="group" data-i18n-aria="aria.lang">
+          <button type="button" class="lang-btn" data-set-lang="fr" title="Français" aria-label="Français">
+            <svg class="lang-flag" viewBox="0 0 3 2" aria-hidden="true"><rect fill="#002395" width="1" height="2"/><rect fill="#fff" x="1" width="1" height="2"/><rect fill="#ED2939" x="2" width="1" height="2"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="en" title="English" aria-label="English">
+            <svg class="lang-flag" viewBox="0 0 60 30" aria-hidden="true"><path fill="#012169" d="M0 0h60v30H0z"/><path fill="#fff" d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path fill="none" stroke="#C8102E" stroke-width="4" d="M0 0l60 30M60 0L0 30"/><path fill="#fff" d="M25 0h10v30H25zM0 10h60v10H0z"/><path fill="#C8102E" d="M27 0h6v30h-6zM0 12h60v6H0z"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="de" title="Deutsch" aria-label="Deutsch">
+            <svg class="lang-flag" viewBox="0 0 5 3" aria-hidden="true"><rect fill="#000" width="5" height="1"/><rect fill="#DD0000" y="1" width="5" height="1"/><rect fill="#FFCE00" y="2" width="5" height="1"/></svg>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="page">
     <section class="page-hero">
       <div class="container">
-        <h1>Contact & accès</h1>
-        <p>Pour une réservation, une privatisation ou toute question, écrivez-nous.</p>
+        <h1 data-i18n="contact.heroTitle">Contact & accès</h1>
+        <p data-i18n="contact.heroSub">Pour une réservation, une privatisation ou toute question, écrivez-nous.</p>
       </div>
     </section>
 
     <section class="container page-content contact-layout">
       <div class="contact-block">
-        <h2>Coordonnées</h2>
-        <p><strong>Adresse :</strong><br>Rue Centrale 156, 1983, Evolène<br>Valais – Suisse</p>
-        <p><strong>Téléphone :</strong><br><a href="tel:+41272831379">+41 (0)27 283 13 79</a></p>
-        <p><strong>E-mail :</strong><br><a href="mailto:restaurantgp2026@gmail.com">restaurantgp2026@gmail.com</a></p>
-        <p><strong>Horaires d’ouverture :</strong><br>Du mercredi au dimanche, 10h – 22h</p>
+        <h2 data-i18n="contact.coordsTitle">Coordonnées</h2>
+        <p><strong data-i18n="contact.addrLabel">Adresse :</strong><br><span data-i18n-html="contact.addrValue">Rue Centrale 156, 1983, Evolène<br>Valais – Suisse</span></p>
+        <p><strong data-i18n="contact.telLabel">Téléphone :</strong><br><a href="tel:+41272831379">+41 (0)27 283 13 79</a></p>
+        <p><strong data-i18n="contact.mailLabel">E-mail :</strong><br><a href="mailto:restaurantgp2026@gmail.com">restaurantgp2026@gmail.com</a></p>
+        <p><strong data-i18n="contact.hoursLabel">Horaires d’ouverture :</strong><br><span data-i18n="contact.hoursValue">Du mercredi au dimanche, 10h – 22h</span></p>
       </div>
 
       <div class="contact-block">
-        <h2>Formulaire de contact</h2>
+        <h2 data-i18n="contact.formTitle">Formulaire de contact</h2>
         <form class="contact-form" action="https://formsubmit.co/restaurantgp2026@gmail.com" method="POST">
-          <input type="hidden" name="_subject" value="Message depuis le site La Paix La Grange">
+          <input type="hidden" name="_subject" data-i18n-value="contact.formSubject" value="Message depuis le site La Paix La Grange">
           <input type="text" name="_gotcha" class="form-honeypot" tabindex="-1" autocomplete="off" aria-hidden="true">
           <div class="form-row">
-            <label for="name">Nom</label>
-            <input type="text" id="name" name="name" placeholder="Votre nom" required>
+            <label for="name" data-i18n="contact.labelName">Nom</label>
+            <input type="text" id="name" name="name" data-i18n-placeholder="contact.phName" placeholder="Votre nom" required>
           </div>
           <div class="form-row">
-            <label for="email">E-mail</label>
-            <input type="email" id="email" name="email" placeholder="vous@example.com" required>
+            <label for="email" data-i18n="contact.labelEmail">E-mail</label>
+            <input type="email" id="email" name="email" data-i18n-placeholder="contact.phEmail" placeholder="vous@example.com" required>
           </div>
           <div class="form-row">
-            <label for="telephone">Téléphone</label>
-            <input type="tel" id="telephone" name="telephone" autocomplete="tel" inputmode="tel" placeholder="+41 27 123 45 67" required>
+            <label for="telephone" data-i18n="contact.labelTel">Téléphone</label>
+            <input type="tel" id="telephone" name="telephone" autocomplete="tel" inputmode="tel" data-i18n-placeholder="contact.phTel" placeholder="+41 27 123 45 67" required>
           </div>
           <div class="form-row">
-            <label for="subject">Objet</label>
-            <input type="text" id="subject" name="subject" placeholder="Réservation, information…">
+            <label for="subject" data-i18n="contact.labelSubject">Objet</label>
+            <input type="text" id="subject" name="subject" data-i18n-placeholder="contact.phSubject" placeholder="Réservation, information…">
           </div>
           <div class="form-row">
-            <label for="couverts">Nombre de couverts</label>
-            <input type="number" id="couverts" name="couverts" min="1" max="99" inputmode="numeric" placeholder="Ex. 4" required>
+            <label for="couverts" data-i18n="contact.labelCouverts">Nombre de couverts</label>
+            <input type="number" id="couverts" name="couverts" min="1" max="99" inputmode="numeric" data-i18n-placeholder="contact.phCouverts" placeholder="Ex. 4" required>
           </div>
           <div class="form-row">
-            <label for="message">Message</label>
-            <textarea id="message" name="message" rows="5" placeholder="Votre message" required></textarea>
+            <label for="message" data-i18n="contact.labelMessage">Message</label>
+            <textarea id="message" name="message" rows="5" data-i18n-placeholder="contact.phMessage" placeholder="Votre message" required></textarea>
           </div>
-          <button type="submit" class="btn primary">Envoyer</button>
-          <p class="form-note">
+          <button type="submit" class="btn primary" data-i18n="contact.btnSend">Envoyer</button>
+          <p class="form-note" data-i18n="contact.formNote">
             Votre message nous est envoyé par e-mail ; nous vous répondrons dans les meilleurs délais.
           </p>
         </form>
@@ -84,15 +97,10 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
+      <p>© <span id="year"></span> La Paix La Grange – <span data-i18n="common.footerRights">Tous droits réservés.</span></p>
     </div>
   </footer>
 
-  <script>
-    const yearSpan = document.getElementById('year');
-    if (yearSpan) {
-      yearSpan.textContent = new Date().getFullYear();
-    }
-  </script>
+  <script defer src="assets/js/i18n.js?v=20260424"></script>
 </body>
 </html>

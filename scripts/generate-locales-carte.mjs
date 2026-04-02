@@ -1,0 +1,180 @@
+/**
+ * Génère assets/i18n/locales-carte.json — lancer : node scripts/generate-locales-carte.mjs
+ * Modifier les textes ici puis régénérer le fichier JSON.
+ */
+import fs from 'fs';
+import path from 'path';
+import { fileURLToPath } from 'url';
+
+const __dirname = path.dirname(fileURLToPath(import.meta.url));
+const out = path.join(__dirname, '../assets/i18n/locales-carte.json');
+
+const L = (fr, en, de) => ({ fr, en, de });
+
+const carte = {
+  hero: {
+    title: L(
+      'La carte de printemps',
+      'Spring menu',
+      'Frühlingskarte'
+    ),
+    intro: L(
+      'Une cuisine de saison, inspirée des produits locaux et des arrivages du marché.<br>Menu du jour proposé du mercredi au vendredi.<br>Suggestion du moment renouvelée au gré des produits et de l’envie du chef.',
+      'Seasonal cuisine inspired by local produce and market arrivals.<br>Daily menu Wednesday to Friday.<br>Chef’s suggestions change with produce and inspiration.',
+      'Saisonküche aus regionalen Produkten und Marktware.<br>Tagesmenü von Mittwoch bis Freitag.<br>Empfehlungen des Küchenchefs je nach Angebot und Laune.'
+    )
+  },
+  tabs: {
+    share: L('À partager', 'To share', 'Zum Teilen'),
+    entrees: L('Entrées', 'Starters', 'Vorspeisen'),
+    plats: L('Plats', 'Main courses', 'Hauptgänge'),
+    desserts: L('Desserts', 'Desserts', 'Desserts'),
+    enfant: L('Menu enfant', 'Children’s menu', 'Kindermenü'),
+    degustation: L('Menu dégustation', 'Tasting menu', 'Degustationsmenü')
+  },
+  h: {
+    share: L('À partager', 'To share', 'Zum Teilen'),
+    entrees: L('Entrées', 'Starters', 'Vorspeisen'),
+    plats: L('Plats', 'Main courses', 'Hauptgänge'),
+    coin: L('Coin montagnard', 'Mountain corner', 'Berg-Ecke'),
+    fondues: L('Fondues au fromage (dès 2 pers.)', 'Cheese fondues (from 2 guests)', 'Käsefondues (ab 2 Pers.)'),
+    fonduesViande: L('Fondues de viande (min. 2 pers.)', 'Meat fondues (min. 2 guests)', 'Fleischfondues (mind. 2 Pers.)'),
+    suggestions: L('Suggestions du moment', 'Chef’s suggestions', 'Aktuelle Empfehlungen'),
+    desserts: L('Desserts', 'Desserts', 'Desserts'),
+    glaces: L('Coupes glacées', 'Ice cream sundaes', 'Eisbecher'),
+    menuEnfant: L('Menu enfant', 'Children’s menu', 'Kindermenü'),
+    menuDeg: L('Menu dégustation – 54.– CHF', 'Tasting menu – CHF 54', 'Degustationsmenü – 54.– CHF')
+  },
+  ap: {
+    i1: {
+      name: L(
+        'Planche du Terroir – Fromages & salaisons – 28.– CHF',
+        'Terroir board – cheeses & charcuterie – CHF 28',
+        'Terroir-Platte – Käse & Salami – 28.– CHF'
+      ),
+      desc: L(
+        'Fromages et salaisons de la région, pain de campagne toasté, pickles maison & chutney de fruits.',
+        'Regional cheeses and cured meats, toasted country bread, house pickles & fruit chutney.',
+        'Regionale Käse und Salami, geröstetes Landbrot, hausgemachte Pickles & Fruchtchutney.'
+      )
+    },
+    i2: {
+      name: L('Terrine de campagne maison, parfumée au cognac – 19.– CHF', 'House terrine with cognac – CHF 19', 'Hausgemachte Terrine mit Cognac – 19.– CHF'),
+      desc: L('Servie en bocal, pain de campagne toasté & pickles maison.', 'Served in a jar, toasted country bread & house pickles.', 'Im Glas serviert, geröstetes Landbrot & hausgemachte Pickles.')
+    },
+    i3: {
+      name: L('Rillettes de poulet au thym & vin blanc suisse – 17.– CHF', 'Chicken rillettes with thyme & Swiss white wine – CHF 17', 'Hähnchen-Rillettes mit Thymian & Schweizer Weisswein – 17.– CHF'),
+      desc: L('Rillettes maison de volaille confite, pain de campagne toasté & pickles maison.', 'House confit chicken rillettes, toasted country bread & house pickles.', 'Hausgemacht von confitierter Geflügel, geröstetes Landbrot & Pickles.')
+    },
+    i4: {
+      name: L('Planche végétarienne – 24.– CHF', 'Vegetarian board – CHF 24', 'Vegetarische Platte – 24.– CHF'),
+      desc: L('Houmous de betterave, tapenade, tomates & olives marinées, feta, gressins & chutney de fruits.', 'Beet hummus, tapenade, marinated tomatoes & olives, feta, grissini & fruit chutney.', 'Rote-Bete-Hummus, Tapenade, marinierte Tomaten & Oliven, Feta, Grissini & Chutney.')
+    }
+  },
+  ent: {
+    i1: { name: L('Salade verte, vinaigrette & croûtons maison – 8.– CHF', 'Green salad, vinaigrette & house croutons – CHF 8', 'Grüner Salat, Vinaigrette & hausgemachte Croutons – 8.– CHF') },
+    i2: { name: L('Salade mêlée, crudités croquantes de saison – 11.– CHF', 'Mixed salad, seasonal raw vegetables – CHF 11', 'Gemischter Salat, saisonale Rohkost – 11.– CHF') },
+    i3: { name: L('Velouté d’asperges de saison et maison – 11.– CHF', 'Seasonal asparagus velouté – CHF 11', 'Saisonaler Spargel-Velouté – 11.– CHF') },
+    i4: { name: L('Salade de chèvre chaud croustillant, vinaigrette au miel et noix torréfiées – 17.– CHF', 'Crispy warm goat cheese salad, honey & toasted walnut dressing – CHF 17', 'Knuspriger warmer Ziegenkäse-Salat, Honig & geröstete Walnüsse – 17.– CHF') },
+    i5: { name: L('Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF', 'Spring asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19', 'Frühlings-Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF') },
+    i6: {
+      name: L('Tartare de bœuf coupé au couteau, condiments & toasts grillés', 'Hand-cut beef tartare, condiments & grilled toasts', 'Handgeschnittenes Rindertatar, Beilagen & geröstete Toasts'),
+      desc: L('75 g – 19.– CHF · 150 g (servi avec frites) – 32.– CHF', '75 g – CHF 19 · 150 g (with fries) – CHF 32', '75 g – 19.– CHF · 150 g (mit Pommes) – 32.– CHF')
+    }
+  },
+  plat: {
+    i1: { name: L('Suprême de volaille fermière, sauce aux chanterelles & grenailles rôties au romarin – 34.– CHF', 'Farm chicken supreme, chanterelle sauce & rosemary roast potatoes – CHF 34', 'Bauernhähnchen-Supreme, Pfifferlingssauce & Rosmarin-Kartoffeln – 34.– CHF') },
+    i2: { name: L('Entrecôte de bœuf grillée, beurre maître d’hôtel, frites croustillantes – 40.– CHF (pour 1 ou 2)', 'Grilled rib-eye, maître d’hôtel butter, crispy fries – CHF 40 (for 1 or 2)', 'Gegrilltes Rinderentrecôte, Kräuterbutter, knusprige Pommes – 40.– CHF (1–2 Pers.)') },
+    i3: { name: L('Filet de bœuf sur pierre chaude, frites croustillantes, sauce poivre & poêlée de légumes de saison – 46.– CHF', 'Beef fillet on hot stone, fries, pepper sauce & seasonal vegetables – CHF 46', 'Rinderfilet auf heißem Stein, Pommes, Pfeffersauce & saisonales Gemüse – 46.– CHF') },
+    i4: { name: L('Risotto crémeux aux petits pois & chanterelles poêlées – 26.– CHF', 'Creamy pea risotto & sautéed chanterelles – CHF 26', 'Cremiges Erbsen-Risotto & gebratene Pfifferlinge – 26.– CHF') },
+    i5: { name: L('Tagliatelles au pesto d’ail des ours & burrata – 24.– CHF', 'Tagliatelle with wild garlic pesto & burrata – CHF 24', 'Tagliatelle mit Bärlauchpesto & Burrata – 24.– CHF') },
+    i6: { name: L('Tagliatelles à la crème de truffe d’été – 32.– CHF', 'Tagliatelle with summer truffle cream – CHF 32', 'Tagliatelle mit Sommertrüffel-Creme – 32.– CHF') },
+    i7: {
+      name: L('Le mijoté du chef – 30.– CHF', 'Chef’s stew – CHF 30', 'Schmortopf des Küchenchefs – 30.– CHF'),
+      desc: L('Blanquette de veau à l’ancienne, champignons & carottes, accompagnée de riz de Camargue.', 'Classic veal blanquette, mushrooms & carrots, with Camargue rice.', 'Kalbsblanquette nach Art des Hauses, Pilze & Karotten, mit Camargue-Reis.')
+    }
+  },
+  coin: {
+    i1: { name: L('Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF', 'Shepherd’s macaroni, potatoes, gratin cheese & roasted onions – CHF 25', 'Hirten-Makkaroni, Kartoffeln, überbackener Käse & geröstete Zwiebeln – 25.– CHF') }
+  },
+  fondues: {
+    i1: { name: L('Fondue moitié-moitié – 28.– CHF', 'Half-and-half fondue – CHF 28', 'Halb-Halb-Fondue – 28.– CHF') },
+    i2: { name: L('Fondue tomate – 28.– CHF', 'Tomato fondue – CHF 28', 'Tomaten-Fondue – 28.– CHF') },
+    i3: { name: L('Fondue dans le pain – 28.– CHF', 'Fondue in bread – CHF 28', 'Käsefondue im Brot – 28.– CHF') },
+    i4: { name: L('Fondue à la truffe – 32.– CHF', 'Truffle fondue – CHF 32', 'Trüffel-Fondue – 32.– CHF') },
+    note: L('+ 2.– CHF pommes de terre grenailles.', '+ CHF 2 baby potatoes.', '+ 2.– CHF Drillinge.')
+  },
+  fonduesV: {
+    i1: {
+      name: L('Fondue chinoise 200 g – 39.– CHF', 'Chinese fondue 200 g – CHF 39', 'Chinesisches Fondue 200 g – 39.– CHF'),
+      desc: L('Fines tranches de viande cuites dans un bouillon de légumes.', 'Thin meat slices cooked in vegetable broth.', 'Feine Fleischscheiben im Gemüsefond.')
+    },
+    i2: {
+      name: L('Fondue bourguignonne 200 g – 39.– CHF', 'Bourguignonne fondue 200 g – CHF 39', 'Bourguignonne-Fondue 200 g – 39.– CHF'),
+      desc: L('Morceaux de viande frits dans l’huile chaude.', 'Meat pieces fried in hot oil.', 'Fleischstücke in heißem Öl gebraten.')
+    },
+    note: L('Servies avec sauces maison, frites et salade.', 'Served with house sauces, fries and salad.', 'Mit hausgemachten Saucen, Pommes und Salat.')
+  },
+  sug: {
+    text: L(
+      'À découvrir à l’ardoise en salle : entrée du moment, plat du moment (poisson), poisson frais selon arrivage & tarte du jour.',
+      'On the board in the dining room: starter of the day, fish main, fresh fish by arrival & tart of the day.',
+      'An der Tafel im Saal: Vorspeise des Tages, Fischgericht, frischer Fisch je nach Ankunft & Tarte des Tages.'
+    )
+  },
+  platNote: L(
+    'Supplément truffe d’été fraîche – 5.– CHF<br>Supplément accompagnement +5.– CHF (Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches).',
+    'Fresh summer truffle supplement – CHF 5<br>Side supplement +CHF 5 (fries, green salad, seasonal vegetables, fresh tagliatelle).',
+    'Frische Sommertrüffel – 5.– CHF<br>Beilage +5.– CHF (Pommes, grüner Salat, saisonales Gemüse, frische Tagliatelle).'
+  ),
+  desserts: {
+    i1: { name: L('Crème brûlée parfumée au Cointreau, éclat de fruits frais – 12.– CHF', 'Cointreau crème brûlée, fresh fruit – CHF 12', 'Cointreau-Crème brûlée, frisches Obst – 12.– CHF') },
+    i2: { name: L('Profiteroles, glace vanille & sauce chocolat maison – 12.– CHF', 'Profiteroles, vanilla ice cream & house chocolate sauce – CHF 12', 'Profiteroles, Vanilleeis & hausgemachte Schokosauce – 12.– CHF') },
+    i3: {
+      name: L('Café gourmand – 14.– CHF', 'Coffee & sweets – CHF 14', 'Kaffee & kleine Desserts – 14.– CHF'),
+      desc: L('Café ou thé accompagné de mini desserts maison.', 'Coffee or tea with mini house desserts.', 'Kaffee oder Tee mit kleinen Desserts vom Haus.')
+    },
+    i4: {
+      name: L('Affogato – 8.– CHF', 'Affogato – CHF 8', 'Affogato – 8.– CHF'),
+      desc: L('Glace vanille nappée d’un espresso chaud.', 'Vanilla ice cream with hot espresso.', 'Vanilleeis mit heißem Espresso.')
+    }
+  },
+  glaces: {
+    i1: {
+      name: L('Romanoff – 13.– CHF', 'Romanoff – CHF 13', 'Romanoff – 13.– CHF'),
+      desc: L('Glace vanille, fraises et crème légère.', 'Vanilla ice cream, strawberries & light cream.', 'Vanilleeis, Erdbeeren & leichte Sahne.')
+    },
+    i2: {
+      name: L('Dame blanche – 11.– CHF', 'Dame blanche – CHF 11', 'Dame blanche – 11.– CHF'),
+      desc: L('Glace vanille, chocolat chaud et chantilly.', 'Vanilla ice cream, hot chocolate & cream.', 'Vanilleeis, heiße Schokolade & Sahne.')
+    },
+    i3: {
+      name: L('Glaces arrosées – 14.– CHF', 'Liqueur ice creams – CHF 14', 'Eis mit Likör – 14.– CHF'),
+      desc: L('Abricotine · Colonel · Poire.', 'Abricotine · Colonel · Pear.', 'Abricotine · Colonel · Birne.')
+    }
+  },
+  enfant: {
+    i1: {
+      name: L('Formule – 15.– CHF', 'Set menu – CHF 15', 'Menü – 15.– CHF'),
+      desc: L(
+        '<strong>Plat au choix :</strong> pasta bolognaise sauce maison ou schnitzel de porc maison, frites & légumes.<br><strong>Dessert :</strong> 1 boule de glace au choix.',
+        '<strong>Main choice:</strong> pasta bolognese (house sauce) or house pork schnitzel, fries & vegetables.<br><strong>Dessert:</strong> one scoop of ice cream of your choice.',
+        '<strong>Hauptgericht nach Wahl:</strong> Pasta Bolognese (hausgemacht) oder Schweineschnitzel, Pommes & Gemüse.<br><strong>Dessert:</strong> eine Kugel Eis nach Wahl.'
+      )
+    }
+  },
+  deg: {
+    m1: L('<strong>Mise en bouche</strong><br>Selon inspiration du chef.', '<strong>Amuse-bouche</strong><br>Chef’s inspiration.', '<strong>Amuse-Gueule</strong><br>nach Inspiration des Küchenchefs.'),
+    m2: L('<strong>Entrée</strong><br>Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise.', '<strong>Starter</strong><br>Spring asparagus, marinated cherry tomatoes, light raspberry vinegar cream.', '<strong>Vorspeise</strong><br>Frühlings-Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme.'),
+    m3: L(
+      '<strong>Plat au choix</strong><br>Blanquette de veau à l’ancienne, champignons, carottes & riz<br>ou suprême de volaille fermière, sauce aux chanterelles & grenailles rôties au romarin<br>ou tagliatelles à la crème de truffe d’été.',
+      '<strong>Main choice</strong><br>Classic veal blanquette, mushrooms, carrots & rice<br>or farm chicken supreme, chanterelle sauce & rosemary potatoes<br>or tagliatelle with summer truffle cream.',
+      '<strong>Hauptgang nach Wahl</strong><br>Kalbsblanquette, Pilze, Karotten & Reis<br>oder Bauernhähnchen-Supreme, Pfifferlingssauce & Rosmarin-Kartoffeln<br>oder Tagliatelle mit Sommertrüffel-Creme.'
+    ),
+    m4: L('<strong>Dessert</strong><br>Crème brûlée parfumée au Cointreau, éclat de fruits frais<br>ou glaces arrosées.', '<strong>Dessert</strong><br>Cointreau crème brûlée, fresh fruit<br>or liqueur ice creams.', '<strong>Dessert</strong><br>Cointreau-Crème brülee, frisches Obst<br>oder Eis mit Likör.'),
+    m5: L('<strong>Option fromages</strong><br>Assiette de fromages de la région – +10.– CHF.', '<strong>Cheese option</strong><br>Regional cheese plate – +CHF 10.', '<strong>Käse-Option</strong><br>Regionale Käseauswahl – +10.– CHF.')
+  }
+};
+
+fs.writeFileSync(out, JSON.stringify({ carte }, null, 2), 'utf8');
+console.log('Written', out);

@@ -6,32 +6,45 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
-  <title>La Paix La Grange – Carte</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=20260423">
+  <title data-i18n="meta.carte">La Paix La Grange – Carte</title>
+  <link rel="stylesheet" href="assets/css/style.css?v=20260424">
 </head>
 <body>
   <header class="site-header">
     <div class="container header-inner">
       <div class="logo">
-        <a href="index.html" aria-label="Accueil La Paix La Grange">
+        <a href="index.html" data-i18n-aria="aria.homeLogo" aria-label="Accueil La Paix La Grange">
           <img src="assets/img/Logo de La Paix La Grange.png" alt="Logo La Paix La Grange" class="site-logo" width="220" height="48">
         </a>
       </div>
-      <nav class="main-nav">
-        <a href="la-maison.html">La maison</a>
-        <a href="carte.html" class="active">Carte</a>
-        <a href="vins.html">Vins</a>
-        <a href="galerie.html">Galerie</a>
-        <a href="contact.html">Contact</a>
-      </nav>
+      <div class="header-tools">
+        <nav class="main-nav">
+          <a href="la-maison.html" data-i18n="nav.maison">La maison</a>
+          <a href="carte.html" class="active" data-i18n="nav.carte">Carte</a>
+          <a href="vins.html" data-i18n="nav.vins">Vins</a>
+          <a href="galerie.html" data-i18n="nav.galerie">Galerie</a>
+          <a href="contact.html" data-i18n="nav.contact">Contact</a>
+        </nav>
+        <div class="lang-switch" role="group" data-i18n-aria="aria.lang">
+          <button type="button" class="lang-btn" data-set-lang="fr" title="Français" aria-label="Français">
+            <svg class="lang-flag" viewBox="0 0 3 2" aria-hidden="true"><rect fill="#002395" width="1" height="2"/><rect fill="#fff" x="1" width="1" height="2"/><rect fill="#ED2939" x="2" width="1" height="2"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="en" title="English" aria-label="English">
+            <svg class="lang-flag" viewBox="0 0 60 30" aria-hidden="true"><path fill="#012169" d="M0 0h60v30H0z"/><path fill="#fff" d="M0 0l60 30M60 0L0 30" stroke="#fff" stroke-width="6"/><path fill="none" stroke="#C8102E" stroke-width="4" d="M0 0l60 30M60 0L0 30"/><path fill="#fff" d="M25 0h10v30H25zM0 10h60v10H0z"/><path fill="#C8102E" d="M27 0h6v30h-6zM0 12h60v6H0z"/></svg>
+          </button>
+          <button type="button" class="lang-btn" data-set-lang="de" title="Deutsch" aria-label="Deutsch">
+            <svg class="lang-flag" viewBox="0 0 5 3" aria-hidden="true"><rect fill="#000" width="5" height="1"/><rect fill="#DD0000" y="1" width="5" height="1"/><rect fill="#FFCE00" y="2" width="5" height="1"/></svg>
+          </button>
+        </div>
+      </div>
     </div>
   </header>
 
   <main class="page">
     <section class="page-hero">
       <div class="container">
-        <h1>La carte de printemps</h1>
-        <p>
+        <h1 data-i18n="carte.hero.title">La carte de printemps</h1>
+        <p data-i18n-html="carte.hero.intro">
           Une cuisine de saison, inspirée des produits locaux et des arrivages du marché.<br>
           Menu du jour proposé du mercredi au vendredi.<br>
           Suggestion du moment renouvelée au gré des produits et de l’envie du chef.
@@ -40,34 +53,34 @@
     </section>
 
     <section class="container page-content">
-      <nav class="menu-tabs" aria-label="Navigation de la carte">
-        <button class="menu-tab is-active" data-tab-target="a-partager" type="button">À partager</button>
-        <button class="menu-tab" data-tab-target="entrees" type="button">Entrées</button>
-        <button class="menu-tab" data-tab-target="plats" type="button">Plats</button>
-        <button class="menu-tab" data-tab-target="desserts" type="button">Desserts</button>
-        <button class="menu-tab" data-tab-target="menu-enfant" type="button">Menu enfant</button>
-        <button class="menu-tab" data-tab-target="degustation" type="button">Menu dégustation</button>
+      <nav class="menu-tabs" data-i18n-aria="aria.menuNav" aria-label="Navigation de la carte">
+        <button class="menu-tab is-active" data-tab-target="a-partager" type="button" data-i18n="carte.tabs.share">À partager</button>
+        <button class="menu-tab" data-tab-target="entrees" type="button" data-i18n="carte.tabs.entrees">Entrées</button>
+        <button class="menu-tab" data-tab-target="plats" type="button" data-i18n="carte.tabs.plats">Plats</button>
+        <button class="menu-tab" data-tab-target="desserts" type="button" data-i18n="carte.tabs.desserts">Desserts</button>
+        <button class="menu-tab" data-tab-target="menu-enfant" type="button" data-i18n="carte.tabs.enfant">Menu enfant</button>
+        <button class="menu-tab" data-tab-target="degustation" type="button" data-i18n="carte.tabs.degustation">Menu dégustation</button>
       </nav>
 
       <div class="menu-panel is-active" data-tab-panel="a-partager">
         <div class="menu-section">
-          <h2>À partager</h2>
+          <h2 data-i18n="carte.h.share">À partager</h2>
           <ul>
             <li>
-              <span class="menu-item-name">Planche du Terroir – Fromages &amp; salaisons – 28.– CHF</span>
-              <span class="menu-item-desc">Fromages et salaisons de la région, pain de campagne toasté, pickles maison &amp; chutney de fruits.</span>
+              <span class="menu-item-name" data-i18n="carte.ap.i1.name">Planche du Terroir – Fromages &amp; salaisons – 28.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.ap.i1.desc">Fromages et salaisons de la région, pain de campagne toasté, pickles maison &amp; chutney de fruits.</span>
             </li>
             <li>
-              <span class="menu-item-name">Terrine de campagne maison, parfumée au cognac – 19.– CHF</span>
-              <span class="menu-item-desc">Servie en bocal, pain de campagne toasté &amp; pickles maison.</span>
+              <span class="menu-item-name" data-i18n="carte.ap.i2.name">Terrine de campagne maison, parfumée au cognac – 19.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.ap.i2.desc">Servie en bocal, pain de campagne toasté &amp; pickles maison.</span>
             </li>
             <li>
-              <span class="menu-item-name">Rillettes de poulet au thym &amp; vin blanc suisse – 17.– CHF</span>
-              <span class="menu-item-desc">Rillettes maison de volaille confite, pain de campagne toasté &amp; pickles maison.</span>
+              <span class="menu-item-name" data-i18n="carte.ap.i3.name">Rillettes de poulet au thym &amp; vin blanc suisse – 17.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.ap.i3.desc">Rillettes maison de volaille confite, pain de campagne toasté &amp; pickles maison.</span>
             </li>
             <li>
-              <span class="menu-item-name">Planche végétarienne – 24.– CHF</span>
-              <span class="menu-item-desc">Houmous de betterave, tapenade, tomates &amp; olives marinées, feta, gressins &amp; chutney de fruits.</span>
+              <span class="menu-item-name" data-i18n="carte.ap.i4.name">Planche végétarienne – 24.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.ap.i4.desc">Houmous de betterave, tapenade, tomates &amp; olives marinées, feta, gressins &amp; chutney de fruits.</span>
             </li>
           </ul>
         </div>
@@ -75,16 +88,16 @@
 
       <div class="menu-panel" data-tab-panel="entrees">
         <div class="menu-section">
-          <h2>Entrées</h2>
+          <h2 data-i18n="carte.h.entrees">Entrées</h2>
           <ul>
-            <li><span class="menu-item-name">Salade verte, vinaigrette &amp; croûtons maison – 8.– CHF</span></li>
-            <li><span class="menu-item-name">Salade mêlée, crudités croquantes de saison – 11.– CHF</span></li>
-            <li><span class="menu-item-name">Velouté d’asperges de saison et maison – 11.– CHF</span></li>
-            <li><span class="menu-item-name">Salade de chèvre chaud croustillant, vinaigrette au miel et noix torréfiées – 17.– CHF</span></li>
-            <li><span class="menu-item-name">Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.ent.i1.name">Salade verte, vinaigrette &amp; croûtons maison – 8.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.ent.i2.name">Salade mêlée, crudités croquantes de saison – 11.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.ent.i3.name">Velouté d’asperges de saison et maison – 11.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.ent.i4.name">Salade de chèvre chaud croustillant, vinaigrette au miel et noix torréfiées – 17.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.ent.i5.name">Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF</span></li>
             <li>
-              <span class="menu-item-name">Tartare de bœuf coupé au couteau, condiments &amp; toasts grillés</span>
-              <span class="menu-item-desc">75 g – 19.– CHF · 150 g (servi avec frites) – 32.– CHF</span>
+              <span class="menu-item-name" data-i18n="carte.ent.i6.name">Tartare de bœuf coupé au couteau, condiments &amp; toasts grillés</span>
+              <span class="menu-item-desc" data-i18n="carte.ent.i6.desc">75 g – 19.– CHF · 150 g (servi avec frites) – 32.– CHF</span>
             </li>
           </ul>
         </div>
@@ -92,61 +105,61 @@
 
       <div class="menu-panel" data-tab-panel="plats">
         <div class="menu-section">
-          <h2>Plats</h2>
+          <h2 data-i18n="carte.h.plats">Plats</h2>
           <ul>
-            <li><span class="menu-item-name">Suprême de volaille fermière, sauce aux chanterelles &amp; grenailles rôties au romarin – 34.– CHF</span></li>
-            <li><span class="menu-item-name">Entrecôte de bœuf grillée, beurre maître d’hôtel, frites croustillantes – 40.– CHF (pour 1 ou 2)</span></li>
-            <li><span class="menu-item-name">Filet de bœuf sur pierre chaude, frites croustillantes, sauce poivre &amp; poêlée de légumes de saison – 46.– CHF</span></li>
-            <li><span class="menu-item-name">Risotto crémeux aux petits pois &amp; chanterelles poêlées – 26.– CHF</span></li>
-            <li><span class="menu-item-name">Tagliatelles au pesto d’ail des ours &amp; burrata – 24.– CHF</span></li>
-            <li><span class="menu-item-name">Tagliatelles à la crème de truffe d’été – 32.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.plat.i1.name">Suprême de volaille fermière, sauce aux chanterelles &amp; grenailles rôties au romarin – 34.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.plat.i2.name">Entrecôte de bœuf grillée, beurre maître d’hôtel, frites croustillantes – 40.– CHF (pour 1 ou 2)</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.plat.i3.name">Filet de bœuf sur pierre chaude, frites croustillantes, sauce poivre &amp; poêlée de légumes de saison – 46.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.plat.i4.name">Risotto crémeux aux petits pois &amp; chanterelles poêlées – 26.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.plat.i5.name">Tagliatelles au pesto d’ail des ours &amp; burrata – 24.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.plat.i6.name">Tagliatelles à la crème de truffe d’été – 32.– CHF</span></li>
             <li>
-              <span class="menu-item-name">Le mijoté du chef – 30.– CHF</span>
-              <span class="menu-item-desc">Blanquette de veau à l’ancienne, champignons &amp; carottes, accompagnée de riz de Camargue.</span>
+              <span class="menu-item-name" data-i18n="carte.plat.i7.name">Le mijoté du chef – 30.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.plat.i7.desc">Blanquette de veau à l’ancienne, champignons &amp; carottes, accompagnée de riz de Camargue.</span>
             </li>
           </ul>
-          <p class="menu-note">
+          <p class="menu-note" data-i18n-html="carte.platNote">
             Supplément truffe d’été fraîche – 5.– CHF<br>
             Supplément accompagnement +5.– CHF (Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches).
           </p>
         </div>
 
         <div class="menu-section">
-          <h2>Coin montagnard</h2>
+          <h2 data-i18n="carte.h.coin">Coin montagnard</h2>
           <ul>
-            <li><span class="menu-item-name">Macaronis du berger, pommes de terre, fromage gratiné &amp; oignons rôtis – 25.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.coin.i1.name">Macaronis du berger, pommes de terre, fromage gratiné &amp; oignons rôtis – 25.– CHF</span></li>
           </ul>
         </div>
 
         <div class="menu-section">
-          <h2>Fondues au fromage (dès 2 pers.)</h2>
+          <h2 data-i18n="carte.h.fondues">Fondues au fromage (dès 2 pers.)</h2>
           <ul>
-            <li><span class="menu-item-name">Fondue moitié-moitié – 28.– CHF</span></li>
-            <li><span class="menu-item-name">Fondue tomate – 28.– CHF</span></li>
-            <li><span class="menu-item-name">Fondue dans le pain – 28.– CHF</span></li>
-            <li><span class="menu-item-name">Fondue à la truffe – 32.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.fondues.i1.name">Fondue moitié-moitié – 28.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.fondues.i2.name">Fondue tomate – 28.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.fondues.i3.name">Fondue dans le pain – 28.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.fondues.i4.name">Fondue à la truffe – 32.– CHF</span></li>
           </ul>
-          <p class="menu-note">+ 2.– CHF pommes de terre grenailles.</p>
+          <p class="menu-note" data-i18n="carte.fondues.note">+ 2.– CHF pommes de terre grenailles.</p>
         </div>
 
         <div class="menu-section">
-          <h2>Fondues de viande (min. 2 pers.)</h2>
+          <h2 data-i18n="carte.h.fonduesViande">Fondues de viande (min. 2 pers.)</h2>
           <ul>
             <li>
-              <span class="menu-item-name">Fondue chinoise 200 g – 39.– CHF</span>
-              <span class="menu-item-desc">Fines tranches de viande cuites dans un bouillon de légumes.</span>
+              <span class="menu-item-name" data-i18n="carte.fonduesV.i1.name">Fondue chinoise 200 g – 39.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.fonduesV.i1.desc">Fines tranches de viande cuites dans un bouillon de légumes.</span>
             </li>
             <li>
-              <span class="menu-item-name">Fondue bourguignonne 200 g – 39.– CHF</span>
-              <span class="menu-item-desc">Morceaux de viande frits dans l’huile chaude.</span>
+              <span class="menu-item-name" data-i18n="carte.fonduesV.i2.name">Fondue bourguignonne 200 g – 39.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.fonduesV.i2.desc">Morceaux de viande frits dans l’huile chaude.</span>
             </li>
           </ul>
-          <p class="menu-note">Servies avec sauces maison, frites et salade.</p>
+          <p class="menu-note" data-i18n="carte.fonduesV.note">Servies avec sauces maison, frites et salade.</p>
         </div>
 
         <div class="menu-section">
-          <h2>Suggestions du moment</h2>
-          <p class="menu-note">
+          <h2 data-i18n="carte.h.suggestions">Suggestions du moment</h2>
+          <p class="menu-note" data-i18n="carte.sug.text">
             À découvrir à l’ardoise en salle : entrée du moment, plat du moment (poisson), poisson frais selon arrivage
             &amp; tarte du jour.
           </p>
@@ -155,35 +168,35 @@
 
       <div class="menu-panel" data-tab-panel="desserts">
         <div class="menu-section">
-          <h2>Desserts</h2>
+          <h2 data-i18n="carte.h.desserts">Desserts</h2>
           <ul>
-            <li><span class="menu-item-name">Crème brûlée parfumée au Cointreau, éclat de fruits frais – 12.– CHF</span></li>
-            <li><span class="menu-item-name">Profiteroles, glace vanille &amp; sauce chocolat maison – 12.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.desserts.i1.name">Crème brûlée parfumée au Cointreau, éclat de fruits frais – 12.– CHF</span></li>
+            <li><span class="menu-item-name" data-i18n="carte.desserts.i2.name">Profiteroles, glace vanille &amp; sauce chocolat maison – 12.– CHF</span></li>
             <li>
-              <span class="menu-item-name">Café gourmand – 14.– CHF</span>
-              <span class="menu-item-desc">Café ou thé accompagné de mini desserts maison.</span>
+              <span class="menu-item-name" data-i18n="carte.desserts.i3.name">Café gourmand – 14.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.desserts.i3.desc">Café ou thé accompagné de mini desserts maison.</span>
             </li>
             <li>
-              <span class="menu-item-name">Affogato – 8.– CHF</span>
-              <span class="menu-item-desc">Glace vanille nappée d’un espresso chaud.</span>
+              <span class="menu-item-name" data-i18n="carte.desserts.i4.name">Affogato – 8.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.desserts.i4.desc">Glace vanille nappée d’un espresso chaud.</span>
             </li>
           </ul>
         </div>
 
         <div class="menu-section">
-          <h2>Coupes glacées</h2>
+          <h2 data-i18n="carte.h.glaces">Coupes glacées</h2>
           <ul>
             <li>
-              <span class="menu-item-name">Romanoff – 13.– CHF</span>
-              <span class="menu-item-desc">Glace vanille, fraises et crème légère.</span>
+              <span class="menu-item-name" data-i18n="carte.glaces.i1.name">Romanoff – 13.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.glaces.i1.desc">Glace vanille, fraises et crème légère.</span>
             </li>
             <li>
-              <span class="menu-item-name">Dame blanche – 11.– CHF</span>
-              <span class="menu-item-desc">Glace vanille, chocolat chaud et chantilly.</span>
+              <span class="menu-item-name" data-i18n="carte.glaces.i2.name">Dame blanche – 11.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.glaces.i2.desc">Glace vanille, chocolat chaud et chantilly.</span>
             </li>
             <li>
-              <span class="menu-item-name">Glaces arrosées – 14.– CHF</span>
-              <span class="menu-item-desc">Abricotine · Colonel · Poire.</span>
+              <span class="menu-item-name" data-i18n="carte.glaces.i3.name">Glaces arrosées – 14.– CHF</span>
+              <span class="menu-item-desc" data-i18n="carte.glaces.i3.desc">Abricotine · Colonel · Poire.</span>
             </li>
           </ul>
         </div>
@@ -191,11 +204,11 @@
 
       <div class="menu-panel" data-tab-panel="menu-enfant">
         <div class="menu-section">
-          <h2>Menu enfant</h2>
+          <h2 data-i18n="carte.h.menuEnfant">Menu enfant</h2>
           <ul>
             <li>
-              <span class="menu-item-name">Formule – 15.– CHF</span>
-              <span class="menu-item-desc">
+              <span class="menu-item-name" data-i18n="carte.enfant.i1.name">Formule – 15.– CHF</span>
+              <span class="menu-item-desc" data-i18n-html="carte.enfant.i1.desc">
                 <strong>Plat au choix :</strong> pasta bolognaise sauce maison ou schnitzel de porc maison, frites &amp; légumes.<br>
                 <strong>Dessert :</strong> 1 boule de glace au choix.
               </span>
@@ -206,17 +219,17 @@
 
       <div class="menu-panel" data-tab-panel="degustation">
         <div class="menu-section">
-          <h2>Menu dégustation – 54.– CHF</h2>
-          <p class="menu-note"><strong>Mise en bouche</strong><br>Selon inspiration du chef.</p>
-          <p class="menu-note"><strong>Entrée</strong><br>Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise.</p>
-          <p class="menu-note">
+          <h2 data-i18n="carte.h.menuDeg">Menu dégustation – 54.– CHF</h2>
+          <p class="menu-note" data-i18n-html="carte.deg.m1"><strong>Mise en bouche</strong><br>Selon inspiration du chef.</p>
+          <p class="menu-note" data-i18n-html="carte.deg.m2"><strong>Entrée</strong><br>Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise.</p>
+          <p class="menu-note" data-i18n-html="carte.deg.m3">
             <strong>Plat au choix</strong><br>
             Blanquette de veau à l’ancienne, champignons, carottes &amp; riz<br>
             ou suprême de volaille fermière, sauce aux chanterelles &amp; grenailles rôties au romarin<br>
             ou tagliatelles à la crème de truffe d’été.
           </p>
-          <p class="menu-note"><strong>Dessert</strong><br>Crème brûlée parfumée au Cointreau, éclat de fruits frais<br>ou glaces arrosées.</p>
-          <p class="menu-note"><strong>Option fromages</strong><br>Assiette de fromages de la région – +10.– CHF.</p>
+          <p class="menu-note" data-i18n-html="carte.deg.m4"><strong>Dessert</strong><br>Crème brûlée parfumée au Cointreau, éclat de fruits frais<br>ou glaces arrosées.</p>
+          <p class="menu-note" data-i18n-html="carte.deg.m5"><strong>Option fromages</strong><br>Assiette de fromages de la région – +10.– CHF.</p>
         </div>
       </div>
     </section>
@@ -224,33 +237,26 @@
 
   <footer class="site-footer">
     <div class="container footer-inner">
-      <p>© <span id="year"></span> La Paix La Grange – Tous droits réservés.</p>
+      <p>© <span id="year"></span> La Paix La Grange – <span data-i18n="common.footerRights">Tous droits réservés.</span></p>
     </div>
   </footer>
 
+  <script defer src="assets/js/i18n.js?v=20260424"></script>
   <script>
-    const yearSpan = document.getElementById('year');
-    if (yearSpan) {
-      yearSpan.textContent = new Date().getFullYear();
-    }
-
-    const menuTabs = document.querySelectorAll('.menu-tab');
-    const menuPanels = document.querySelectorAll('.menu-panel');
-
-    menuTabs.forEach((tab) => {
-      tab.addEventListener('click', () => {
-        const target = tab.getAttribute('data-tab-target');
-
-        menuTabs.forEach((item) => item.classList.remove('is-active'));
-        menuPanels.forEach((panel) => panel.classList.remove('is-active'));
-
-        tab.classList.add('is-active');
-        const targetPanel = document.querySelector(`[data-tab-panel="${target}"]`);
-        if (targetPanel) {
-          targetPanel.classList.add('is-active');
-        }
+    (function () {
+      const menuTabs = document.querySelectorAll('.menu-tab');
+      const menuPanels = document.querySelectorAll('.menu-panel');
+      menuTabs.forEach((tab) => {
+        tab.addEventListener('click', () => {
+          const target = tab.getAttribute('data-tab-target');
+          menuTabs.forEach((item) => item.classList.remove('is-active'));
+          menuPanels.forEach((panel) => panel.classList.remove('is-active'));
+          tab.classList.add('is-active');
+          const targetPanel = document.querySelector('[data-tab-panel="' + target + '"]');
+          if (targetPanel) targetPanel.classList.add('is-active');
+        });
       });
-    });
+    })();
   </script>
 </body>
 </html>
