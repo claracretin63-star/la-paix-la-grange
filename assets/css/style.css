@@ -993,12 +993,6 @@ a {
   flex-wrap: wrap;
 }
 
-.footer-meta {
-  opacity: 0.85;
-  font-size: 0.78rem;
-  letter-spacing: 0.04em;
-}
-
 .footer-legal {
   width: 100%;
   flex-basis: 100%;

@@ -27,7 +27,6 @@
   },
   "common": {
     "footerRights": { "fr": "Tous droits réservés.", "en": "All rights reserved.", "de": "Alle Rechte vorbehalten." },
-    "footerMeta": { "fr": "Site vitrine – La Paix La Grange", "en": "Showcase website – La Paix La Grange", "de": "Website – La Paix La Grange" },
     "footerHomeCopy": { "fr": "© 2026 Restaurant La Paix – La Grange", "en": "© 2026 Restaurant La Paix – La Grange", "de": "© 2026 Restaurant La Paix – La Grange" },
     "footerLegal": { "fr": "Mentions légales", "en": "Legal notice", "de": "Impressum" },
     "mapLink": { "fr": "Voir sur la carte", "en": "View on map", "de": "Auf der Karte anzeigen" }
