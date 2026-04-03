@@ -1,10 +1,11 @@
 {
   "nav": {
+    "home":   { "fr": "Accueil", "en": "Home", "de": "Startseite" },
     "maison": { "fr": "La maison", "en": "The house", "de": "Das Haus" },
-    "carte": { "fr": "Carte", "en": "Menu", "de": "Speisekarte" },
-    "vins": { "fr": "Vins", "en": "Wines", "de": "Weine" },
-    "galerie": { "fr": "Galerie", "en": "Gallery", "de": "Galerie" },
-    "contact": { "fr": "Contact", "en": "Contact", "de": "Kontakt" }
+    "carte":  { "fr": "Carte", "en": "Menu", "de": "Speisekarte" },
+    "vins":   { "fr": "Vins", "en": "Wines", "de": "Weine" },
+    "galerie":{ "fr": "Galerie", "en": "Gallery", "de": "Galerie" },
+    "contact":{ "fr": "Contact", "en": "Contact", "de": "Kontakt" }
   },
   "meta": {
     "home": { "fr": "La Paix La Grange – Accueil", "en": "La Paix La Grange – Home", "de": "La Paix La Grange – Startseite" },
