@@ -804,6 +804,10 @@ a {
   font-weight: 600;
 }
 
+.wine-card h3:first-of-type {
+  margin-top: 0;
+}
+
 .wine-subheading {
   margin: 10px 0 4px;
   font-size: 0.9rem;

@@ -112,8 +112,6 @@
     "heroSub": { "fr": "Une sélection de vignerons indépendants et de cuvées coups de cœur.", "en": "A selection of independent winemakers and favourite cuvées.", "de": "Eine Auswahl unabhängiger Winzer und besonderer Cuvées." },
     "intro": { "fr": "Notre carte des vins évolue selon les arrivages et les sélections de nos domaines partenaires.", "en": "Our wine list changes with arrivals and selections from our partner estates.", "de": "Unsere Weinkarte wechselt mit den Ankünften und der Auswahl unserer Partnerbetriebe." },
     "tabWhite": { "fr": "Vin blanc", "en": "White wine", "de": "Weißwein" },
-    "tabRed": { "fr": "Vin rouge", "en": "Red wine", "de": "Rotwein" },
-    "h2white": { "fr": "Vins blancs", "en": "White wines", "de": "Weißweine" },
-    "h2red": { "fr": "Vins rouges", "en": "Red wines", "de": "Rotweine" }
+    "tabRed": { "fr": "Vin rouge", "en": "Red wine", "de": "Rotwein" }
   }
 }
