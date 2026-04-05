@@ -212,13 +212,6 @@ a {
   border-bottom: 1px solid var(--surface-border);
 }
 
-.hero-row {
-  display: grid;
-  grid-template-columns: minmax(0, 1fr) min(320px, 100%);
-  gap: clamp(1.5rem, 4vw, 2.5rem);
-  align-items: start;
-}
-
 .hero-content {
   max-width: 38rem;
 }
@@ -264,36 +257,6 @@ a {
   max-width: 36em;
 }
 
-.hero-side-logo {
-  isolation: isolate;
-  background: linear-gradient(165deg, rgba(245, 240, 232, 0.05) 0%, transparent 45%), var(--surface);
-  border: 1px solid var(--surface-border);
-  border-radius: var(--radius-lg);
-  padding: 1rem;
-  box-shadow: var(--shadow-soft);
-  transition: border-color var(--duration) var(--ease-out), box-shadow var(--duration) var(--ease-out);
-}
-
-.hero-side-logo:hover {
-  border-color: var(--surface-border-strong);
-  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(201, 168, 130, 0.12);
-}
-
-.hero-village-logo {
-  width: 100%;
-  height: auto;
-  display: block;
-  border-radius: var(--radius-sm);
-  opacity: 0.97;
-}
-
-.hero-side-logo p {
-  margin: 8px 0 0;
-  font-size: 0.84rem;
-  color: var(--muted-dim);
-  line-height: 1.45;
-}
-
 .hero-actions {
   display: flex;
   flex-wrap: wrap;
@@ -319,8 +282,8 @@ a {
   inset: 0;
   background-image: url("../img/Logo de La Paix La Grange.png");
   background-repeat: no-repeat;
-  background-position: 86% 48%;
-  background-size: min(62vw, 560px);
+  background-position: 50% 45%;
+  background-size: min(58vw, 520px);
   opacity: 0.16;
   mix-blend-mode: multiply;
   pointer-events: none;
@@ -335,9 +298,9 @@ a {
   pointer-events: none;
   z-index: 0;
   background: radial-gradient(
-    ellipse 75% 85% at 82% 50%,
+    ellipse 78% 88% at 50% 48%,
     transparent 0%,
-    rgba(245, 240, 232, 0.35) 62%,
+    rgba(245, 240, 232, 0.35) 58%,
     rgba(245, 240, 232, 0.72) 100%
   );
 }
@@ -358,34 +321,6 @@ a {
 
 .page-home .hero .hero-content p {
   color: rgba(61, 42, 34, 0.78);
-}
-
-/* Encart « Plus beaux villages » : lisible sur bandeau crème (texte + logo) */
-.page-home .hero .hero-side-logo {
-  background: linear-gradient(165deg, rgba(255, 255, 255, 0.06) 0%, transparent 50%), var(--surface);
-  border-color: rgba(245, 240, 232, 0.18);
-  box-shadow:
-    var(--shadow-soft),
-    0 0 0 1px rgba(0, 0, 0, 0.35);
-}
-
-.page-home .hero .hero-side-logo:hover {
-  border-color: rgba(245, 240, 232, 0.28);
-  box-shadow:
-    var(--shadow-soft),
-    0 0 0 1px rgba(201, 168, 130, 0.2),
-    0 12px 40px rgba(0, 0, 0, 0.45);
-}
-
-.page-home .hero .hero-village-logo {
-  opacity: 1;
-  background: #fff;
-  padding: 0.65rem 0.75rem;
-  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
-}
-
-.page-home .hero .hero-side-logo p {
-  color: var(--muted);
 }
 
 .page-home .hero .btn.ghost {
@@ -1121,10 +1056,6 @@ a {
 
   .home-sections {
     grid-template-columns: repeat(2, minmax(0, 1fr));
-  }
-
-  .hero-row {
-    grid-template-columns: 1fr;
   }
 
   .home-info-grid {

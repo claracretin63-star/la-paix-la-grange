@@ -21,7 +21,6 @@
     "menuNav": { "fr": "Navigation de la carte", "en": "Menu navigation", "de": "Speisekarten-Navigation" },
     "wineNav": { "fr": "Navigation carte des vins", "en": "Wine list navigation", "de": "Weinkarten-Navigation" },
     "lang": { "fr": "Langue", "en": "Language", "de": "Sprache" },
-    "villageLabel": { "fr": "Les plus beaux villages de Suisse", "en": "The most beautiful villages of Switzerland", "de": "Die schönsten Dörfer der Schweiz" },
     "instagram": { "fr": "Instagram — La Paix La Grange", "en": "Instagram — La Paix La Grange", "de": "Instagram — La Paix La Grange" },
     "facebook": { "fr": "Facebook — La Paix La Grange", "en": "Facebook — La Paix La Grange", "de": "Facebook — La Paix La Grange" },
     "mapGoogle": { "fr": "Ouvrir l’adresse dans Google Maps", "en": "Open address in Google Maps", "de": "Adresse in Google Maps öffnen" }
@@ -38,7 +37,6 @@
     "tagline": { "fr": "Une table sincère, une expérience précieuse.", "en": "An honest table, a precious experience.", "de": "Ein ehrlicher Tisch, ein kostbares Erlebnis." },
     "btnCarte": { "fr": "Découvrir la carte", "en": "Discover the menu", "de": "Speisekarte entdecken" },
     "btnReserve": { "fr": "Réserver une table", "en": "Book a table", "de": "Tisch reservieren" },
-    "villageCaption": { "fr": "Evolène fait partie des plus beaux villages de Suisse.", "en": "Evolène is one of the most beautiful villages in Switzerland.", "de": "Evolène zählt zu den schönsten Dörfern der Schweiz." },
     "cardMaisonTitle": { "fr": "La maison", "en": "The house", "de": "Das Haus" },
     "cardMaisonText": { "fr": "Découvrez l'histoire du lieu, son ambiance chaleureuse et l'équipe qui vous accueille.", "en": "Discover the story of the place, its warm atmosphere and the team who welcomes you.", "de": "Entdecken Sie die Geschichte des Ortes, seine warme Atmosphäre und das Team, das Sie empfängt." },
     "cardMaisonLink": { "fr": "En savoir plus", "en": "Learn more", "de": "Mehr erfahren" },
