@@ -749,23 +749,6 @@ a {
   margin-top: 1.2rem;
 }
 
-/* Encart « bulle » : coin montagnard hors onglet Plats */
-.menu-montagnard-bubble {
-  max-width: 44rem;
-  margin-inline: auto;
-  padding: clamp(1.35rem, 3.5vw, 1.85rem) clamp(1.35rem, 3.5vw, 1.75rem);
-  border-radius: var(--radius-lg);
-  border: 1px solid rgba(201, 168, 130, 0.32);
-  background:
-    linear-gradient(155deg, rgba(201, 168, 130, 0.14) 0%, rgba(245, 240, 232, 0.05) 45%, transparent 78%),
-    var(--surface);
-  box-shadow: var(--shadow-soft), 0 0 0 1px rgba(0, 0, 0, 0.22);
-}
-
-.menu-montagnard-bubble .menu-section h2 {
-  margin-top: 0;
-}
-
 .list {
   padding-left: 1.2rem;
 }
