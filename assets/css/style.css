@@ -338,7 +338,7 @@ a {
   background-repeat: no-repeat;
   background-position: 86% 48%;
   background-size: min(62vw, 560px);
-  opacity: 0.2;
+  opacity: 0.26;
   mix-blend-mode: multiply;
   pointer-events: none;
   z-index: 0;
@@ -354,8 +354,8 @@ a {
   background: radial-gradient(
     ellipse 75% 85% at 82% 50%,
     transparent 0%,
-    rgba(245, 240, 232, 0.28) 58%,
-    rgba(245, 240, 232, 0.64) 100%
+    rgba(245, 240, 232, 0.22) 56%,
+    rgba(245, 240, 232, 0.58) 100%
   );
 }
 
@@ -1198,15 +1198,15 @@ body:not(.page-home) .page-content {
   .page-home .hero::before {
     background-position: 100% 36%;
     background-size: min(78vw, 320px);
-    opacity: 0.17;
+    opacity: 0.22;
   }
 
   .page-home .hero::after {
     background: radial-gradient(
       ellipse 95% 80% at 88% 40%,
       transparent 0%,
-      rgba(245, 240, 232, 0.34) 48%,
-      rgba(245, 240, 232, 0.74) 100%
+      rgba(245, 240, 232, 0.28) 46%,
+      rgba(245, 240, 232, 0.68) 100%
     );
   }
 
