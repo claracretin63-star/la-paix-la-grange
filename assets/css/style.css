@@ -282,8 +282,8 @@ a {
   inset: 0;
   background-image: url("../img/Logo de La Paix La Grange.png");
   background-repeat: no-repeat;
-  background-position: 50% 45%;
-  background-size: min(58vw, 520px);
+  background-position: 86% 48%;
+  background-size: min(62vw, 560px);
   opacity: 0.16;
   mix-blend-mode: multiply;
   pointer-events: none;
@@ -298,9 +298,9 @@ a {
   pointer-events: none;
   z-index: 0;
   background: radial-gradient(
-    ellipse 78% 88% at 50% 48%,
+    ellipse 75% 85% at 82% 50%,
     transparent 0%,
-    rgba(245, 240, 232, 0.35) 58%,
+    rgba(245, 240, 232, 0.35) 62%,
     rgba(245, 240, 232, 0.72) 100%
   );
 }
@@ -1114,14 +1114,14 @@ a {
   }
 
   .page-home .hero::before {
-    background-position: 50% 38%;
-    background-size: min(92vw, 360px);
+    background-position: 100% 36%;
+    background-size: min(78vw, 320px);
     opacity: 0.13;
   }
 
   .page-home .hero::after {
     background: radial-gradient(
-      ellipse 100% 78% at 50% 42%,
+      ellipse 95% 80% at 88% 40%,
       transparent 0%,
       rgba(245, 240, 232, 0.42) 52%,
       rgba(245, 240, 232, 0.82) 100%
