@@ -48,6 +48,19 @@ html {
     linear-gradient(180deg, var(--page-bg-mid) 0%, var(--page-bg-deep) 100%);
 }
 
+/* Pages intérieures : ton « moyen » moins noir, légère chaleur — accueil (.page-home) inchangé */
+html:has(body:not(.page-home)) {
+  --page-bg-mid: #171513;
+  --page-bg-deep: #100e0c;
+  --surface: #1a1816;
+  --surface-2: #211f1b;
+  background-color: var(--page-bg-deep);
+  background-image:
+    radial-gradient(ellipse 100% 68% at 50% -16%, rgba(105, 86, 68, 0.24) 0%, transparent 54%),
+    radial-gradient(ellipse 58% 44% at 96% 4%, rgba(125, 96, 74, 0.12) 0%, transparent 44%),
+    linear-gradient(180deg, var(--page-bg-mid) 0%, var(--page-bg-deep) 100%);
+}
+
 body {
   margin: 0;
   min-height: 100vh;
@@ -662,6 +675,12 @@ a {
   border-radius: var(--radius-lg);
   box-shadow: var(--shadow-soft);
   border: 1px solid var(--surface-border);
+}
+
+body:not(.page-home) .page-content {
+  background:
+    linear-gradient(180deg, rgba(245, 240, 232, 0.07) 0%, transparent 42%),
+    var(--surface-2);
 }
 
 .page-content h2 {
