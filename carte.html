@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
   <title data-i18n="meta.carte">La Paix La Grange – Carte</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=202604055">
+  <link rel="stylesheet" href="assets/css/style.css?v=202604057">
 </head>
 <body>
   <header class="site-header">
@@ -63,6 +63,7 @@
         <button class="menu-tab is-active" data-tab-target="a-partager" type="button" data-i18n="carte.tabs.share">À partager</button>
         <button class="menu-tab" data-tab-target="entrees" type="button" data-i18n="carte.tabs.entrees">Entrées</button>
         <button class="menu-tab" data-tab-target="plats" type="button" data-i18n="carte.tabs.plats">Plats</button>
+        <button class="menu-tab" data-tab-target="coin-montagnard" type="button" data-i18n="carte.tabs.coin">Coin montagnard</button>
         <button class="menu-tab" data-tab-target="desserts" type="button" data-i18n="carte.tabs.desserts">Desserts</button>
         <button class="menu-tab" data-tab-target="menu-enfant" type="button" data-i18n="carte.tabs.enfant">Menu enfant</button>
         <button class="menu-tab" data-tab-target="degustation" type="button" data-i18n="carte.tabs.degustation">Menu dégustation</button>
@@ -131,13 +132,6 @@
         </div>
 
         <div class="menu-section">
-          <h2 data-i18n="carte.h.coin">Coin montagnard</h2>
-          <ul>
-            <li><span class="menu-item-name" data-i18n="carte.coin.i1.name">Macaronis du berger, pommes de terre, fromage gratiné &amp; oignons rôtis – 25.– CHF</span></li>
-          </ul>
-        </div>
-
-        <div class="menu-section">
           <h2 data-i18n="carte.h.fondues">Fondues au fromage (dès 2 pers.)</h2>
           <ul>
             <li><span class="menu-item-name" data-i18n="carte.fondues.i1.name">Fondue moitié-moitié – 28.– CHF</span></li>
@@ -169,6 +163,23 @@
             À découvrir à l’ardoise en salle : entrée du moment, plat du moment (poisson), poisson frais selon arrivage
             &amp; tarte du jour.
           </p>
+        </div>
+      </div>
+
+      <div class="menu-panel" data-tab-panel="coin-montagnard">
+        <div class="menu-montagnard-bubble">
+          <div class="menu-section">
+            <h2 data-i18n="carte.h.coin">Coin montagnard</h2>
+            <ul>
+              <li>
+                <span class="menu-item-name" data-i18n="carte.coin.i1.name">Macaronis du berger, pommes de terre, fromage gratiné &amp; oignons rôtis – 25.– CHF</span>
+              </li>
+              <li>
+                <span class="menu-item-name" data-i18n="carte.coin.i2.name">Bulle AOP, pain de campagne &amp; condiments – 14.– CHF</span>
+                <span class="menu-item-desc" data-i18n="carte.coin.i2.desc">Fromage à pâte dure du terroir, servi à température ambiante.</span>
+              </li>
+            </ul>
+          </div>
         </div>
       </div>
 
@@ -248,7 +259,7 @@
     </div>
   </footer>
 
-  <script defer src="assets/js/i18n.js?v=202604055"></script>
+  <script defer src="assets/js/i18n.js?v=202604057"></script>
   <script>
     (function () {
       const menuTabs = document.querySelectorAll('.menu-tab');
