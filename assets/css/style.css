@@ -58,6 +58,45 @@ body {
   letter-spacing: 0.01em;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  text-align: justify;
+  hyphens: auto;
+  -webkit-hyphens: auto;
+}
+
+/* Titres : alignés au début (évite d’étirer les lignes courtes) */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  text-align: start;
+}
+
+/* Barre du haut, onglets carte, boutons : pas de justification */
+.site-header,
+.site-header .main-nav a {
+  text-align: start;
+}
+
+.menu-tabs {
+  text-align: start;
+}
+
+.menu-tab,
+.lang-btn,
+.btn {
+  text-align: center;
+}
+
+input,
+textarea,
+select {
+  text-align: start;
+}
+
+.gallery-item.placeholder {
+  text-align: center;
 }
 
 ::selection {
@@ -512,7 +551,8 @@ a {
 
 .home-info-copy {
   margin: 14px 0 0;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
   color: var(--muted-dim);
   font-size: 0.86rem;
 }
@@ -961,6 +1001,7 @@ a {
   text-transform: uppercase;
   letter-spacing: 0.15em;
   color: var(--muted);
+  text-align: start;
 }
 
 .form-row input,
@@ -1014,7 +1055,8 @@ a {
   width: 100%;
   flex-basis: 100%;
   margin: 0.35rem 0 0;
-  text-align: center;
+  text-align: justify;
+  text-align-last: center;
   font-size: 0.76rem;
   letter-spacing: 0.06em;
 }
