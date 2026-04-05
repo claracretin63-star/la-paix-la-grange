@@ -751,7 +751,7 @@ a {
 
 /* Encart « bulle » : coin montagnard hors onglet Plats */
 .menu-montagnard-bubble {
-  max-width: 40rem;
+  max-width: 44rem;
   margin-inline: auto;
   padding: clamp(1.35rem, 3.5vw, 1.85rem) clamp(1.35rem, 3.5vw, 1.75rem);
   border-radius: var(--radius-lg);
