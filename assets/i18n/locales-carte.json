@@ -28,6 +28,11 @@
         "en": "Main courses",
         "de": "Hauptgänge"
       },
+      "coin": {
+        "fr": "Coin montagnard",
+        "en": "Mountain corner",
+        "de": "Berg-Ecke"
+      },
       "desserts": {
         "fr": "Desserts",
         "en": "Desserts",
@@ -262,6 +267,18 @@
           "fr": "Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF",
           "en": "Shepherd’s macaroni, potatoes, gratin cheese & roasted onions – CHF 25",
           "de": "Hirten-Makkaroni, Kartoffeln, überbackener Käse & geröstete Zwiebeln – 25.– CHF"
+        }
+      },
+      "i2": {
+        "name": {
+          "fr": "Bulle AOP, pain de campagne & condiments – 14.– CHF",
+          "en": "Bulle AOP cheese, country bread & condiments – CHF 14",
+          "de": "Bulle AOP, Landbrot & Beilagen – 14.– CHF"
+        },
+        "desc": {
+          "fr": "Fromage à pâte dure du terroir, servi à température ambiante.",
+          "en": "Hard alpine cheese from the region, served at room temperature.",
+          "de": "Hartkäse aus dem Terroir, bei Zimmertemperatur serviert."
         }
       }
     },

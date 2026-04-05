@@ -28,6 +28,7 @@ const carte = {
     share: L('À partager', 'To share', 'Zum Teilen'),
     entrees: L('Entrées', 'Starters', 'Vorspeisen'),
     plats: L('Plats', 'Main courses', 'Hauptgänge'),
+    coin: L('Coin montagnard', 'Mountain corner', 'Berg-Ecke'),
     desserts: L('Desserts', 'Desserts', 'Desserts'),
     enfant: L('Menu enfant', 'Children’s menu', 'Kindermenü'),
     degustation: L('Menu dégustation', 'Tasting menu', 'Degustationsmenü')
@@ -95,7 +96,11 @@ const carte = {
     }
   },
   coin: {
-    i1: { name: L('Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF', 'Shepherd’s macaroni, potatoes, gratin cheese & roasted onions – CHF 25', 'Hirten-Makkaroni, Kartoffeln, überbackener Käse & geröstete Zwiebeln – 25.– CHF') }
+    i1: { name: L('Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF', 'Shepherd’s macaroni, potatoes, gratin cheese & roasted onions – CHF 25', 'Hirten-Makkaroni, Kartoffeln, überbackener Käse & geröstete Zwiebeln – 25.– CHF') },
+    i2: {
+      name: L('Bulle AOP, pain de campagne & condiments – 14.– CHF', 'Bulle AOP cheese, country bread & condiments – CHF 14', 'Bulle AOP, Landbrot & Beilagen – 14.– CHF'),
+      desc: L('Fromage à pâte dure du terroir, servi à température ambiante.', 'Hard alpine cheese from the region, served at room temperature.', 'Hartkäse aus dem Terroir, bei Zimmertemperatur serviert.')
+    }
   },
   fondues: {
     i1: { name: L('Fondue moitié-moitié – 28.– CHF', 'Half-and-half fondue – CHF 28', 'Halb-Halb-Fondue – 28.– CHF') },
