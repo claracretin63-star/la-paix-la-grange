@@ -156,39 +156,10 @@ a {
   z-index: 1;
 }
 
-/* Logo pages intérieures : petit format + voile crème pour éviter le choc dur sur barre noire */
-.header-logo-link {
-  display: flex;
-  align-items: center;
-  flex-shrink: 0;
-  border-radius: var(--radius-sm);
-  transition: opacity var(--duration) var(--ease-out);
-}
-
-.header-logo-link:hover {
-  opacity: 0.92;
-}
-
-.header-logo-img {
-  display: block;
-  height: 40px;
-  width: auto;
-  max-width: min(118px, 30vw);
-  object-fit: contain;
-  padding: 5px 8px;
-  border-radius: 8px;
-  background: linear-gradient(180deg, rgba(245, 240, 232, 0.2) 0%, rgba(245, 240, 232, 0.08) 100%);
-  box-shadow:
-    inset 0 1px 0 rgba(255, 255, 255, 0.07),
-    0 0 0 1px rgba(201, 168, 130, 0.22);
-}
-
 .header-tools {
   display: flex;
   align-items: center;
   justify-content: flex-end;
-  flex: 1;
-  min-width: 0;
   gap: clamp(0.75rem, 2vw, 1.25rem);
   flex-wrap: wrap;
 }
@@ -1188,12 +1159,6 @@ a {
 
   .main-nav {
     flex-wrap: wrap;
-  }
-
-  .header-logo-img {
-    height: 34px;
-    max-width: min(100px, 36vw);
-    padding: 4px 6px;
   }
 
   .menu-tab {
