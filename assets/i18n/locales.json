@@ -34,7 +34,6 @@
   "index": {
     "kicker": { "fr": "Bienvenue", "en": "Welcome", "de": "Willkommen" },
     "titleMain": { "fr": "La Paix La Grange", "en": "La Paix La Grange", "de": "La Paix La Grange" },
-    "tagline": { "fr": "Une table sincère, une expérience précieuse.", "en": "An honest table, a precious experience.", "de": "Ein ehrlicher Tisch, ein kostbares Erlebnis." },
     "btnCarte": { "fr": "Découvrir la carte", "en": "Discover the menu", "de": "Speisekarte entdecken" },
     "btnReserve": { "fr": "Réserver une table", "en": "Book a table", "de": "Tisch reservieren" },
     "cardMaisonTitle": { "fr": "La maison", "en": "The house", "de": "Das Haus" },
