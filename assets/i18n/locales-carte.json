@@ -42,11 +42,6 @@
         "fr": "Menu enfant",
         "en": "Children’s menu",
         "de": "Kindermenü"
-      },
-      "degustation": {
-        "fr": "Menu dégustation",
-        "en": "Tasting menu",
-        "de": "Degustationsmenü"
       }
     },
     "h": {
@@ -99,11 +94,6 @@
         "fr": "Menu enfant",
         "en": "Children’s menu",
         "de": "Kindermenü"
-      },
-      "menuDeg": {
-        "fr": "Menu dégustation – 54.– CHF",
-        "en": "Tasting menu – CHF 54",
-        "de": "Degustationsmenü – 54.– CHF"
       }
     },
     "ap": {
@@ -450,33 +440,6 @@
           "en": "<strong>Main choice:</strong> pasta bolognese (house sauce) or house pork schnitzel, fries & vegetables.<br><strong>Dessert:</strong> one scoop of ice cream of your choice.",
           "de": "<strong>Hauptgericht nach Wahl:</strong> Pasta Bolognese (hausgemacht) oder Schweineschnitzel, Pommes & Gemüse.<br><strong>Dessert:</strong> eine Kugel Eis nach Wahl."
         }
-      }
-    },
-    "deg": {
-      "m1": {
-        "fr": "<strong>Mise en bouche</strong><br>Selon inspiration du chef.",
-        "en": "<strong>Amuse-bouche</strong><br>Chef’s inspiration.",
-        "de": "<strong>Amuse-Gueule</strong><br>nach Inspiration des Küchenchefs."
-      },
-      "m2": {
-        "fr": "<strong>Entrée</strong><br>Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise.",
-        "en": "<strong>Starter</strong><br>Spring asparagus, marinated cherry tomatoes, light raspberry vinegar cream.",
-        "de": "<strong>Vorspeise</strong><br>Frühlings-Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme."
-      },
-      "m3": {
-        "fr": "<strong>Plat au choix</strong><br>Blanquette de veau à l’ancienne, champignons, carottes & riz<br>ou suprême de volaille fermière, sauce aux chanterelles & grenailles rôties au romarin<br>ou tagliatelles à la crème de truffe d’été.",
-        "en": "<strong>Main choice</strong><br>Classic veal blanquette, mushrooms, carrots & rice<br>or farm chicken supreme, chanterelle sauce & rosemary potatoes<br>or tagliatelle with summer truffle cream.",
-        "de": "<strong>Hauptgang nach Wahl</strong><br>Kalbsblanquette, Pilze, Karotten & Reis<br>oder Bauernhähnchen-Supreme, Pfifferlingssauce & Rosmarin-Kartoffeln<br>oder Tagliatelle mit Sommertrüffel-Creme."
-      },
-      "m4": {
-        "fr": "<strong>Dessert</strong><br>Crème brûlée parfumée au Cointreau, éclat de fruits frais<br>ou glaces arrosées.",
-        "en": "<strong>Dessert</strong><br>Cointreau crème brûlée, fresh fruit<br>or liqueur ice creams.",
-        "de": "<strong>Dessert</strong><br>Cointreau-Crème brülee, frisches Obst<br>oder Eis mit Likör."
-      },
-      "m5": {
-        "fr": "<strong>Option fromages</strong><br>Assiette de fromages de la région – +10.– CHF.",
-        "en": "<strong>Cheese option</strong><br>Regional cheese plate – +CHF 10.",
-        "de": "<strong>Käse-Option</strong><br>Regionale Käseauswahl – +10.– CHF."
       }
     }
   }

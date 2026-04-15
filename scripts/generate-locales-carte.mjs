@@ -30,8 +30,7 @@ const carte = {
     plats: L('Plats', 'Main courses', 'Hauptgänge'),
     coin: L('Coin montagnard', 'Mountain corner', 'Berg-Ecke'),
     desserts: L('Desserts', 'Desserts', 'Desserts'),
-    enfant: L('Menu enfant', 'Children’s menu', 'Kindermenü'),
-    degustation: L('Menu dégustation', 'Tasting menu', 'Degustationsmenü')
+    enfant: L('Menu enfant', 'Children’s menu', 'Kindermenü')
   },
   h: {
     share: L('À partager', 'To share', 'Zum Teilen'),
@@ -43,8 +42,7 @@ const carte = {
     suggestions: L('Suggestions du moment', 'Chef’s suggestions', 'Aktuelle Empfehlungen'),
     desserts: L('Desserts', 'Desserts', 'Desserts'),
     glaces: L('Coupes glacées', 'Ice cream sundaes', 'Eisbecher'),
-    menuEnfant: L('Menu enfant', 'Children’s menu', 'Kindermenü'),
-    menuDeg: L('Menu dégustation – 54.– CHF', 'Tasting menu – CHF 54', 'Degustationsmenü – 54.– CHF')
+    menuEnfant: L('Menu enfant', 'Children’s menu', 'Kindermenü')
   },
   ap: {
     i1: {
@@ -167,17 +165,6 @@ const carte = {
         '<strong>Hauptgericht nach Wahl:</strong> Pasta Bolognese (hausgemacht) oder Schweineschnitzel, Pommes & Gemüse.<br><strong>Dessert:</strong> eine Kugel Eis nach Wahl.'
       )
     }
-  },
-  deg: {
-    m1: L('<strong>Mise en bouche</strong><br>Selon inspiration du chef.', '<strong>Amuse-bouche</strong><br>Chef’s inspiration.', '<strong>Amuse-Gueule</strong><br>nach Inspiration des Küchenchefs.'),
-    m2: L('<strong>Entrée</strong><br>Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise.', '<strong>Starter</strong><br>Spring asparagus, marinated cherry tomatoes, light raspberry vinegar cream.', '<strong>Vorspeise</strong><br>Frühlings-Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme.'),
-    m3: L(
-      '<strong>Plat au choix</strong><br>Blanquette de veau à l’ancienne, champignons, carottes & riz<br>ou suprême de volaille fermière, sauce aux chanterelles & grenailles rôties au romarin<br>ou tagliatelles à la crème de truffe d’été.',
-      '<strong>Main choice</strong><br>Classic veal blanquette, mushrooms, carrots & rice<br>or farm chicken supreme, chanterelle sauce & rosemary potatoes<br>or tagliatelle with summer truffle cream.',
-      '<strong>Hauptgang nach Wahl</strong><br>Kalbsblanquette, Pilze, Karotten & Reis<br>oder Bauernhähnchen-Supreme, Pfifferlingssauce & Rosmarin-Kartoffeln<br>oder Tagliatelle mit Sommertrüffel-Creme.'
-    ),
-    m4: L('<strong>Dessert</strong><br>Crème brûlée parfumée au Cointreau, éclat de fruits frais<br>ou glaces arrosées.', '<strong>Dessert</strong><br>Cointreau crème brûlée, fresh fruit<br>or liqueur ice creams.', '<strong>Dessert</strong><br>Cointreau-Crème brülee, frisches Obst<br>oder Eis mit Likör.'),
-    m5: L('<strong>Option fromages</strong><br>Assiette de fromages de la région – +10.– CHF.', '<strong>Cheese option</strong><br>Regional cheese plate – +CHF 10.', '<strong>Käse-Option</strong><br>Regionale Käseauswahl – +10.– CHF.')
   }
 };
 
