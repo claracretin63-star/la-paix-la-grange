@@ -1,6 +1,6 @@
 /**
  * Génère assets/i18n/locales-carte.json — lancer : node scripts/generate-locales-carte.mjs
- * Modifier les textes ici puis régénérer le fichier JSON.
+ * Site uniquement en français : une seule chaîne par entrée (les arguments en/de historiques sont ignorés).
  */
 import fs from 'fs';
 import path from 'path';
@@ -9,7 +9,7 @@ import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
 const out = path.join(__dirname, '../assets/i18n/locales-carte.json');
 
-const L = (fr, en, de) => ({ fr, en, de });
+const L = (fr) => fr;
 
 const carte = {
   hero: {
