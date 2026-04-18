@@ -154,9 +154,9 @@ const carte = {
     i1: {
       name: L('Formule – 15.– CHF', 'Set menu – CHF 15', 'Menü – 15.– CHF'),
       desc: L(
-        '<strong>Salade verte</strong><br><br><strong>Plat au choix :</strong><br>Macaronis du mini berger<br>ou<br>Tagliatelles à la bolognaise<br>ou<br>Nuggets, frites & légumes<br><br><strong>Dessert :</strong> 1 boule de glace au choix.',
-        '<strong>Green salad</strong><br><br><strong>Main choice:</strong><br>Mini shepherd’s macaroni<br>or<br>Tagliatelle bolognese<br>or<br>Nuggets, fries & vegetables<br><br><strong>Dessert:</strong> one scoop of ice cream of your choice.',
-        '<strong>Grüner Salat</strong><br><br><strong>Hauptgericht nach Wahl:</strong><br>Mini-Hirten-Makkaroni<br>oder<br>Tagliatelle Bolognese<br>oder<br>Nuggets, Pommes & Gemüse<br><br><strong>Dessert:</strong> eine Kugel Eis nach Wahl.'
+        '<div class="menu-enfant-body"><div class="menu-enfant-part"><p class="menu-enfant-part-title">Entrée</p><p class="menu-enfant-part-text">Salade verte</p></div><div class="menu-enfant-part"><p class="menu-enfant-part-title">Plat au choix</p><ul class="menu-enfant-options"><li>Macaronis du mini berger</li><li>Tagliatelles à la bolognaise</li><li>Nuggets, frites & légumes</li></ul></div><div class="menu-enfant-part"><p class="menu-enfant-part-title">Dessert</p><p class="menu-enfant-part-text">1 boule de glace au choix</p></div></div>',
+        '<div class="menu-enfant-body"><div class="menu-enfant-part"><p class="menu-enfant-part-title">Starter</p><p class="menu-enfant-part-text">Green salad</p></div><div class="menu-enfant-part"><p class="menu-enfant-part-title">Main choice</p><ul class="menu-enfant-options"><li>Mini shepherd’s macaroni</li><li>Tagliatelle bolognese</li><li>Nuggets, fries & vegetables</li></ul></div><div class="menu-enfant-part"><p class="menu-enfant-part-title">Dessert</p><p class="menu-enfant-part-text">One scoop of ice cream of your choice</p></div></div>',
+        '<div class="menu-enfant-body"><div class="menu-enfant-part"><p class="menu-enfant-part-title">Vorspeise</p><p class="menu-enfant-part-text">Grüner Salat</p></div><div class="menu-enfant-part"><p class="menu-enfant-part-title">Hauptgericht nach Wahl</p><ul class="menu-enfant-options"><li>Mini-Hirten-Makkaroni</li><li>Tagliatelle Bolognese</li><li>Nuggets, Pommes & Gemüse</li></ul></div><div class="menu-enfant-part"><p class="menu-enfant-part-title">Dessert</p><p class="menu-enfant-part-text">Eine Kugel Eis nach Wahl</p></div></div>'
       )
     }
   }
