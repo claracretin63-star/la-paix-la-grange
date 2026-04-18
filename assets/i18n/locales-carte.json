@@ -99,50 +99,50 @@
     "ap": {
       "i1": {
         "name": {
-          "fr": "Planche du Terroir – Fromages & salaisons – 28.– CHF",
-          "en": "Terroir board – cheeses & charcuterie – CHF 28",
-          "de": "Terroir-Platte – Käse & Salami – 28.– CHF"
+          "fr": "Planche du Terroir – Fromages & salaisons – 17.– – 28.– CHF",
+          "en": "Terroir board – cheeses & charcuterie – CHF 17–28",
+          "de": "Terroir-Platte – Käse & Salami – 17.– – 28.– CHF"
         },
         "desc": {
-          "fr": "Fromages et salaisons de la région, pain de campagne toasté, pickles maison & chutney de fruits.",
-          "en": "Regional cheeses and cured meats, toasted country bread, house pickles & fruit chutney.",
-          "de": "Regionale Käse und Salami, geröstetes Landbrot, hausgemachte Pickles & Fruchtchutney."
+          "fr": "Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits.",
+          "en": "Valais cheeses and cured meats, rye bread, house pickles & fruit chutney.",
+          "de": "Walliser Käse und Salami, Roggenbrot, hausgemachte Pickles & Fruchtchutney."
         }
       },
       "i2": {
         "name": {
-          "fr": "Terrine de campagne maison, parfumée au cognac – 19.– CHF",
-          "en": "House terrine with cognac – CHF 19",
-          "de": "Hausgemachte Terrine mit Cognac – 19.– CHF"
+          "fr": "Terrine de campagne maison, parfumée au cognac – 18.– 180 g",
+          "en": "House terrine with cognac – CHF 18 · 180 g",
+          "de": "Hausgemachte Terrine mit Cognac – 18.– 180 g"
         },
         "desc": {
-          "fr": "Servie en bocal, pain de campagne toasté & pickles maison.",
-          "en": "Served in a jar, toasted country bread & house pickles.",
-          "de": "Im Glas serviert, geröstetes Landbrot & hausgemachte Pickles."
+          "fr": "Pain de seigle & pickles maison.",
+          "en": "Rye bread & house pickles.",
+          "de": "Roggenbrot & hausgemachte Pickles."
         }
       },
       "i3": {
         "name": {
-          "fr": "Rillettes de poulet au thym & vin blanc suisse – 17.– CHF",
-          "en": "Chicken rillettes with thyme & Swiss white wine – CHF 17",
-          "de": "Hähnchen-Rillettes mit Thymian & Schweizer Weisswein – 17.– CHF"
+          "fr": "Rillettes de poulet maison au thym – 16.– 180 g",
+          "en": "House chicken rillettes with thyme – CHF 16 · 180 g",
+          "de": "Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– 180 g"
         },
         "desc": {
-          "fr": "Rillettes maison de volaille confite, pain de campagne toasté & pickles maison.",
-          "en": "House confit chicken rillettes, toasted country bread & house pickles.",
-          "de": "Hausgemacht von confitierter Geflügel, geröstetes Landbrot & Pickles."
+          "fr": "Pain de seigle & pickles maison.",
+          "en": "Rye bread & house pickles.",
+          "de": "Roggenbrot & hausgemachte Pickles."
         }
       },
       "i4": {
         "name": {
-          "fr": "Planche végétarienne – 24.– CHF",
+          "fr": "Planche Végétarienne – 24.– CHF",
           "en": "Vegetarian board – CHF 24",
           "de": "Vegetarische Platte – 24.– CHF"
         },
         "desc": {
-          "fr": "Houmous de betterave, tapenade, tomates & olives marinées, feta, gressins & chutney de fruits.",
-          "en": "Beet hummus, tapenade, marinated tomatoes & olives, feta, grissini & fruit chutney.",
-          "de": "Rote-Bete-Hummus, Tapenade, marinierte Tomaten & Oliven, Feta, Grissini & Chutney."
+          "fr": "Houmous de betterave, tapenade, tomates, olives marinées, feta, gressins & chutney de fruits.",
+          "en": "Beet hummus, tapenade, tomatoes, marinated olives, feta, grissini & fruit chutney.",
+          "de": "Rote-Bete-Hummus, Tapenade, Tomaten, marinierte Oliven, Feta, Grissini & Fruchtchutney."
         }
       }
     },

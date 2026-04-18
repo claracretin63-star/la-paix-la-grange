@@ -47,27 +47,27 @@ const carte = {
   ap: {
     i1: {
       name: L(
-        'Planche du Terroir – Fromages & salaisons – 28.– CHF',
-        'Terroir board – cheeses & charcuterie – CHF 28',
-        'Terroir-Platte – Käse & Salami – 28.– CHF'
+        'Planche du Terroir – Fromages & salaisons – 17.– – 28.– CHF',
+        'Terroir board – cheeses & charcuterie – CHF 17–28',
+        'Terroir-Platte – Käse & Salami – 17.– – 28.– CHF'
       ),
       desc: L(
-        'Fromages et salaisons de la région, pain de campagne toasté, pickles maison & chutney de fruits.',
-        'Regional cheeses and cured meats, toasted country bread, house pickles & fruit chutney.',
-        'Regionale Käse und Salami, geröstetes Landbrot, hausgemachte Pickles & Fruchtchutney.'
+        'Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits.',
+        'Valais cheeses and cured meats, rye bread, house pickles & fruit chutney.',
+        'Walliser Käse und Salami, Roggenbrot, hausgemachte Pickles & Fruchtchutney.'
       )
     },
     i2: {
-      name: L('Terrine de campagne maison, parfumée au cognac – 19.– CHF', 'House terrine with cognac – CHF 19', 'Hausgemachte Terrine mit Cognac – 19.– CHF'),
-      desc: L('Servie en bocal, pain de campagne toasté & pickles maison.', 'Served in a jar, toasted country bread & house pickles.', 'Im Glas serviert, geröstetes Landbrot & hausgemachte Pickles.')
+      name: L('Terrine de campagne maison, parfumée au cognac – 18.– 180 g', 'House terrine with cognac – CHF 18 · 180 g', 'Hausgemachte Terrine mit Cognac – 18.– 180 g'),
+      desc: L('Pain de seigle & pickles maison.', 'Rye bread & house pickles.', 'Roggenbrot & hausgemachte Pickles.')
     },
     i3: {
-      name: L('Rillettes de poulet au thym & vin blanc suisse – 17.– CHF', 'Chicken rillettes with thyme & Swiss white wine – CHF 17', 'Hähnchen-Rillettes mit Thymian & Schweizer Weisswein – 17.– CHF'),
-      desc: L('Rillettes maison de volaille confite, pain de campagne toasté & pickles maison.', 'House confit chicken rillettes, toasted country bread & house pickles.', 'Hausgemacht von confitierter Geflügel, geröstetes Landbrot & Pickles.')
+      name: L('Rillettes de poulet maison au thym – 16.– 180 g', 'House chicken rillettes with thyme – CHF 16 · 180 g', 'Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– 180 g'),
+      desc: L('Pain de seigle & pickles maison.', 'Rye bread & house pickles.', 'Roggenbrot & hausgemachte Pickles.')
     },
     i4: {
-      name: L('Planche végétarienne – 24.– CHF', 'Vegetarian board – CHF 24', 'Vegetarische Platte – 24.– CHF'),
-      desc: L('Houmous de betterave, tapenade, tomates & olives marinées, feta, gressins & chutney de fruits.', 'Beet hummus, tapenade, marinated tomatoes & olives, feta, grissini & fruit chutney.', 'Rote-Bete-Hummus, Tapenade, marinierte Tomaten & Oliven, Feta, Grissini & Chutney.')
+      name: L('Planche Végétarienne – 24.– CHF', 'Vegetarian board – CHF 24', 'Vegetarische Platte – 24.– CHF'),
+      desc: L('Houmous de betterave, tapenade, tomates, olives marinées, feta, gressins & chutney de fruits.', 'Beet hummus, tapenade, tomatoes, marinated olives, feta, grissini & fruit chutney.', 'Rote-Bete-Hummus, Tapenade, Tomaten, marinierte Oliven, Feta, Grissini & Fruchtchutney.')
     }
   },
   ent: {
