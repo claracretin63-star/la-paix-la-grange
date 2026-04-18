@@ -8,14 +8,14 @@
       },
       "intro": {
         "fr": "Une cuisine de saison, inspirée des produits locaux et des arrivages du marché.<br>Menu du jour proposé du mercredi au vendredi.<br>Suggestion du moment renouvelée au gré des produits et de l’envie du chef.",
-        "en": "Seasonal cuisine inspired by local produce and market arrivals.<br>Daily menu Wednesday to Friday.<br>Chef’s suggestions change with produce and inspiration.",
+        "en": "Seasonal cooking inspired by local produce and the finest market ingredients.<br>Set lunch menu, Wednesday to Friday.<br>Chef’s recommendations evolve with the seasons and the inspiration of the kitchen.",
         "de": "Saisonküche aus regionalen Produkten und Marktware.<br>Tagesmenü von Mittwoch bis Freitag.<br>Empfehlungen des Küchenchefs je nach Angebot und Laune."
       }
     },
     "tabs": {
       "share": {
         "fr": "À partager",
-        "en": "To share",
+        "en": "Sharing plates",
         "de": "Zum Teilen"
       },
       "entrees": {
@@ -25,12 +25,12 @@
       },
       "plats": {
         "fr": "Plats",
-        "en": "Main courses",
+        "en": "Mains",
         "de": "Hauptgänge"
       },
       "coin": {
         "fr": "Coin montagnard",
-        "en": "Mountain corner",
+        "en": "Alpine classics",
         "de": "Berg-Ecke"
       },
       "desserts": {
@@ -47,7 +47,7 @@
     "h": {
       "share": {
         "fr": "À partager",
-        "en": "To share",
+        "en": "Sharing plates",
         "de": "Zum Teilen"
       },
       "entrees": {
@@ -57,22 +57,22 @@
       },
       "plats": {
         "fr": "Plats",
-        "en": "Main courses",
+        "en": "Mains",
         "de": "Hauptgänge"
       },
       "coin": {
         "fr": "Coin montagnard",
-        "en": "Mountain corner",
+        "en": "Alpine classics",
         "de": "Berg-Ecke"
       },
       "fondues": {
         "fr": "Fondues au fromage (dès 2 pers.)",
-        "en": "Cheese fondues (from 2 guests)",
+        "en": "Cheese fondues (minimum two diners)",
         "de": "Käsefondues (ab 2 Pers.)"
       },
       "fonduesViande": {
         "fr": "Fondues de viande (dès 2 pers.)",
-        "en": "Meat fondues (from 2 guests)",
+        "en": "Meat fondues (minimum two diners)",
         "de": "Fleischfondues (ab 2 Pers.)"
       },
       "desserts": {
@@ -90,48 +90,48 @@
       "i1": {
         "name": {
           "fr": "Planche du Terroir – Fromages & salaisons – 17.– CHF la petite · 28.– CHF la grande",
-          "en": "Terroir board – cheeses & charcuterie – CHF 17 small · CHF 28 large",
+          "en": "Terroir board – cheese & charcuterie – CHF 17 (small) · CHF 28 (large)",
           "de": "Terroir-Platte – Käse & Salami – 17.– CHF klein · 28.– CHF gross"
         },
         "desc": {
           "fr": "Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits.",
-          "en": "Valais cheeses and cured meats, rye bread, house pickles & fruit chutney.",
+          "en": "Valais cheeses and charcuterie, rye bread, house pickles and fruit chutney.",
           "de": "Walliser Käse und Salami, Roggenbrot, hausgemachte Pickles & Fruchtchutney."
         }
       },
       "i2": {
         "name": {
           "fr": "Terrine de campagne maison, parfumée au cognac – 18.– CHF · 180 g",
-          "en": "House terrine with cognac – CHF 18 · 180 g",
+          "en": "Home-made farmhouse terrine with cognac – CHF 18 · 180 g",
           "de": "Hausgemachte Terrine mit Cognac – 18.– CHF · 180 g"
         },
         "desc": {
           "fr": "Pain de seigle & pickles maison.",
-          "en": "Rye bread & house pickles.",
+          "en": "Rye bread and house pickles.",
           "de": "Roggenbrot & hausgemachte Pickles."
         }
       },
       "i3": {
         "name": {
           "fr": "Rillettes de poulet maison au thym – 16.– CHF · 180 g",
-          "en": "House chicken rillettes with thyme – CHF 16 · 180 g",
+          "en": "Home-made chicken rillettes with thyme – CHF 16 · 180 g",
           "de": "Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– CHF · 180 g"
         },
         "desc": {
           "fr": "Pain de seigle & pickles maison.",
-          "en": "Rye bread & house pickles.",
+          "en": "Rye bread and house pickles.",
           "de": "Roggenbrot & hausgemachte Pickles."
         }
       },
       "i4": {
         "name": {
           "fr": "Planche Végétarienne – 24.– CHF",
-          "en": "Vegetarian board – CHF 24",
+          "en": "Vegetarian sharing board – CHF 24",
           "de": "Vegetarische Platte – 24.– CHF"
         },
         "desc": {
           "fr": "Houmous de betterave, tapenade, tomates, olives marinées, feta, gressins & chutney de fruits.",
-          "en": "Beet hummus, tapenade, tomatoes, marinated olives, feta, grissini & fruit chutney.",
+          "en": "Beetroot hummus, tapenade, tomatoes, marinated olives, feta, grissini and fruit chutney.",
           "de": "Rote-Bete-Hummus, Tapenade, Tomaten, marinierte Oliven, Feta, Grissini & Fruchtchutney."
         }
       }
@@ -140,47 +140,47 @@
       "i1": {
         "name": {
           "fr": "Salade verte, vinaigrette & croûtons maison – 7.– CHF la petite · 13.– CHF la grande",
-          "en": "Green salad, vinaigrette & house croutons – CHF 7 small · CHF 13 large",
+          "en": "Mixed leaf salad, vinaigrette and home-made croutons – CHF 7 (small) · CHF 13 (large)",
           "de": "Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– CHF klein · 13.– CHF gross"
         }
       },
       "i2": {
         "name": {
           "fr": "Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– CHF la petite · 16.– CHF la grande",
-          "en": "Spring salad, crunchy raw vegetables, parmesan shavings & house vinaigrette – CHF 9 small · CHF 16 large",
+          "en": "Spring salad, crisp raw vegetables, parmesan shavings and house vinaigrette – CHF 9 (small) · CHF 16 (large)",
           "de": "Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– CHF klein · 16.– CHF gross"
         }
       },
       "i3": {
         "name": {
           "fr": "Velouté d’asperges maison – 11.– CHF",
-          "en": "House asparagus velouté – CHF 11",
+          "en": "Home-made cream of asparagus soup – CHF 11",
           "de": "Hausgemachter Spargel-Velouté – 11.– CHF"
         }
       },
       "i4": {
         "name": {
           "fr": "Salade de chèvre chaud croustillant, vinaigrette au miel & noix torréfiées – 17.– CHF",
-          "en": "Crispy warm goat cheese salad, honey & toasted walnut dressing – CHF 17",
+          "en": "Crispy fried goat’s cheese salad, honey dressing and toasted walnuts – CHF 17",
           "de": "Knuspriger warmer Ziegenkäse-Salat, Honig & geröstete Walnüsse – 17.– CHF"
         }
       },
       "i5": {
         "name": {
           "fr": "Duo d’asperges vertes & blanches, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF",
-          "en": "Duo of green & white asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19",
+          "en": "Green and white asparagus duo, marinated cherry tomatoes and light raspberry vinegar cream – CHF 19",
           "de": "Duo grüner & weisser Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF"
         }
       },
       "i6": {
         "name": {
           "fr": "Tartare de bœuf coupé au couteau, pickles & toasts grillés",
-          "en": "Hand-cut beef tartare, pickles & grilled toasts",
+          "en": "Hand-chopped beef tartare, pickles and grilled toast",
           "de": "Handgeschnittenes Rindertatar, Pickles & geröstete Toasts"
         },
         "desc": {
           "fr": "75 g – 21.– CHF · 150 g (servi avec frites) – 38.– CHF",
-          "en": "75 g – CHF 21 · 150 g (with fries) – CHF 38",
+          "en": "75 g – CHF 21 · 150 g (served with chips) – CHF 38",
           "de": "75 g – 21.– CHF · 150 g (mit Pommes) – 38.– CHF"
         }
       }
@@ -189,54 +189,54 @@
       "i1": {
         "name": {
           "fr": "Suprême de volaille, sauce aux morilles & grenailles rôties au romarin – 32.– CHF",
-          "en": "Chicken supreme, morel sauce & rosemary roast potatoes – CHF 32",
+          "en": "Supreme of chicken, morel sauce and rosemary roast new potatoes – CHF 32",
           "de": "Geflügel-Supreme, Morchelsoße & Rosmarin-Kartoffeln – 32.– CHF"
         }
       },
       "i2": {
         "name": {
           "fr": "Entrecôte de bœuf tranchée, sauce beurre maître d’hôtel, frites croustillantes 200 g – 41.– CHF",
-          "en": "Sliced rib-eye, maître d’hôtel butter sauce, crispy fries 200 g – CHF 41",
+          "en": "Sliced rib-eye steak, maître d’hôtel butter and crisp hand-cut chips (200 g) – CHF 41",
           "de": "Geschnittenes Rinderentrecôte, Kräuterbutter-Sauce, knusprige Pommes 200 g – 41.– CHF"
         }
       },
       "i3": {
         "name": {
           "fr": "Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison 200 g – 47.– CHF",
-          "en": "Beef fillet on hot stone, crispy fries, pepper sauce & seasonal vegetables 200 g – CHF 47",
+          "en": "Beef fillet on the hot stone, crisp chips, peppercorn sauce and seasonal vegetables (200 g) – CHF 47",
           "de": "Rinderfilet auf heißem Stein, knusprige Pommes, Pfeffersauce & saisonales Gemüse 200 g – 47.– CHF"
         }
       },
       "i4": {
         "name": {
           "fr": "Escalope de veau viennoise, confiture d’airelle, frites croustillantes – 46.– CHF",
-          "en": "Wiener-style veal escalope, lingonberry jam, crispy fries – CHF 46",
+          "en": "Viennese veal schnitzel, lingonberry compôte and crisp chips – CHF 46",
           "de": "Kalbsschnitzel Wiener Art, Preiselbeerkonfitüre, knusprige Pommes – 46.– CHF"
         }
       },
       "i5": {
         "name": {
           "fr": "Risotto crémeux aux petits pois & champignons poêlés – 29.– CHF",
-          "en": "Creamy pea risotto & sautéed mushrooms – CHF 29",
+          "en": "Creamy pea risotto with sautéed mushrooms – CHF 29",
           "de": "Cremiges Erbsen-Risotto & gebratene Pilze – 29.– CHF"
         }
       },
       "i6": {
         "name": {
           "fr": "Tagliatelles à la crème de truffe d’été – 35.– CHF",
-          "en": "Tagliatelle with summer truffle cream – CHF 35",
+          "en": "Tagliatelle with fresh summer truffle cream – CHF 35",
           "de": "Tagliatelle mit Sommertrüffel-Creme – 35.– CHF"
         }
       },
       "i7": {
         "name": {
           "fr": "Le mijoté du chef – 38.– CHF",
-          "en": "Chef’s stew – CHF 38",
+          "en": "Chef’s slow-cooked braise – CHF 38",
           "de": "Schmortopf des Küchenchefs – 38.– CHF"
         },
         "desc": {
           "fr": "Joue de bœuf, jus corsé maison accompagné d’une purée de pommes de terre à l’ancienne & brocolis.",
-          "en": "Beef cheek, rich house jus with old-fashioned potato purée & broccoli.",
+          "en": "Beef cheek in a rich house jus, creamed potato and broccoli.",
           "de": "Rinderbacke, kräftiger Haussauce, Kartoffelpüree nach Art des Hauses & Brokkoli."
         }
       }
@@ -245,14 +245,14 @@
       "i1": {
         "name": {
           "fr": "Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF",
-          "en": "Shepherd’s macaroni, potatoes, gratin cheese & roasted onions – CHF 25",
+          "en": "Alpine macaroni gratin with potato, melted cheese and caramelised onion – CHF 25",
           "de": "Hirten-Makkaroni, Kartoffeln, überbackener Käse & geröstete Zwiebeln – 25.– CHF"
         }
       },
       "i2": {
         "name": {
           "fr": "Supplément lard tranché – 3.– CHF",
-          "en": "Sliced bacon supplement – CHF 3",
+          "en": "Extra sliced bacon – CHF 3",
           "de": "Speck-Zusatz – 3.– CHF"
         }
       }
@@ -261,34 +261,34 @@
       "i1": {
         "name": {
           "fr": "Fondue moitié-moitié dans le pain – 28.– CHF",
-          "en": "Half-and-half fondue in bread – CHF 28",
+          "en": "Moitié-moitié fondue baked in a bread loaf – CHF 28",
           "de": "Halb-Halb-Fondue im Brot – 28.– CHF"
         }
       },
       "i2": {
         "name": {
           "fr": "Fondue moitié-moitié – 28.– CHF",
-          "en": "Half-and-half fondue – CHF 28",
+          "en": "Classic moitié-moitié cheese fondue – CHF 28",
           "de": "Halb-Halb-Fondue – 28.– CHF"
         }
       },
       "i3": {
         "name": {
           "fr": "Fondue tomate – 28.– CHF",
-          "en": "Tomato fondue – CHF 28",
+          "en": "Tomato cheese fondue – CHF 28",
           "de": "Tomaten-Fondue – 28.– CHF"
         }
       },
       "i4": {
         "name": {
           "fr": "Fondue à la truffe – 32.– CHF",
-          "en": "Truffle fondue – CHF 32",
+          "en": "Truffle cheese fondue – CHF 32",
           "de": "Trüffel-Fondue – 32.– CHF"
         }
       },
       "note": {
         "fr": "2.– CHF pommes de terre grenailles (sauf fondue tomate).",
-        "en": "CHF 2 baby potatoes (except tomato fondue).",
+        "en": "CHF 2 supplement for new potatoes (excludes tomato fondue).",
         "de": "2.– CHF Drillinge (ausser Tomaten-Fondue)."
       }
     },
@@ -296,62 +296,62 @@
       "i1": {
         "name": {
           "fr": "Fondue chinoise 200 g – 40.– CHF",
-          "en": "Chinese fondue 200 g – CHF 40",
+          "en": "Fondue chinoise (200 g) – CHF 40",
           "de": "Chinesisches Fondue 200 g – 40.– CHF"
         },
         "desc": {
           "fr": "Morceaux de viande cuits dans un bouillon de légumes.",
-          "en": "Meat pieces cooked in vegetable broth.",
+          "en": "Thinly sliced meat cooked at the table in vegetable consommé.",
           "de": "Fleischstücke im Gemüsefond gegart."
         }
       },
       "i2": {
         "name": {
           "fr": "Fondue Bacchus 200 g – 40.– CHF",
-          "en": "Bacchus fondue 200 g – CHF 40",
+          "en": "Bacchus fondue (200 g) – CHF 40",
           "de": "Bacchus-Fondue 200 g – 40.– CHF"
         },
         "desc": {
           "fr": "Morceaux de viande cuits dans du vin rouge.",
-          "en": "Meat pieces cooked in red wine.",
+          "en": "Thinly sliced meat cooked at the table in red wine.",
           "de": "Fleischstücke in Rotwein gegart."
         }
       },
       "note": {
         "fr": "Servies avec sauces maison, frites et salade.",
-        "en": "Served with house sauces, fries and salad.",
+        "en": "Served with house sauces, chips and green salad.",
         "de": "Mit hausgemachten Saucen, Pommes und Salat."
       }
     },
     "platNote": {
       "fr": "<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Morilles, Poivre.",
-      "en": "<strong>Side supplement</strong> – CHF 5<br>Fries, green salad, seasonal vegetable sauté, fresh tagliatelle.<br><br><strong>Truffle fries supplement</strong> – CHF 8<br><br><strong>Sauce supplement</strong> – CHF 5.50<br>Café de Paris, morels, pepper.",
+      "en": "<strong>Extra side</strong> – CHF 5<br>Chips, mixed leaf salad, seasonal sautéed vegetables, fresh tagliatelle.<br><br><strong>Truffle chips supplement</strong> – CHF 8<br><br><strong>Extra sauce</strong> – CHF 5.50<br>Café de Paris, morels, peppercorn.",
       "de": "<strong>Beilage</strong> – 5.– CHF<br>Pommes, grüner Salat, saisonales Gemüse, frische Tagliatelle.<br><br><strong>Trüffel-Pommes</strong> – 8.– CHF<br><br><strong>Sauce</strong> – 5.50 CHF<br>Café de Paris, Morcheln, Pfeffer."
     },
     "desserts": {
       "i1": {
         "name": {
           "fr": "Parfait glacé à la vanille, éclats d’amandes et caramel beurre salé – 14.– CHF",
-          "en": "Vanilla frozen parfait, almond pieces & salted butter caramel – CHF 14",
+          "en": "Vanilla iced parfait, flaked almonds and salted caramel – CHF 14",
           "de": "Gefrorenes Vanilleparfait, Mandelstücke & Salzkaramell – 14.– CHF"
         }
       },
       "i2": {
         "name": {
           "fr": "Profiteroles, glace vanille & sauce chocolat maison – 16.– CHF",
-          "en": "Profiteroles, vanilla ice cream & house chocolate sauce – CHF 16",
+          "en": "Profiteroles, vanilla ice cream and home-made chocolate sauce – CHF 16",
           "de": "Profiteroles, Vanilleeis & hausgemachte Schokosauce – 16.– CHF"
         }
       },
       "i3": {
         "name": {
           "fr": "Café gourmand – 16.– CHF",
-          "en": "Coffee & sweets – CHF 16",
+          "en": "Café gourmand – CHF 16",
           "de": "Kaffee & kleine Desserts – 16.– CHF"
         },
         "desc": {
           "fr": "Café ou thé accompagné de mini desserts.",
-          "en": "Coffee or tea with mini desserts.",
+          "en": "Coffee or tea with a selection of miniature pastries.",
           "de": "Kaffee oder Tee mit kleinen Desserts."
         }
       },
@@ -363,19 +363,19 @@
         },
         "desc": {
           "fr": "Glace vanille nappée d’un espresso chaud.",
-          "en": "Vanilla ice cream with hot espresso.",
+          "en": "Vanilla ice cream drowned in a hot espresso.",
           "de": "Vanilleeis mit heißem Espresso."
         }
       },
       "i5": {
         "name": {
           "fr": "Café ou Chocolat Liégeois – 11.– CHF",
-          "en": "Coffee or chocolate Liégeois – CHF 11",
+          "en": "Coffee or chocolate Liégeois sundae – CHF 11",
           "de": "Kaffee- oder Schokoladen-Liégeois – 11.– CHF"
         },
         "desc": {
           "fr": "Glace café/chocolat, nappage, chantilly.",
-          "en": "Coffee/chocolate ice cream, topping, whipped cream.",
+          "en": "Layered coffee or chocolate ice, sauce and whipped cream.",
           "de": "Kaffee-/Schokoeis, Topping, Sahne."
         }
       },
@@ -387,19 +387,19 @@
         },
         "desc": {
           "fr": "Glace vanille, chocolat chaud et chantilly.",
-          "en": "Vanilla ice cream, hot chocolate & cream.",
+          "en": "Vanilla ice cream, hot chocolate sauce and Chantilly cream.",
           "de": "Vanilleeis, heiße Schokolade & Sahne."
         }
       },
       "i7": {
         "name": {
           "fr": "Glaces arrosées – 14.– CHF",
-          "en": "Liqueur ice creams – CHF 14",
+          "en": "Liqueur-laced ice creams – CHF 14",
           "de": "Eis mit Likör – 14.– CHF"
         },
         "desc": {
           "fr": "Abricotine · Colonel · Poire.",
-          "en": "Abricotine · Colonel · Pear.",
+          "en": "Abricotine · Colonel · Poire William.",
           "de": "Abricotine · Colonel · Birne."
         }
       },
@@ -411,7 +411,7 @@
         },
         "desc": {
           "fr": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron).",
-          "en": "1 scoop – CHF 4 · 2 scoops – CHF 8<br>(Vanilla, Chocolate, Strawberry, Mocha, Stracciatella, Walnut, Pear, Apricot, Lemon).",
+          "en": "One scoop – CHF 4 · two scoops – CHF 8<br>(Vanilla, chocolate, strawberry, mocha, stracciatella, walnut, pear, apricot, lemon).",
           "de": "1 Kugel – 4.– CHF · 2 Kugeln – 8.– CHF<br>(Vanille, Schokolade, Erdbeere, Moka, Stracciatella, Nuss, Birne, Aprikose, Zitrone)."
         }
       }
@@ -420,12 +420,12 @@
       "i1": {
         "name": {
           "fr": "Formule – 15.– CHF",
-          "en": "Set menu – CHF 15",
+          "en": "Children’s menu – CHF 15",
           "de": "Menü – 15.– CHF"
         },
         "desc": {
           "fr": "<div class=\"menu-enfant-body\"><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Entrée</p><p class=\"menu-enfant-part-text\">Salade verte</p></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Plat au choix</p><ul class=\"menu-enfant-options\"><li>Macaronis du mini berger</li><li>Tagliatelles à la bolognaise</li><li>Nuggets, frites & légumes</li></ul></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Dessert</p><p class=\"menu-enfant-part-text\">1 boule de glace au choix</p></div></div>",
-          "en": "<div class=\"menu-enfant-body\"><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Starter</p><p class=\"menu-enfant-part-text\">Green salad</p></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Main choice</p><ul class=\"menu-enfant-options\"><li>Mini shepherd’s macaroni</li><li>Tagliatelle bolognese</li><li>Nuggets, fries & vegetables</li></ul></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Dessert</p><p class=\"menu-enfant-part-text\">One scoop of ice cream of your choice</p></div></div>",
+          "en": "<div class=\"menu-enfant-body\"><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Starter</p><p class=\"menu-enfant-part-text\">Green salad</p></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Main course (choose one)</p><ul class=\"menu-enfant-options\"><li>Mini Alpine macaroni gratin</li><li>Tagliatelle with Bolognese ragù</li><li>Chicken nuggets, chips and vegetables</li></ul></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Dessert</p><p class=\"menu-enfant-part-text\">One scoop of ice cream (flavour of choice)</p></div></div>",
           "de": "<div class=\"menu-enfant-body\"><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Vorspeise</p><p class=\"menu-enfant-part-text\">Grüner Salat</p></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Hauptgericht nach Wahl</p><ul class=\"menu-enfant-options\"><li>Mini-Hirten-Makkaroni</li><li>Tagliatelle Bolognese</li><li>Nuggets, Pommes & Gemüse</li></ul></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Dessert</p><p class=\"menu-enfant-part-text\">Eine Kugel Eis nach Wahl</p></div></div>"
         }
       }
