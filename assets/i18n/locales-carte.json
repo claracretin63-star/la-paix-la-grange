@@ -80,11 +80,6 @@
         "en": "Desserts",
         "de": "Desserts"
       },
-      "glaces": {
-        "fr": "Coupes glacées",
-        "en": "Ice cream sundaes",
-        "de": "Eisbecher"
-      },
       "menuEnfant": {
         "fr": "Menu enfant",
         "en": "Children’s menu",
@@ -336,57 +331,55 @@
     "desserts": {
       "i1": {
         "name": {
-          "fr": "Crème brûlée parfumée au Cointreau, éclat de fruits frais – 12.– CHF",
-          "en": "Cointreau crème brûlée, fresh fruit – CHF 12",
-          "de": "Cointreau-Crème brûlée, frisches Obst – 12.– CHF"
+          "fr": "Parfait glacé à la vanille, éclats d’amandes et caramel beurre salé – 14.– CHF",
+          "en": "Vanilla frozen parfait, almond pieces & salted butter caramel – CHF 14",
+          "de": "Gefrorenes Vanilleparfait, Mandelstücke & Salzkaramell – 14.– CHF"
         }
       },
       "i2": {
         "name": {
-          "fr": "Profiteroles, glace vanille & sauce chocolat maison – 12.– CHF",
-          "en": "Profiteroles, vanilla ice cream & house chocolate sauce – CHF 12",
-          "de": "Profiteroles, Vanilleeis & hausgemachte Schokosauce – 12.– CHF"
+          "fr": "Profiteroles, glace vanille & sauce chocolat maison – 16.– CHF",
+          "en": "Profiteroles, vanilla ice cream & house chocolate sauce – CHF 16",
+          "de": "Profiteroles, Vanilleeis & hausgemachte Schokosauce – 16.– CHF"
         }
       },
       "i3": {
         "name": {
-          "fr": "Café gourmand – 14.– CHF",
-          "en": "Coffee & sweets – CHF 14",
-          "de": "Kaffee & kleine Desserts – 14.– CHF"
+          "fr": "Café gourmand – 16.– CHF",
+          "en": "Coffee & sweets – CHF 16",
+          "de": "Kaffee & kleine Desserts – 16.– CHF"
         },
         "desc": {
-          "fr": "Café ou thé accompagné de mini desserts maison.",
-          "en": "Coffee or tea with mini house desserts.",
-          "de": "Kaffee oder Tee mit kleinen Desserts vom Haus."
+          "fr": "Café ou thé accompagné de mini desserts.",
+          "en": "Coffee or tea with mini desserts.",
+          "de": "Kaffee oder Tee mit kleinen Desserts."
         }
       },
       "i4": {
         "name": {
-          "fr": "Affogato – 8.– CHF",
-          "en": "Affogato – CHF 8",
-          "de": "Affogato – 8.– CHF"
+          "fr": "Affogato – 7.50 CHF",
+          "en": "Affogato – CHF 7.50",
+          "de": "Affogato – 7.50 CHF"
         },
         "desc": {
           "fr": "Glace vanille nappée d’un espresso chaud.",
           "en": "Vanilla ice cream with hot espresso.",
           "de": "Vanilleeis mit heißem Espresso."
         }
-      }
-    },
-    "glaces": {
-      "i1": {
+      },
+      "i5": {
         "name": {
-          "fr": "Romanoff – 13.– CHF",
-          "en": "Romanoff – CHF 13",
-          "de": "Romanoff – 13.– CHF"
+          "fr": "Café ou Chocolat Liégeois – 11.– CHF",
+          "en": "Coffee or chocolate Liégeois – CHF 11",
+          "de": "Kaffee- oder Schokoladen-Liégeois – 11.– CHF"
         },
         "desc": {
-          "fr": "Glace vanille, fraises et crème légère.",
-          "en": "Vanilla ice cream, strawberries & light cream.",
-          "de": "Vanilleeis, Erdbeeren & leichte Sahne."
+          "fr": "Glace café/chocolat, nappage, chantilly.",
+          "en": "Coffee/chocolate ice cream, topping, whipped cream.",
+          "de": "Kaffee-/Schokoeis, Topping, Sahne."
         }
       },
-      "i2": {
+      "i6": {
         "name": {
           "fr": "Dame blanche – 11.– CHF",
           "en": "Dame blanche – CHF 11",
@@ -398,7 +391,7 @@
           "de": "Vanilleeis, heiße Schokolade & Sahne."
         }
       },
-      "i3": {
+      "i7": {
         "name": {
           "fr": "Glaces arrosées – 14.– CHF",
           "en": "Liqueur ice creams – CHF 14",
@@ -408,6 +401,18 @@
           "fr": "Abricotine · Colonel · Poire.",
           "en": "Abricotine · Colonel · Pear.",
           "de": "Abricotine · Colonel · Birne."
+        }
+      },
+      "i8": {
+        "name": {
+          "fr": "Glace / Sorbet",
+          "en": "Ice cream / sorbet",
+          "de": "Glace / Sorbet"
+        },
+        "desc": {
+          "fr": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron).",
+          "en": "1 scoop – CHF 4 · 2 scoops – CHF 8<br>(Vanilla, Chocolate, Strawberry, Mocha, Stracciatella, Walnut, Pear, Apricot, Lemon).",
+          "de": "1 Kugel – 4.– CHF · 2 Kugeln – 8.– CHF<br>(Vanille, Schokolade, Erdbeere, Moka, Stracciatella, Nuss, Birne, Aprikose, Zitrone)."
         }
       }
     },

@@ -40,7 +40,6 @@ const carte = {
     fondues: L('Fondues au fromage (dès 2 pers.)', 'Cheese fondues (from 2 guests)', 'Käsefondues (ab 2 Pers.)'),
     fonduesViande: L('Fondues de viande (dès 2 pers.)', 'Meat fondues (from 2 guests)', 'Fleischfondues (ab 2 Pers.)'),
     desserts: L('Desserts', 'Desserts', 'Desserts'),
-    glaces: L('Coupes glacées', 'Ice cream sundaes', 'Eisbecher'),
     menuEnfant: L('Menu enfant', 'Children’s menu', 'Kindermenü')
   },
   ap: {
@@ -120,29 +119,35 @@ const carte = {
     '<strong>Beilage</strong> – 5.– CHF<br>Pommes, grüner Salat, saisonales Gemüse, frische Tagliatelle.<br><br><strong>Trüffel-Pommes</strong> – 8.– CHF<br><br><strong>Sauce</strong> – 5.50 CHF<br>Café de Paris, Morcheln, Pfeffer.'
   ),
   desserts: {
-    i1: { name: L('Crème brûlée parfumée au Cointreau, éclat de fruits frais – 12.– CHF', 'Cointreau crème brûlée, fresh fruit – CHF 12', 'Cointreau-Crème brûlée, frisches Obst – 12.– CHF') },
-    i2: { name: L('Profiteroles, glace vanille & sauce chocolat maison – 12.– CHF', 'Profiteroles, vanilla ice cream & house chocolate sauce – CHF 12', 'Profiteroles, Vanilleeis & hausgemachte Schokosauce – 12.– CHF') },
+    i1: { name: L('Parfait glacé à la vanille, éclats d’amandes et caramel beurre salé – 14.– CHF', 'Vanilla frozen parfait, almond pieces & salted butter caramel – CHF 14', 'Gefrorenes Vanilleparfait, Mandelstücke & Salzkaramell – 14.– CHF') },
+    i2: { name: L('Profiteroles, glace vanille & sauce chocolat maison – 16.– CHF', 'Profiteroles, vanilla ice cream & house chocolate sauce – CHF 16', 'Profiteroles, Vanilleeis & hausgemachte Schokosauce – 16.– CHF') },
     i3: {
-      name: L('Café gourmand – 14.– CHF', 'Coffee & sweets – CHF 14', 'Kaffee & kleine Desserts – 14.– CHF'),
-      desc: L('Café ou thé accompagné de mini desserts maison.', 'Coffee or tea with mini house desserts.', 'Kaffee oder Tee mit kleinen Desserts vom Haus.')
+      name: L('Café gourmand – 16.– CHF', 'Coffee & sweets – CHF 16', 'Kaffee & kleine Desserts – 16.– CHF'),
+      desc: L('Café ou thé accompagné de mini desserts.', 'Coffee or tea with mini desserts.', 'Kaffee oder Tee mit kleinen Desserts.')
     },
     i4: {
-      name: L('Affogato – 8.– CHF', 'Affogato – CHF 8', 'Affogato – 8.– CHF'),
+      name: L('Affogato – 7.50 CHF', 'Affogato – CHF 7.50', 'Affogato – 7.50 CHF'),
       desc: L('Glace vanille nappée d’un espresso chaud.', 'Vanilla ice cream with hot espresso.', 'Vanilleeis mit heißem Espresso.')
-    }
-  },
-  glaces: {
-    i1: {
-      name: L('Romanoff – 13.– CHF', 'Romanoff – CHF 13', 'Romanoff – 13.– CHF'),
-      desc: L('Glace vanille, fraises et crème légère.', 'Vanilla ice cream, strawberries & light cream.', 'Vanilleeis, Erdbeeren & leichte Sahne.')
     },
-    i2: {
+    i5: {
+      name: L('Café ou Chocolat Liégeois – 11.– CHF', 'Coffee or chocolate Liégeois – CHF 11', 'Kaffee- oder Schokoladen-Liégeois – 11.– CHF'),
+      desc: L('Glace café/chocolat, nappage, chantilly.', 'Coffee/chocolate ice cream, topping, whipped cream.', 'Kaffee-/Schokoeis, Topping, Sahne.')
+    },
+    i6: {
       name: L('Dame blanche – 11.– CHF', 'Dame blanche – CHF 11', 'Dame blanche – 11.– CHF'),
       desc: L('Glace vanille, chocolat chaud et chantilly.', 'Vanilla ice cream, hot chocolate & cream.', 'Vanilleeis, heiße Schokolade & Sahne.')
     },
-    i3: {
+    i7: {
       name: L('Glaces arrosées – 14.– CHF', 'Liqueur ice creams – CHF 14', 'Eis mit Likör – 14.– CHF'),
       desc: L('Abricotine · Colonel · Poire.', 'Abricotine · Colonel · Pear.', 'Abricotine · Colonel · Birne.')
+    },
+    i8: {
+      name: L('Glace / Sorbet', 'Ice cream / sorbet', 'Glace / Sorbet'),
+      desc: L(
+        '1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron).',
+        '1 scoop – CHF 4 · 2 scoops – CHF 8<br>(Vanilla, Chocolate, Strawberry, Mocha, Stracciatella, Walnut, Pear, Apricot, Lemon).',
+        '1 Kugel – 4.– CHF · 2 Kugeln – 8.– CHF<br>(Vanille, Schokolade, Erdbeere, Moka, Stracciatella, Nuss, Birne, Aprikose, Zitrone).'
+      )
     }
   },
   enfant: {
