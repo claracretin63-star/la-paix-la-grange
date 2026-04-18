@@ -105,11 +105,6 @@
     "img3": { "fr": "Terrasse avec vue sur les montagnes et cocktail", "en": "Terrace with mountain view and cocktail", "de": "Terrasse mit Bergblick und Cocktail" },
     "img4": { "fr": "Village alpin enneigé et sommets sous un ciel bleu", "en": "Snowy alpine village and peaks under a blue sky", "de": "Verschneites Alpendorf und Gipfel unter blauem Himmel" },
     "img5": { "fr": "Vue panoramique sur le village et les sommets enneigés", "en": "Panoramic view of the village and snowy peaks", "de": "Panoramablick auf Dorf und verschneite Gipfel" },
-    "noteClick": {
-      "fr": "Cliquez sur une image pour l’agrandir.",
-      "en": "Click on an image to view it larger.",
-      "de": "Klicken Sie auf ein Bild, um es zu vergrößern."
-    },
     "lightboxTitle": {
       "fr": "Image agrandie",
       "en": "Enlarged image",
