@@ -157,9 +157,9 @@ const carte = {
     i1: {
       name: L('Formule – 15.– CHF', 'Set menu – CHF 15', 'Menü – 15.– CHF'),
       desc: L(
-        '<strong>Plat au choix :</strong> pasta bolognaise sauce maison ou schnitzel de porc maison, frites & légumes.<br><strong>Dessert :</strong> 1 boule de glace au choix.',
-        '<strong>Main choice:</strong> pasta bolognese (house sauce) or house pork schnitzel, fries & vegetables.<br><strong>Dessert:</strong> one scoop of ice cream of your choice.',
-        '<strong>Hauptgericht nach Wahl:</strong> Pasta Bolognese (hausgemacht) oder Schweineschnitzel, Pommes & Gemüse.<br><strong>Dessert:</strong> eine Kugel Eis nach Wahl.'
+        '<strong>Salade verte</strong><br><br><strong>Plat au choix :</strong><br>Macaronis du mini berger<br>ou<br>Tagliatelles à la bolognaise<br>ou<br>Nuggets, frites & légumes<br><br><strong>Dessert :</strong> 1 boule de glace au choix.',
+        '<strong>Green salad</strong><br><br><strong>Main choice:</strong><br>Mini shepherd’s macaroni<br>or<br>Tagliatelle bolognese<br>or<br>Nuggets, fries & vegetables<br><br><strong>Dessert:</strong> one scoop of ice cream of your choice.',
+        '<strong>Grüner Salat</strong><br><br><strong>Hauptgericht nach Wahl:</strong><br>Mini-Hirten-Makkaroni<br>oder<br>Tagliatelle Bolognese<br>oder<br>Nuggets, Pommes & Gemüse<br><br><strong>Dessert:</strong> eine Kugel Eis nach Wahl.'
       )
     }
   }
