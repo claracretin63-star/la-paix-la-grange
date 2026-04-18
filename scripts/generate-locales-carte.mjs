@@ -38,7 +38,7 @@ const carte = {
     plats: L('Plats', 'Main courses', 'Hauptgänge'),
     coin: L('Coin montagnard', 'Mountain corner', 'Berg-Ecke'),
     fondues: L('Fondues au fromage (dès 2 pers.)', 'Cheese fondues (from 2 guests)', 'Käsefondues (ab 2 Pers.)'),
-    fonduesViande: L('Fondues de viande (min. 2 pers.)', 'Meat fondues (min. 2 guests)', 'Fleischfondues (mind. 2 Pers.)'),
+    fonduesViande: L('Fondues de viande (dès 2 pers.)', 'Meat fondues (from 2 guests)', 'Fleischfondues (ab 2 Pers.)'),
     suggestions: L('Suggestions du moment', 'Chef’s suggestions', 'Aktuelle Empfehlungen'),
     desserts: L('Desserts', 'Desserts', 'Desserts'),
     glaces: L('Coupes glacées', 'Ice cream sundaes', 'Eisbecher'),
@@ -95,26 +95,23 @@ const carte = {
   },
   coin: {
     i1: { name: L('Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF', 'Shepherd’s macaroni, potatoes, gratin cheese & roasted onions – CHF 25', 'Hirten-Makkaroni, Kartoffeln, überbackener Käse & geröstete Zwiebeln – 25.– CHF') },
-    i2: {
-      name: L('Bulle AOP, pain de campagne & condiments – 14.– CHF', 'Bulle AOP cheese, country bread & condiments – CHF 14', 'Bulle AOP, Landbrot & Beilagen – 14.– CHF'),
-      desc: L('Fromage à pâte dure du terroir, servi à température ambiante.', 'Hard alpine cheese from the region, served at room temperature.', 'Hartkäse aus dem Terroir, bei Zimmertemperatur serviert.')
-    }
+    i2: { name: L('Supplément lard tranché – 3.– CHF', 'Sliced bacon supplement – CHF 3', 'Speck-Zusatz – 3.– CHF') }
   },
   fondues: {
-    i1: { name: L('Fondue moitié-moitié – 28.– CHF', 'Half-and-half fondue – CHF 28', 'Halb-Halb-Fondue – 28.– CHF') },
-    i2: { name: L('Fondue tomate – 28.– CHF', 'Tomato fondue – CHF 28', 'Tomaten-Fondue – 28.– CHF') },
-    i3: { name: L('Fondue dans le pain – 28.– CHF', 'Fondue in bread – CHF 28', 'Käsefondue im Brot – 28.– CHF') },
+    i1: { name: L('Fondue moitié-moitié dans le pain – 28.– CHF', 'Half-and-half fondue in bread – CHF 28', 'Halb-Halb-Fondue im Brot – 28.– CHF') },
+    i2: { name: L('Fondue moitié-moitié – 28.– CHF', 'Half-and-half fondue – CHF 28', 'Halb-Halb-Fondue – 28.– CHF') },
+    i3: { name: L('Fondue tomate – 28.– CHF', 'Tomato fondue – CHF 28', 'Tomaten-Fondue – 28.– CHF') },
     i4: { name: L('Fondue à la truffe – 32.– CHF', 'Truffle fondue – CHF 32', 'Trüffel-Fondue – 32.– CHF') },
-    note: L('+ 2.– CHF pommes de terre grenailles.', '+ CHF 2 baby potatoes.', '+ 2.– CHF Drillinge.')
+    note: L('2.– CHF pommes de terre grenailles (sauf fondue tomate).', 'CHF 2 baby potatoes (except tomato fondue).', '2.– CHF Drillinge (ausser Tomaten-Fondue).')
   },
   fonduesV: {
     i1: {
-      name: L('Fondue chinoise 200 g – 39.– CHF', 'Chinese fondue 200 g – CHF 39', 'Chinesisches Fondue 200 g – 39.– CHF'),
-      desc: L('Fines tranches de viande cuites dans un bouillon de légumes.', 'Thin meat slices cooked in vegetable broth.', 'Feine Fleischscheiben im Gemüsefond.')
+      name: L('Fondue chinoise 200 g – 40.– CHF', 'Chinese fondue 200 g – CHF 40', 'Chinesisches Fondue 200 g – 40.– CHF'),
+      desc: L('Morceaux de viande cuits dans un bouillon de légumes.', 'Meat pieces cooked in vegetable broth.', 'Fleischstücke im Gemüsefond gegart.')
     },
     i2: {
-      name: L('Fondue bourguignonne 200 g – 39.– CHF', 'Bourguignonne fondue 200 g – CHF 39', 'Bourguignonne-Fondue 200 g – 39.– CHF'),
-      desc: L('Morceaux de viande frits dans l’huile chaude.', 'Meat pieces fried in hot oil.', 'Fleischstücke in heißem Öl gebraten.')
+      name: L('Fondue Bacchus 200 g – 40.– CHF', 'Bacchus fondue 200 g – CHF 40', 'Bacchus-Fondue 200 g – 40.– CHF'),
+      desc: L('Morceaux de viande cuits dans du vin rouge.', 'Meat pieces cooked in red wine.', 'Fleischstücke in Rotwein gegart.')
     },
     note: L('Servies avec sauces maison, frites et salade.', 'Served with house sauces, fries and salad.', 'Mit hausgemachten Saucen, Pommes und Salat.')
   },

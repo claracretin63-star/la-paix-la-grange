@@ -71,9 +71,9 @@
         "de": "Käsefondues (ab 2 Pers.)"
       },
       "fonduesViande": {
-        "fr": "Fondues de viande (min. 2 pers.)",
-        "en": "Meat fondues (min. 2 guests)",
-        "de": "Fleischfondues (mind. 2 Pers.)"
+        "fr": "Fondues de viande (dès 2 pers.)",
+        "en": "Meat fondues (from 2 guests)",
+        "de": "Fleischfondues (ab 2 Pers.)"
       },
       "suggestions": {
         "fr": "Suggestions du moment",
@@ -261,37 +261,32 @@
       },
       "i2": {
         "name": {
-          "fr": "Bulle AOP, pain de campagne & condiments – 14.– CHF",
-          "en": "Bulle AOP cheese, country bread & condiments – CHF 14",
-          "de": "Bulle AOP, Landbrot & Beilagen – 14.– CHF"
-        },
-        "desc": {
-          "fr": "Fromage à pâte dure du terroir, servi à température ambiante.",
-          "en": "Hard alpine cheese from the region, served at room temperature.",
-          "de": "Hartkäse aus dem Terroir, bei Zimmertemperatur serviert."
+          "fr": "Supplément lard tranché – 3.– CHF",
+          "en": "Sliced bacon supplement – CHF 3",
+          "de": "Speck-Zusatz – 3.– CHF"
         }
       }
     },
     "fondues": {
       "i1": {
         "name": {
+          "fr": "Fondue moitié-moitié dans le pain – 28.– CHF",
+          "en": "Half-and-half fondue in bread – CHF 28",
+          "de": "Halb-Halb-Fondue im Brot – 28.– CHF"
+        }
+      },
+      "i2": {
+        "name": {
           "fr": "Fondue moitié-moitié – 28.– CHF",
           "en": "Half-and-half fondue – CHF 28",
           "de": "Halb-Halb-Fondue – 28.– CHF"
         }
       },
-      "i2": {
+      "i3": {
         "name": {
           "fr": "Fondue tomate – 28.– CHF",
           "en": "Tomato fondue – CHF 28",
           "de": "Tomaten-Fondue – 28.– CHF"
-        }
-      },
-      "i3": {
-        "name": {
-          "fr": "Fondue dans le pain – 28.– CHF",
-          "en": "Fondue in bread – CHF 28",
-          "de": "Käsefondue im Brot – 28.– CHF"
         }
       },
       "i4": {
@@ -302,34 +297,34 @@
         }
       },
       "note": {
-        "fr": "+ 2.– CHF pommes de terre grenailles.",
-        "en": "+ CHF 2 baby potatoes.",
-        "de": "+ 2.– CHF Drillinge."
+        "fr": "2.– CHF pommes de terre grenailles (sauf fondue tomate).",
+        "en": "CHF 2 baby potatoes (except tomato fondue).",
+        "de": "2.– CHF Drillinge (ausser Tomaten-Fondue)."
       }
     },
     "fonduesV": {
       "i1": {
         "name": {
-          "fr": "Fondue chinoise 200 g – 39.– CHF",
-          "en": "Chinese fondue 200 g – CHF 39",
-          "de": "Chinesisches Fondue 200 g – 39.– CHF"
+          "fr": "Fondue chinoise 200 g – 40.– CHF",
+          "en": "Chinese fondue 200 g – CHF 40",
+          "de": "Chinesisches Fondue 200 g – 40.– CHF"
         },
         "desc": {
-          "fr": "Fines tranches de viande cuites dans un bouillon de légumes.",
-          "en": "Thin meat slices cooked in vegetable broth.",
-          "de": "Feine Fleischscheiben im Gemüsefond."
+          "fr": "Morceaux de viande cuits dans un bouillon de légumes.",
+          "en": "Meat pieces cooked in vegetable broth.",
+          "de": "Fleischstücke im Gemüsefond gegart."
         }
       },
       "i2": {
         "name": {
-          "fr": "Fondue bourguignonne 200 g – 39.– CHF",
-          "en": "Bourguignonne fondue 200 g – CHF 39",
-          "de": "Bourguignonne-Fondue 200 g – 39.– CHF"
+          "fr": "Fondue Bacchus 200 g – 40.– CHF",
+          "en": "Bacchus fondue 200 g – CHF 40",
+          "de": "Bacchus-Fondue 200 g – 40.– CHF"
         },
         "desc": {
-          "fr": "Morceaux de viande frits dans l’huile chaude.",
-          "en": "Meat pieces fried in hot oil.",
-          "de": "Fleischstücke in heißem Öl gebraten."
+          "fr": "Morceaux de viande cuits dans du vin rouge.",
+          "en": "Meat pieces cooked in red wine.",
+          "de": "Fleischstücke in Rotwein gegart."
         }
       },
       "note": {
