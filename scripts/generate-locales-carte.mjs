@@ -47,9 +47,9 @@ const carte = {
   ap: {
     i1: {
       name: L(
-        'Planche du Terroir – Fromages & salaisons – 17.– – 28.– CHF',
-        'Terroir board – cheeses & charcuterie – CHF 17–28',
-        'Terroir-Platte – Käse & Salami – 17.– – 28.– CHF'
+        'Planche du Terroir – Fromages & salaisons – 17.– la petite · 28.– la grande',
+        'Terroir board – cheeses & charcuterie – CHF 17 small · CHF 28 large',
+        'Terroir-Platte – Käse & Salami – 17.– klein · 28.– gross'
       ),
       desc: L(
         'Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits.',
