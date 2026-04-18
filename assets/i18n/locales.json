@@ -104,6 +104,16 @@
       "fr": "Cliquez sur une image pour l’agrandir.",
       "en": "Click on an image to view it larger.",
       "de": "Klicken Sie auf ein Bild, um es zu vergrößern."
+    },
+    "lightboxTitle": {
+      "fr": "Image agrandie",
+      "en": "Enlarged image",
+      "de": "Vergrößertes Bild"
+    },
+    "closeLightbox": {
+      "fr": "Fermer la vue agrandie",
+      "en": "Close enlarged view",
+      "de": "Vergrößerte Ansicht schließen"
     }
   },
   "vins": {

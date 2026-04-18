@@ -17,7 +17,7 @@
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,500&family=DM+Sans:ital,opsz,wght@0,9..40,400;0,9..40,500;0,9..40,600;0,9..40,700&display=swap" rel="stylesheet">
   <title data-i18n="meta.galerie">La Paix La Grange – Galerie</title>
-  <link rel="stylesheet" href="assets/css/style.css?v=202604070">
+  <link rel="stylesheet" href="assets/css/style.css?v=202604071">
 </head>
 <body>
   <header class="site-header">
@@ -58,33 +58,41 @@
       <p class="gallery-note" data-i18n="galerie.noteClick">Cliquez sur une image pour l’agrandir.</p>
       <div class="gallery-grid">
         <figure class="gallery-item">
-          <a href="assets/img/gallery/photo-04.png" target="_blank">
+          <button type="button" class="gallery-thumb">
             <img src="assets/img/gallery/photo-04.png" alt="" data-i18n-alt="galerie.img1" width="1200" height="900" loading="lazy">
-          </a>
+          </button>
         </figure>
         <figure class="gallery-item">
-          <a href="assets/img/gallery/photo-01.png" target="_blank">
+          <button type="button" class="gallery-thumb">
             <img src="assets/img/gallery/photo-01.png" alt="" data-i18n-alt="galerie.img2" width="1200" height="900" loading="lazy">
-          </a>
+          </button>
         </figure>
         <figure class="gallery-item">
-          <a href="assets/img/gallery/photo-02.png" target="_blank">
+          <button type="button" class="gallery-thumb">
             <img src="assets/img/gallery/photo-02.png" alt="" data-i18n-alt="galerie.img3" width="1200" height="900" loading="lazy">
-          </a>
+          </button>
         </figure>
         <figure class="gallery-item">
-          <a href="assets/img/gallery/photo-03.png" target="_blank">
+          <button type="button" class="gallery-thumb">
             <img src="assets/img/gallery/photo-03.png" alt="" data-i18n-alt="galerie.img4" width="1200" height="900" loading="lazy">
-          </a>
+          </button>
         </figure>
         <figure class="gallery-item">
-          <a href="assets/img/gallery/photo-05.png" target="_blank">
+          <button type="button" class="gallery-thumb">
             <img src="assets/img/gallery/photo-05.png" alt="" data-i18n-alt="galerie.img5" width="1200" height="900" loading="lazy">
-          </a>
+          </button>
         </figure>
       </div>
     </section>
   </main>
+
+  <div class="lightbox" id="gallery-lightbox" hidden role="dialog" aria-modal="true" aria-hidden="true" data-i18n-aria="galerie.lightboxTitle">
+    <div class="lightbox-backdrop" data-lightbox-close></div>
+    <div class="lightbox-inner">
+      <button type="button" class="lightbox-close" data-lightbox-close data-i18n-aria="galerie.closeLightbox" aria-label="Fermer">×</button>
+      <img class="lightbox-img" src="" alt="">
+    </div>
+  </div>
 
   <footer class="site-footer">
     <div class="container footer-inner">
@@ -93,6 +101,58 @@
     </div>
   </footer>
 
-  <script defer src="assets/js/i18n.js?v=202604070"></script>
+  <script defer src="assets/js/i18n.js?v=202604071"></script>
+  <script>
+    (function () {
+      var lightbox = document.getElementById('gallery-lightbox');
+      if (!lightbox) return;
+      var lightboxImg = lightbox.querySelector('.lightbox-img');
+      var closeTargets = lightbox.querySelectorAll('[data-lightbox-close]');
+      var thumbs = document.querySelectorAll('.gallery-thumb');
+      var lastFocus = null;
+
+      function openLightbox(src, alt) {
+        lastFocus = document.activeElement;
+        lightboxImg.src = src;
+        lightboxImg.alt = alt || '';
+        lightbox.hidden = false;
+        lightbox.setAttribute('aria-hidden', 'false');
+        document.body.style.overflow = 'hidden';
+        var closeBtn = lightbox.querySelector('.lightbox-close');
+        if (closeBtn) closeBtn.focus();
+      }
+
+      function closeLightbox() {
+        lightbox.hidden = true;
+        lightbox.setAttribute('aria-hidden', 'true');
+        lightboxImg.removeAttribute('src');
+        lightboxImg.alt = '';
+        document.body.style.overflow = '';
+        if (lastFocus && typeof lastFocus.focus === 'function') {
+          lastFocus.focus();
+        }
+        lastFocus = null;
+      }
+
+      thumbs.forEach(function (btn) {
+        btn.addEventListener('click', function () {
+          var img = btn.querySelector('img');
+          if (!img) return;
+          openLightbox(img.getAttribute('src') || img.src, img.getAttribute('alt') || '');
+        });
+      });
+
+      closeTargets.forEach(function (el) {
+        el.addEventListener('click', function () {
+          closeLightbox();
+        });
+      });
+
+      document.addEventListener('keydown', function (e) {
+        if (lightbox.hidden || e.key !== 'Escape') return;
+        closeLightbox();
+      });
+    })();
+  </script>
 </body>
 </html>
