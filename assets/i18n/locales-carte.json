@@ -89,9 +89,9 @@
     "ap": {
       "i1": {
         "name": {
-          "fr": "Planche du Terroir – Fromages & salaisons – 17.– la petite · 28.– la grande",
+          "fr": "Planche du Terroir – Fromages & salaisons – 17.– CHF la petite · 28.– CHF la grande",
           "en": "Terroir board – cheeses & charcuterie – CHF 17 small · CHF 28 large",
-          "de": "Terroir-Platte – Käse & Salami – 17.– klein · 28.– gross"
+          "de": "Terroir-Platte – Käse & Salami – 17.– CHF klein · 28.– CHF gross"
         },
         "desc": {
           "fr": "Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits.",
@@ -101,9 +101,9 @@
       },
       "i2": {
         "name": {
-          "fr": "Terrine de campagne maison, parfumée au cognac – 18.– 180 g",
+          "fr": "Terrine de campagne maison, parfumée au cognac – 18.– CHF · 180 g",
           "en": "House terrine with cognac – CHF 18 · 180 g",
-          "de": "Hausgemachte Terrine mit Cognac – 18.– 180 g"
+          "de": "Hausgemachte Terrine mit Cognac – 18.– CHF · 180 g"
         },
         "desc": {
           "fr": "Pain de seigle & pickles maison.",
@@ -113,9 +113,9 @@
       },
       "i3": {
         "name": {
-          "fr": "Rillettes de poulet maison au thym – 16.– 180 g",
+          "fr": "Rillettes de poulet maison au thym – 16.– CHF · 180 g",
           "en": "House chicken rillettes with thyme – CHF 16 · 180 g",
-          "de": "Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– 180 g"
+          "de": "Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– CHF · 180 g"
         },
         "desc": {
           "fr": "Pain de seigle & pickles maison.",
@@ -139,16 +139,16 @@
     "ent": {
       "i1": {
         "name": {
-          "fr": "Salade verte, vinaigrette & croûtons maison – 7.– la petite · 13.– la grande",
+          "fr": "Salade verte, vinaigrette & croûtons maison – 7.– CHF la petite · 13.– CHF la grande",
           "en": "Green salad, vinaigrette & house croutons – CHF 7 small · CHF 13 large",
-          "de": "Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– klein · 13.– gross"
+          "de": "Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– CHF klein · 13.– CHF gross"
         }
       },
       "i2": {
         "name": {
-          "fr": "Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– la petite · 16.– la grande",
+          "fr": "Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– CHF la petite · 16.– CHF la grande",
           "en": "Spring salad, crunchy raw vegetables, parmesan shavings & house vinaigrette – CHF 9 small · CHF 16 large",
-          "de": "Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– klein · 16.– gross"
+          "de": "Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– CHF klein · 16.– CHF gross"
         }
       },
       "i3": {

@@ -45,9 +45,9 @@ const carte = {
   ap: {
     i1: {
       name: L(
-        'Planche du Terroir – Fromages & salaisons – 17.– la petite · 28.– la grande',
+        'Planche du Terroir – Fromages & salaisons – 17.– CHF la petite · 28.– CHF la grande',
         'Terroir board – cheeses & charcuterie – CHF 17 small · CHF 28 large',
-        'Terroir-Platte – Käse & Salami – 17.– klein · 28.– gross'
+        'Terroir-Platte – Käse & Salami – 17.– CHF klein · 28.– CHF gross'
       ),
       desc: L(
         'Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits.',
@@ -56,11 +56,11 @@ const carte = {
       )
     },
     i2: {
-      name: L('Terrine de campagne maison, parfumée au cognac – 18.– 180 g', 'House terrine with cognac – CHF 18 · 180 g', 'Hausgemachte Terrine mit Cognac – 18.– 180 g'),
+      name: L('Terrine de campagne maison, parfumée au cognac – 18.– CHF · 180 g', 'House terrine with cognac – CHF 18 · 180 g', 'Hausgemachte Terrine mit Cognac – 18.– CHF · 180 g'),
       desc: L('Pain de seigle & pickles maison.', 'Rye bread & house pickles.', 'Roggenbrot & hausgemachte Pickles.')
     },
     i3: {
-      name: L('Rillettes de poulet maison au thym – 16.– 180 g', 'House chicken rillettes with thyme – CHF 16 · 180 g', 'Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– 180 g'),
+      name: L('Rillettes de poulet maison au thym – 16.– CHF · 180 g', 'House chicken rillettes with thyme – CHF 16 · 180 g', 'Hausgemachte Hähnchen-Rillettes mit Thymian – 16.– CHF · 180 g'),
       desc: L('Pain de seigle & pickles maison.', 'Rye bread & house pickles.', 'Roggenbrot & hausgemachte Pickles.')
     },
     i4: {
@@ -69,8 +69,8 @@ const carte = {
     }
   },
   ent: {
-    i1: { name: L('Salade verte, vinaigrette & croûtons maison – 7.– la petite · 13.– la grande', 'Green salad, vinaigrette & house croutons – CHF 7 small · CHF 13 large', 'Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– klein · 13.– gross') },
-    i2: { name: L('Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– la petite · 16.– la grande', 'Spring salad, crunchy raw vegetables, parmesan shavings & house vinaigrette – CHF 9 small · CHF 16 large', 'Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– klein · 16.– gross') },
+    i1: { name: L('Salade verte, vinaigrette & croûtons maison – 7.– CHF la petite · 13.– CHF la grande', 'Green salad, vinaigrette & house croutons – CHF 7 small · CHF 13 large', 'Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– CHF klein · 13.– CHF gross') },
+    i2: { name: L('Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– CHF la petite · 16.– CHF la grande', 'Spring salad, crunchy raw vegetables, parmesan shavings & house vinaigrette – CHF 9 small · CHF 16 large', 'Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– CHF klein · 16.– CHF gross') },
     i3: { name: L('Velouté d’asperges maison – 11.– CHF', 'House asparagus velouté – CHF 11', 'Hausgemachter Spargel-Velouté – 11.– CHF') },
     i4: { name: L('Salade de chèvre chaud croustillant, vinaigrette au miel & noix torréfiées – 17.– CHF', 'Crispy warm goat cheese salad, honey & toasted walnut dressing – CHF 17', 'Knuspriger warmer Ziegenkäse-Salat, Honig & geröstete Walnüsse – 17.– CHF') },
     i5: { name: L('Duo d’asperges vertes & blanches, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF', 'Duo of green & white asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19', 'Duo grüner & weisser Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF') },
