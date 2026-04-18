@@ -82,15 +82,15 @@ const carte = {
     }
   },
   plat: {
-    i1: { name: L('Suprême de volaille fermière, sauce aux chanterelles & grenailles rôties au romarin – 34.– CHF', 'Farm chicken supreme, chanterelle sauce & rosemary roast potatoes – CHF 34', 'Bauernhähnchen-Supreme, Pfifferlingssauce & Rosmarin-Kartoffeln – 34.– CHF') },
-    i2: { name: L('Entrecôte de bœuf grillée, beurre maître d’hôtel, frites croustillantes – 40.– CHF (pour 1 ou 2)', 'Grilled rib-eye, maître d’hôtel butter, crispy fries – CHF 40 (for 1 or 2)', 'Gegrilltes Rinderentrecôte, Kräuterbutter, knusprige Pommes – 40.– CHF (1–2 Pers.)') },
-    i3: { name: L('Filet de bœuf sur pierre chaude, frites croustillantes, sauce poivre & poêlée de légumes de saison – 46.– CHF', 'Beef fillet on hot stone, fries, pepper sauce & seasonal vegetables – CHF 46', 'Rinderfilet auf heißem Stein, Pommes, Pfeffersauce & saisonales Gemüse – 46.– CHF') },
-    i4: { name: L('Risotto crémeux aux petits pois & chanterelles poêlées – 26.– CHF', 'Creamy pea risotto & sautéed chanterelles – CHF 26', 'Cremiges Erbsen-Risotto & gebratene Pfifferlinge – 26.– CHF') },
-    i5: { name: L('Tagliatelles au pesto d’ail des ours & burrata – 24.– CHF', 'Tagliatelle with wild garlic pesto & burrata – CHF 24', 'Tagliatelle mit Bärlauchpesto & Burrata – 24.– CHF') },
-    i6: { name: L('Tagliatelles à la crème de truffe d’été – 32.– CHF', 'Tagliatelle with summer truffle cream – CHF 32', 'Tagliatelle mit Sommertrüffel-Creme – 32.– CHF') },
+    i1: { name: L('Suprême de volaille, sauce aux morilles & grenailles rôties au romarin – 32.– CHF', 'Chicken supreme, morel sauce & rosemary roast potatoes – CHF 32', 'Geflügel-Supreme, Morchelsoße & Rosmarin-Kartoffeln – 32.– CHF') },
+    i2: { name: L('Entrecôte de bœuf tranchée, sauce beurre maître d’hôtel, frites croustillantes 200 g – 41.– CHF', 'Sliced rib-eye, maître d’hôtel butter sauce, crispy fries 200 g – CHF 41', 'Geschnittenes Rinderentrecôte, Kräuterbutter-Sauce, knusprige Pommes 200 g – 41.– CHF') },
+    i3: { name: L('Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison 200 g – 47.– CHF', 'Beef fillet on hot stone, crispy fries, pepper sauce & seasonal vegetables 200 g – CHF 47', 'Rinderfilet auf heißem Stein, knusprige Pommes, Pfeffersauce & saisonales Gemüse 200 g – 47.– CHF') },
+    i4: { name: L('Escalope de veau viennoise, confiture d’airelle, frites croustillantes – 46.– CHF', 'Wiener-style veal escalope, lingonberry jam, crispy fries – CHF 46', 'Kalbsschnitzel Wiener Art, Preiselbeerkonfitüre, knusprige Pommes – 46.– CHF') },
+    i5: { name: L('Risotto crémeux aux petits pois & champignons poêlés – 29.– CHF', 'Creamy pea risotto & sautéed mushrooms – CHF 29', 'Cremiges Erbsen-Risotto & gebratene Pilze – 29.– CHF') },
+    i6: { name: L('Tagliatelles à la crème de truffe d’été – 35.– CHF', 'Tagliatelle with summer truffle cream – CHF 35', 'Tagliatelle mit Sommertrüffel-Creme – 35.– CHF') },
     i7: {
-      name: L('Le mijoté du chef – 30.– CHF', 'Chef’s stew – CHF 30', 'Schmortopf des Küchenchefs – 30.– CHF'),
-      desc: L('Blanquette de veau à l’ancienne, champignons & carottes, accompagnée de riz de Camargue.', 'Classic veal blanquette, mushrooms & carrots, with Camargue rice.', 'Kalbsblanquette nach Art des Hauses, Pilze & Karotten, mit Camargue-Reis.')
+      name: L('Le mijoté du chef – 38.– CHF', 'Chef’s stew – CHF 38', 'Schmortopf des Küchenchefs – 38.– CHF'),
+      desc: L('Joue de bœuf, jus corsé maison accompagné d’une purée de pommes de terre à l’ancienne & brocolis.', 'Beef cheek, rich house jus with old-fashioned potato purée & broccoli.', 'Rinderbacke, kräftiger Haussauce, Kartoffelpüree nach Art des Hauses & Brokkoli.')
     }
   },
   coin: {
@@ -126,9 +126,9 @@ const carte = {
     )
   },
   platNote: L(
-    'Supplément truffe d’été fraîche – 5.– CHF<br>Supplément accompagnement +5.– CHF (Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches).',
-    'Fresh summer truffle supplement – CHF 5<br>Side supplement +CHF 5 (fries, green salad, seasonal vegetables, fresh tagliatelle).',
-    'Frische Sommertrüffel – 5.– CHF<br>Beilage +5.– CHF (Pommes, grüner Salat, saisonales Gemüse, frische Tagliatelle).'
+    '<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Morilles, Poivre.',
+    '<strong>Side supplement</strong> – CHF 5<br>Fries, green salad, seasonal vegetable sauté, fresh tagliatelle.<br><br><strong>Truffle fries supplement</strong> – CHF 8<br><br><strong>Sauce supplement</strong> – CHF 5.50<br>Café de Paris, morels, pepper.',
+    '<strong>Beilage</strong> – 5.– CHF<br>Pommes, grüner Salat, saisonales Gemüse, frische Tagliatelle.<br><br><strong>Trüffel-Pommes</strong> – 8.– CHF<br><br><strong>Sauce</strong> – 5.50 CHF<br>Café de Paris, Morcheln, Pfeffer.'
   ),
   desserts: {
     i1: { name: L('Crème brûlée parfumée au Cointreau, éclat de fruits frais – 12.– CHF', 'Cointreau crème brûlée, fresh fruit – CHF 12', 'Cointreau-Crème brûlée, frisches Obst – 12.– CHF') },
