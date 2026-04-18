@@ -87,6 +87,11 @@
     "phSubject": { "fr": "Réservation, information…", "en": "Booking, enquiry…", "de": "Reservierung, Frage…" },
     "labelCouverts": { "fr": "Nombre de couverts", "en": "Number of guests", "de": "Anzahl Personen" },
     "phCouverts": { "fr": "Ex. 4", "en": "e.g. 4", "de": "z. B. 4" },
+    "hintCouverts": {
+      "fr": "Pour plus de 10 personnes, merci de nous appeler.",
+      "en": "For more than 10 guests, please call us.",
+      "de": "Bei mehr als 10 Personen rufen Sie uns bitte an."
+    },
     "labelMessage": { "fr": "Message", "en": "Message", "de": "Nachricht" },
     "phMessage": { "fr": "Votre message", "en": "Your message", "de": "Ihre Nachricht" },
     "btnSend": { "fr": "Envoyer", "en": "Send", "de": "Senden" },
