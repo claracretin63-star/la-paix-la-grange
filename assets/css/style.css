@@ -1154,6 +1154,13 @@ body:not(.page-home) .page-content {
   min-height: 120px;
 }
 
+.form-hint {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.35;
+  color: var(--muted-dim);
+}
+
 .form-row input:focus,
 .form-row textarea:focus {
   border-color: rgba(201, 168, 130, 0.55);
