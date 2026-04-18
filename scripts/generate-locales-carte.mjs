@@ -39,7 +39,6 @@ const carte = {
     coin: L('Coin montagnard', 'Mountain corner', 'Berg-Ecke'),
     fondues: L('Fondues au fromage (dès 2 pers.)', 'Cheese fondues (from 2 guests)', 'Käsefondues (ab 2 Pers.)'),
     fonduesViande: L('Fondues de viande (dès 2 pers.)', 'Meat fondues (from 2 guests)', 'Fleischfondues (ab 2 Pers.)'),
-    suggestions: L('Suggestions du moment', 'Chef’s suggestions', 'Aktuelle Empfehlungen'),
     desserts: L('Desserts', 'Desserts', 'Desserts'),
     glaces: L('Coupes glacées', 'Ice cream sundaes', 'Eisbecher'),
     menuEnfant: L('Menu enfant', 'Children’s menu', 'Kindermenü')
@@ -114,13 +113,6 @@ const carte = {
       desc: L('Morceaux de viande cuits dans du vin rouge.', 'Meat pieces cooked in red wine.', 'Fleischstücke in Rotwein gegart.')
     },
     note: L('Servies avec sauces maison, frites et salade.', 'Served with house sauces, fries and salad.', 'Mit hausgemachten Saucen, Pommes und Salat.')
-  },
-  sug: {
-    text: L(
-      'À découvrir à l’ardoise en salle : entrée du moment, plat du moment (poisson), poisson frais selon arrivage & tarte du jour.',
-      'On the board in the dining room: starter of the day, fish main, fresh fish by arrival & tart of the day.',
-      'An der Tafel im Saal: Vorspeise des Tages, Fischgericht, frischer Fisch je nach Ankunft & Tarte des Tages.'
-    )
   },
   platNote: L(
     '<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Morilles, Poivre.',

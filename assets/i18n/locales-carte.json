@@ -75,11 +75,6 @@
         "en": "Meat fondues (from 2 guests)",
         "de": "Fleischfondues (ab 2 Pers.)"
       },
-      "suggestions": {
-        "fr": "Suggestions du moment",
-        "en": "Chef’s suggestions",
-        "de": "Aktuelle Empfehlungen"
-      },
       "desserts": {
         "fr": "Desserts",
         "en": "Desserts",
@@ -331,13 +326,6 @@
         "fr": "Servies avec sauces maison, frites et salade.",
         "en": "Served with house sauces, fries and salad.",
         "de": "Mit hausgemachten Saucen, Pommes und Salat."
-      }
-    },
-    "sug": {
-      "text": {
-        "fr": "À découvrir à l’ardoise en salle : entrée du moment, plat du moment (poisson), poisson frais selon arrivage & tarte du jour.",
-        "en": "On the board in the dining room: starter of the day, fish main, fresh fish by arrival & tart of the day.",
-        "de": "An der Tafel im Saal: Vorspeise des Tages, Fischgericht, frischer Fisch je nach Ankunft & Tarte des Tages."
       }
     },
     "platNote": {

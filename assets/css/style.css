@@ -758,6 +758,11 @@ body:not(.page-home) .page-content {
   font-weight: 600;
 }
 
+.menu-item-name--sub {
+  margin-top: 0.35rem;
+  font-weight: 600;
+}
+
 .menu-item-desc {
   display: block;
   font-size: 0.92rem;
