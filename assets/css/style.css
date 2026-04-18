@@ -64,7 +64,6 @@ html:has(body:not(.page-home)) {
 body {
   margin: 0;
   min-height: 100vh;
-  min-height: 100dvh;
   font-family: var(--font-sans);
   background: transparent;
   color: var(--text);
@@ -76,9 +75,6 @@ body {
   hyphens: none;
   -webkit-hyphens: none;
   -moz-hyphens: none;
-  /* Encoches (iPhone, etc.) */
-  padding-left: env(safe-area-inset-left, 0);
-  padding-right: env(safe-area-inset-right, 0);
 }
 
 /* Titres : alignés au début (évite d’étirer les lignes courtes) */
@@ -158,7 +154,6 @@ a {
   position: sticky;
   top: 0;
   z-index: 50;
-  padding-top: env(safe-area-inset-top, 0);
   backdrop-filter: blur(24px) saturate(1.15);
   background: rgba(0, 0, 0, 0.78);
   border-bottom: 1px solid var(--surface-border);
@@ -202,7 +197,6 @@ a {
   border-radius: 6px;
   background: rgba(255, 255, 255, 0.7);
   cursor: pointer;
-  touch-action: manipulation;
   transition: border-color var(--duration) var(--ease-out), box-shadow var(--duration) var(--ease-out), opacity var(--duration) var(--ease-out);
   opacity: 0.9;
 }
@@ -403,7 +397,6 @@ a {
   font-weight: 600;
   border: 1px solid transparent;
   cursor: pointer;
-  touch-action: manipulation;
   text-transform: uppercase;
   letter-spacing: 0.16em;
   transition:
@@ -860,7 +853,6 @@ body:not(.page-home) .page-content {
   letter-spacing: 0.12em;
   text-transform: uppercase;
   cursor: pointer;
-  touch-action: manipulation;
   transition:
     transform var(--duration) var(--ease-out),
     border-color var(--duration) var(--ease-out),
@@ -1302,41 +1294,6 @@ body:not(.page-home) .page-content {
     font-size: 0.8rem;
   }
 
-  /* Carte / vins : onglets défilants (évite lignes illisibles) */
-  .menu-tabs {
-    flex-wrap: nowrap;
-    overflow-x: auto;
-    overflow-y: hidden;
-    gap: 0.5rem;
-    padding-bottom: 10px;
-    margin-bottom: 0.85rem;
-    margin-inline: -4px;
-    padding-inline: 4px 8px;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior-x: contain;
-    scroll-snap-type: x proximity;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(201, 168, 130, 0.35) transparent;
-  }
-
-  .menu-tabs::-webkit-scrollbar {
-    height: 3px;
-  }
-
-  .menu-tabs::-webkit-scrollbar-thumb {
-    background: rgba(201, 168, 130, 0.4);
-    border-radius: 3px;
-  }
-
-  .menu-tab {
-    flex: 0 0 auto;
-    scroll-snap-align: start;
-    min-height: 44px;
-    padding: 0.55rem 1.15rem;
-    font-size: 0.76rem;
-    letter-spacing: 0.1em;
-  }
-
   .home-sections {
     grid-template-columns: repeat(2, minmax(0, 1fr));
   }
@@ -1364,92 +1321,32 @@ body:not(.page-home) .page-content {
 }
 
 @media (max-width: 640px) {
-  body {
-    text-align: start;
-  }
-
-  .home-info-copy {
-    text-align: center;
-    text-align-last: center;
-  }
-
   .header-inner {
-    flex-direction: row;
-    align-items: center;
-    gap: 0.65rem;
-    padding-block: 10px;
-  }
-
-  .header-tools {
-    flex: 1;
-    min-width: 0;
-    justify-content: flex-end;
-    align-items: center;
+    flex-direction: column;
+    align-items: flex-start;
     gap: 0.5rem;
   }
 
-  .main-nav {
-    flex: 1;
-    min-width: 0;
-    overflow-x: auto;
-    overflow-y: hidden;
-    flex-wrap: nowrap;
-    gap: 0.85rem;
-    padding: 4px 8px 8px 0;
-    margin: 0;
-    -webkit-overflow-scrolling: touch;
-    overscroll-behavior-x: contain;
-    scrollbar-width: thin;
-    scrollbar-color: rgba(201, 168, 130, 0.3) transparent;
-  }
-
-  .main-nav::-webkit-scrollbar {
-    height: 2px;
-  }
-
-  .main-nav::-webkit-scrollbar-thumb {
-    background: rgba(201, 168, 130, 0.45);
-    border-radius: 2px;
-  }
-
-  .main-nav a {
-    flex-shrink: 0;
-    padding: 0.65rem 0.15rem;
-    min-height: 44px;
-    display: inline-flex;
-    align-items: center;
-    box-sizing: border-box;
-  }
-
-  .lang-switch {
-    flex-shrink: 0;
-  }
-
-  .lang-btn {
-    min-width: 44px;
-    min-height: 36px;
-  }
-
-  .page-home .hero-actions {
-    flex-direction: column;
-    align-items: stretch;
-    gap: 0.7rem;
-    margin-top: 1rem;
-  }
-
-  .page-home .hero-actions .btn {
+  .header-tools {
     width: 100%;
-    justify-content: center;
-    min-height: 48px;
-    box-sizing: border-box;
+    justify-content: space-between;
+  }
+
+  .main-nav {
+    flex-wrap: wrap;
+  }
+
+  .menu-tab {
+    font-size: 0.72rem;
+    letter-spacing: 0.08em;
   }
 
   .hero {
-    padding-top: clamp(2.5rem, 7vw, 3.5rem);
+    padding-top: 56px;
   }
 
   .page-home .hero {
-    min-height: min(52vh, 52dvh);
+    min-height: min(46vh, 46dvh);
   }
 
   .page-home .hero::before {
@@ -1467,36 +1364,8 @@ body:not(.page-home) .page-content {
     );
   }
 
-  .page-hero {
-    padding-top: clamp(2.25rem, 6vw, 3rem);
-  }
-
-  .page-hero h1 {
-    font-size: clamp(1.65rem, 1.1rem + 2.8vw, 2.35rem);
-    line-height: 1.1;
-  }
-
-  .menu-item-name,
-  .menu-section li {
-    font-size: 0.98rem;
-    line-height: 1.45;
-  }
-
-  .menu-item-desc,
-  .menu-note {
-    font-size: 0.94rem;
-    line-height: 1.5;
-  }
-
-  .wine-card .wine-name {
-    font-size: 0.98rem;
-    line-height: 1.45;
-  }
-
   .home-sections {
     grid-template-columns: 1fr;
-    gap: 1.25rem;
-    padding-top: clamp(2.5rem, 5vw, 3.5rem);
   }
 
   .home-info-grid {
@@ -1513,44 +1382,12 @@ body:not(.page-home) .page-content {
 
   .gallery-grid {
     grid-template-columns: 1fr;
-    gap: 0.85rem;
   }
 
   .page-content {
-    padding-inline: 1rem;
-    padding-block: clamp(1.5rem, 4vw, 2.25rem);
-    margin-top: 1rem;
+    padding-inline: 18px;
   }
 
-  .footer-inner {
-    flex-direction: column;
-    text-align: center;
-    align-items: center;
-  }
-
-  .footer-legal {
-    text-align: center;
-    text-align-last: center;
-  }
-
-  .lightbox-close {
-    top: max(0.5rem, env(safe-area-inset-top, 0px));
-    right: max(0.5rem, env(safe-area-inset-right, 0px));
-    width: 2.75rem;
-    height: 2.75rem;
-  }
-}
-
-@media (max-width: 480px) {
-  .form-row input,
-  .form-row textarea {
-    font-size: 1rem;
-  }
-
-  .main-nav {
-    font-size: 0.75rem;
-    gap: 0.65rem;
-  }
 }
 
 @media (prefers-reduced-motion: reduce) {
