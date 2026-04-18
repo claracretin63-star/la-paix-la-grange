@@ -149,49 +149,49 @@
     "ent": {
       "i1": {
         "name": {
-          "fr": "Salade verte, vinaigrette & croûtons maison – 8.– CHF",
-          "en": "Green salad, vinaigrette & house croutons – CHF 8",
-          "de": "Grüner Salat, Vinaigrette & hausgemachte Croutons – 8.– CHF"
+          "fr": "Salade verte, vinaigrette & croûtons maison – 7.– la petite · 13.– la grande",
+          "en": "Green salad, vinaigrette & house croutons – CHF 7 small · CHF 13 large",
+          "de": "Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– klein · 13.– gross"
         }
       },
       "i2": {
         "name": {
-          "fr": "Salade mêlée, crudités croquantes de saison – 11.– CHF",
-          "en": "Mixed salad, seasonal raw vegetables – CHF 11",
-          "de": "Gemischter Salat, saisonale Rohkost – 11.– CHF"
+          "fr": "Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– la petite · 16.– la grande",
+          "en": "Spring salad, crunchy raw vegetables, parmesan shavings & house vinaigrette – CHF 9 small · CHF 16 large",
+          "de": "Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– klein · 16.– gross"
         }
       },
       "i3": {
         "name": {
-          "fr": "Velouté d’asperges de saison et maison – 11.– CHF",
-          "en": "Seasonal asparagus velouté – CHF 11",
-          "de": "Saisonaler Spargel-Velouté – 11.– CHF"
+          "fr": "Velouté d’asperges maison – 11.– CHF",
+          "en": "House asparagus velouté – CHF 11",
+          "de": "Hausgemachter Spargel-Velouté – 11.– CHF"
         }
       },
       "i4": {
         "name": {
-          "fr": "Salade de chèvre chaud croustillant, vinaigrette au miel et noix torréfiées – 17.– CHF",
+          "fr": "Salade de chèvre chaud croustillant, vinaigrette au miel & noix torréfiées – 17.– CHF",
           "en": "Crispy warm goat cheese salad, honey & toasted walnut dressing – CHF 17",
           "de": "Knuspriger warmer Ziegenkäse-Salat, Honig & geröstete Walnüsse – 17.– CHF"
         }
       },
       "i5": {
         "name": {
-          "fr": "Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF",
-          "en": "Spring asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19",
-          "de": "Frühlings-Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF"
+          "fr": "Duo d’asperges vertes & blanches, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF",
+          "en": "Duo of green & white asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19",
+          "de": "Duo grüner & weisser Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF"
         }
       },
       "i6": {
         "name": {
-          "fr": "Tartare de bœuf coupé au couteau, condiments & toasts grillés",
-          "en": "Hand-cut beef tartare, condiments & grilled toasts",
-          "de": "Handgeschnittenes Rindertatar, Beilagen & geröstete Toasts"
+          "fr": "Tartare de bœuf coupé au couteau, pickles & toasts grillés",
+          "en": "Hand-cut beef tartare, pickles & grilled toasts",
+          "de": "Handgeschnittenes Rindertatar, Pickles & geröstete Toasts"
         },
         "desc": {
-          "fr": "75 g – 19.– CHF · 150 g (servi avec frites) – 32.– CHF",
-          "en": "75 g – CHF 19 · 150 g (with fries) – CHF 32",
-          "de": "75 g – 19.– CHF · 150 g (mit Pommes) – 32.– CHF"
+          "fr": "75 g – 21.– CHF · 150 g (servi avec frites) – 38.– CHF",
+          "en": "75 g – CHF 21 · 150 g (with fries) – CHF 38",
+          "de": "75 g – 21.– CHF · 150 g (mit Pommes) – 38.– CHF"
         }
       }
     },

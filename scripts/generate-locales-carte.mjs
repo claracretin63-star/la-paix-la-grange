@@ -71,14 +71,14 @@ const carte = {
     }
   },
   ent: {
-    i1: { name: L('Salade verte, vinaigrette & croûtons maison – 8.– CHF', 'Green salad, vinaigrette & house croutons – CHF 8', 'Grüner Salat, Vinaigrette & hausgemachte Croutons – 8.– CHF') },
-    i2: { name: L('Salade mêlée, crudités croquantes de saison – 11.– CHF', 'Mixed salad, seasonal raw vegetables – CHF 11', 'Gemischter Salat, saisonale Rohkost – 11.– CHF') },
-    i3: { name: L('Velouté d’asperges de saison et maison – 11.– CHF', 'Seasonal asparagus velouté – CHF 11', 'Saisonaler Spargel-Velouté – 11.– CHF') },
-    i4: { name: L('Salade de chèvre chaud croustillant, vinaigrette au miel et noix torréfiées – 17.– CHF', 'Crispy warm goat cheese salad, honey & toasted walnut dressing – CHF 17', 'Knuspriger warmer Ziegenkäse-Salat, Honig & geröstete Walnüsse – 17.– CHF') },
-    i5: { name: L('Asperges printanières, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF', 'Spring asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19', 'Frühlings-Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF') },
+    i1: { name: L('Salade verte, vinaigrette & croûtons maison – 7.– la petite · 13.– la grande', 'Green salad, vinaigrette & house croutons – CHF 7 small · CHF 13 large', 'Grüner Salat, Vinaigrette & hausgemachte Croutons – 7.– klein · 13.– gross') },
+    i2: { name: L('Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– la petite · 16.– la grande', 'Spring salad, crunchy raw vegetables, parmesan shavings & house vinaigrette – CHF 9 small · CHF 16 large', 'Frühlingssalat, knackige Rohkost, Parmesanhobel & hausgemachte Vinaigrette – 9.– klein · 16.– gross') },
+    i3: { name: L('Velouté d’asperges maison – 11.– CHF', 'House asparagus velouté – CHF 11', 'Hausgemachter Spargel-Velouté – 11.– CHF') },
+    i4: { name: L('Salade de chèvre chaud croustillant, vinaigrette au miel & noix torréfiées – 17.– CHF', 'Crispy warm goat cheese salad, honey & toasted walnut dressing – CHF 17', 'Knuspriger warmer Ziegenkäse-Salat, Honig & geröstete Walnüsse – 17.– CHF') },
+    i5: { name: L('Duo d’asperges vertes & blanches, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF', 'Duo of green & white asparagus, marinated cherry tomatoes, light raspberry vinegar cream – CHF 19', 'Duo grüner & weisser Spargel, marinierte Kirschtomaten, leichte Himbeeressig-Creme – 19.– CHF') },
     i6: {
-      name: L('Tartare de bœuf coupé au couteau, condiments & toasts grillés', 'Hand-cut beef tartare, condiments & grilled toasts', 'Handgeschnittenes Rindertatar, Beilagen & geröstete Toasts'),
-      desc: L('75 g – 19.– CHF · 150 g (servi avec frites) – 32.– CHF', '75 g – CHF 19 · 150 g (with fries) – CHF 32', '75 g – 19.– CHF · 150 g (mit Pommes) – 32.– CHF')
+      name: L('Tartare de bœuf coupé au couteau, pickles & toasts grillés', 'Hand-cut beef tartare, pickles & grilled toasts', 'Handgeschnittenes Rindertatar, Pickles & geröstete Toasts'),
+      desc: L('75 g – 21.– CHF · 150 g (servi avec frites) – 38.– CHF', '75 g – CHF 21 · 150 g (with fries) – CHF 38', '75 g – 21.– CHF · 150 g (mit Pommes) – 38.– CHF')
     }
   },
   plat: {
