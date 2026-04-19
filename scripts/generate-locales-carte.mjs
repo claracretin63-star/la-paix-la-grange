@@ -80,7 +80,7 @@ const carte = {
     }
   },
   plat: {
-    i1: { name: L('Suprême de volaille, sauce aux morilles & grenailles rôties au romarin – 32.– CHF', 'Supreme of chicken, morel sauce and rosemary roast new potatoes – CHF 32', 'Geflügel-Supreme, Morchelsoße & Rosmarin-Kartoffeln – 32.– CHF') },
+    i1: { name: L('Suprême de volaille, sauce aux morilles & grenailles rôties au romarin – 33.– CHF', 'Supreme of chicken, morel sauce and rosemary roast new potatoes – CHF 33', 'Geflügel-Supreme, Morchelsoße & Rosmarin-Kartoffeln – 33.– CHF') },
     i2: { name: L('Entrecôte de bœuf tranchée, sauce beurre maître d’hôtel, frites croustillantes 200 g – 41.– CHF', 'Sliced rib-eye steak, maître d’hôtel butter and crisp hand-cut chips (200 g) – CHF 41', 'Geschnittenes Rinderentrecôte, Kräuterbutter-Sauce, knusprige Pommes 200 g – 41.– CHF') },
     i3: { name: L('Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison 200 g – 47.– CHF', 'Beef fillet on the hot stone, crisp chips, peppercorn sauce and seasonal vegetables (200 g) – CHF 47', 'Rinderfilet auf heißem Stein, knusprige Pommes, Pfeffersauce & saisonales Gemüse 200 g – 47.– CHF') },
     i4: { name: L('Escalope de veau viennoise, confiture d’airelle, frites croustillantes – 46.– CHF', 'Viennese veal schnitzel, lingonberry compôte and crisp chips – CHF 46', 'Kalbsschnitzel Wiener Art, Preiselbeerkonfitüre, knusprige Pommes – 46.– CHF') },
