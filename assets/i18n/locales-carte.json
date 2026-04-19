@@ -119,7 +119,7 @@
       },
       "note": "Servies avec sauces maison, frites et salade."
     },
-    "platNote": "<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Morilles, Poivre.",
+    "platNote": "<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong><br>Café de Paris, Poivre – 5.50 CHF · Morilles – 7.– CHF",
     "desserts": {
       "i1": {
         "name": "Parfait glacé à la vanille, éclats d’amandes et caramel beurre salé – 14.– CHF"

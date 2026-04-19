@@ -114,7 +114,7 @@ const carte = {
     note: L('Servies avec sauces maison, frites et salade.', 'Served with house sauces, chips and green salad.', 'Mit hausgemachten Saucen, Pommes und Salat.')
   },
   platNote: L(
-    '<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Morilles, Poivre.',
+    '<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong><br>Café de Paris, Poivre – 5.50 CHF · Morilles – 7.– CHF',
     '<strong>Extra side</strong> – CHF 5<br>Chips, mixed leaf salad, seasonal sautéed vegetables, fresh tagliatelle.<br><br><strong>Truffle chips supplement</strong> – CHF 8<br><br><strong>Extra sauce</strong> – CHF 5.50<br>Café de Paris, morels, peppercorn.',
     '<strong>Beilage</strong> – 5.– CHF<br>Pommes, grüner Salat, saisonales Gemüse, frische Tagliatelle.<br><br><strong>Trüffel-Pommes</strong> – 8.– CHF<br><br><strong>Sauce</strong> – 5.50 CHF<br>Café de Paris, Morcheln, Pfeffer.'
   ),
