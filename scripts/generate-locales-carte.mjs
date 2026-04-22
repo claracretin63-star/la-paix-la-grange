@@ -130,12 +130,12 @@ const carte = {
       desc: L('Glace vanille nappée d’un espresso chaud.', 'Vanilla ice cream drowned in a hot espresso.', 'Vanilleeis mit heißem Espresso.')
     },
     i5: {
-      name: L('Café ou Chocolat Liégeois – 11.– CHF', 'Coffee or chocolate Liégeois sundae – CHF 11', 'Kaffee- oder Schokoladen-Liégeois – 11.– CHF'),
-      desc: L('Glace café/chocolat, nappage, chantilly.', 'Layered coffee or chocolate ice, sauce and whipped cream.', 'Kaffee-/Schokoeis, Topping, Sahne.')
+      name: L('Café ou Chocolat Liégeois', 'Coffee or chocolate Liégeois sundae', 'Kaffee- oder Schokoladen-Liégeois'),
+      desc: L('Glace café/chocolat, nappage, chantilly.<br>Petite – 6.– CHF · Grande – 12.– CHF', 'Layered coffee or chocolate ice, sauce and whipped cream.<br>Small – CHF 6 · Large – CHF 12', 'Kaffee-/Schokoeis, Topping, Sahne.<br>Klein – 6.– CHF · Gross – 12.– CHF')
     },
     i6: {
-      name: L('Dame blanche – 11.– CHF', 'Dame blanche – CHF 11', 'Dame blanche – 11.– CHF'),
-      desc: L('Glace vanille, chocolat chaud et chantilly.', 'Vanilla ice cream, hot chocolate sauce and Chantilly cream.', 'Vanilleeis, heiße Schokolade & Sahne.')
+      name: L('Coupe Danemark', 'Coupe Danemark', 'Coupe Danemark'),
+      desc: L('Glace vanille, chocolat chaud et chantilly.<br>Petite – 6.– CHF · Grande – 12.– CHF', 'Vanilla ice cream, hot chocolate sauce and Chantilly cream.<br>Small – CHF 6 · Large – CHF 12', 'Vanilleeis, heiße Schokolade & Sahne.<br>Klein – 6.– CHF · Gross – 12.– CHF')
     },
     i7: {
       name: L('Glaces arrosées – 14.– CHF', 'Liqueur-laced ice creams – CHF 14', 'Eis mit Likör – 14.– CHF'),
@@ -144,7 +144,7 @@ const carte = {
     i8: {
       name: L('Glace / Sorbet', 'Ice cream / sorbet', 'Glace / Sorbet'),
       desc: L(
-        '1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron).',
+        '1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron, Rhum raisin).',
         'One scoop – CHF 4 · two scoops – CHF 8<br>(Vanilla, chocolate, strawberry, mocha, stracciatella, walnut, pear, apricot, lemon).',
         '1 Kugel – 4.– CHF · 2 Kugeln – 8.– CHF<br>(Vanille, Schokolade, Erdbeere, Moka, Stracciatella, Nuss, Birne, Aprikose, Zitrone).'
       )

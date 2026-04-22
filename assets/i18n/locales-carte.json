@@ -136,12 +136,12 @@
         "desc": "Glace vanille nappée d’un espresso chaud."
       },
       "i5": {
-        "name": "Café ou Chocolat Liégeois – 11.– CHF",
-        "desc": "Glace café/chocolat, nappage, chantilly."
+        "name": "Café ou Chocolat Liégeois",
+        "desc": "Glace café/chocolat, nappage, chantilly.<br>Petite – 6.– CHF · Grande – 12.– CHF"
       },
       "i6": {
-        "name": "Dame blanche – 11.– CHF",
-        "desc": "Glace vanille, chocolat chaud et chantilly."
+        "name": "Coupe Danemark",
+        "desc": "Glace vanille, chocolat chaud et chantilly.<br>Petite – 6.– CHF · Grande – 12.– CHF"
       },
       "i7": {
         "name": "Glaces arrosées – 14.– CHF",
@@ -149,7 +149,7 @@
       },
       "i8": {
         "name": "Glace / Sorbet",
-        "desc": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron)."
+        "desc": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron, Rhum raisin)."
       }
     },
     "enfant": {
