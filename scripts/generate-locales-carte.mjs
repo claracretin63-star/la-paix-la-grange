@@ -85,7 +85,7 @@ const carte = {
     i3: { name: L('Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison 200 g – 47.– CHF', 'Beef fillet on the hot stone, crisp chips, peppercorn sauce and seasonal vegetables (200 g) – CHF 47', 'Rinderfilet auf heißem Stein, knusprige Pommes, Pfeffersauce & saisonales Gemüse 200 g – 47.– CHF') },
     i4: { name: L('Escalope de veau viennoise, confiture d’airelle, frites croustillantes – 46.– CHF', 'Viennese veal schnitzel, lingonberry compôte and crisp chips – CHF 46', 'Kalbsschnitzel Wiener Art, Preiselbeerkonfitüre, knusprige Pommes – 46.– CHF') },
     i5: { name: L('Risotto crémeux aux petits pois & champignons poêlés – 29.– CHF', 'Creamy pea risotto with sautéed mushrooms – CHF 29', 'Cremiges Erbsen-Risotto & gebratene Pilze – 29.– CHF') },
-    i6: { name: L('Tagliatelles à la crème de truffe d’été – 35.– CHF', 'Tagliatelle with fresh summer truffle cream – CHF 35', 'Tagliatelle mit Sommertrüffel-Creme – 35.– CHF') },
+    i6: { name: L('Tagliatelles fraîches à la crème de truffe – 35.– CHF', 'Tagliatelle with fresh summer truffle cream – CHF 35', 'Tagliatelle mit Sommertrüffel-Creme – 35.– CHF') },
     i7: {
       name: L('Le mijoté du chef – 38.– CHF', 'Chef’s slow-cooked braise – CHF 38', 'Schmortopf des Küchenchefs – 38.– CHF'),
       desc: L('Joue de bœuf, jus corsé maison accompagné d’une purée de pommes de terre à l’ancienne & brocolis.', 'Beef cheek in a rich house jus, creamed potato and broccoli.', 'Rinderbacke, kräftiger Haussauce, Kartoffelpüree nach Art des Hauses & Brokkoli.')
@@ -96,8 +96,8 @@ const carte = {
     i2: { name: L('Supplément lard tranché – 3.– CHF', 'Extra sliced bacon – CHF 3', 'Speck-Zusatz – 3.– CHF') }
   },
   fondues: {
-    i1: { name: L('Fondue moitié-moitié dans le pain – 28.– CHF', 'Moitié-moitié fondue baked in a bread loaf – CHF 28', 'Halb-Halb-Fondue im Brot – 28.– CHF') },
-    i2: { name: L('Fondue moitié-moitié – 28.– CHF', 'Classic moitié-moitié cheese fondue – CHF 28', 'Halb-Halb-Fondue – 28.– CHF') },
+    i1: { name: L('Fondue valaisanne dans le pain – 28.– CHF', 'Moitié-moitié fondue baked in a bread loaf – CHF 28', 'Halb-Halb-Fondue im Brot – 28.– CHF') },
+    i2: { name: L('Fondue valaisanne – 28.– CHF', 'Classic moitié-moitié cheese fondue – CHF 28', 'Halb-Halb-Fondue – 28.– CHF') },
     i3: { name: L('Fondue tomate – 28.– CHF', 'Tomato cheese fondue – CHF 28', 'Tomaten-Fondue – 28.– CHF') },
     i4: { name: L('Fondue à la truffe – 32.– CHF', 'Truffle cheese fondue – CHF 32', 'Trüffel-Fondue – 32.– CHF') },
     note: L('2.– CHF pommes de terre grenailles (sauf fondue tomate).', 'CHF 2 supplement for new potatoes (excludes tomato fondue).', '2.– CHF Drillinge (ausser Tomaten-Fondue).')
