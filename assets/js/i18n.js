@@ -3,7 +3,7 @@
  * (chaque clé : chaîne ou objet dont les feuilles sont des chaînes).
  */
 (function () {
-  const CACHE_BUST = '202604099';
+  const CACHE_BUST = '202606230';
 
   function resolvePath(obj, path) {
     return path.split('.').reduce(function (o, k) {

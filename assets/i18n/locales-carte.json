@@ -1,22 +1,22 @@
 {
   "carte": {
     "hero": {
-      "title": "La carte de printemps",
+      "title": "La carte d’été",
       "intro": "Une cuisine de saison, inspirée des produits locaux et des arrivages du marché.<br>Menu du jour proposé du mercredi au vendredi.<br>Suggestion du moment renouvelée au gré des produits et de l’envie du chef."
     },
     "tabs": {
-      "share": "À partager",
+      "share": "Nos planches",
       "entrees": "Entrées",
       "plats": "Plats",
-      "coin": "Coin montagnard",
+      "coin": "L’Esprit Montagnard",
       "desserts": "Desserts",
       "enfant": "Menu enfant"
     },
     "h": {
-      "share": "À partager",
+      "share": "Nos planches",
       "entrees": "Entrées",
       "plats": "Plats",
-      "coin": "Coin montagnard",
+      "coin": "L’Esprit Montagnard",
       "fondues": "Fondues au fromage (dès 2 pers.)",
       "fonduesViande": "Fondues de viande (dès 2 pers.)",
       "desserts": "Desserts",
@@ -24,73 +24,69 @@
     },
     "ap": {
       "i1": {
-        "name": "Planche du Terroir – Fromages & salaisons – 17.– CHF la petite · 28.– CHF la grande",
+        "name": "Planche Fromages et pickles du Terroir – Fromages & salaisons – 17.– CHF la petite · 28.– CHF la grande",
         "desc": "Fromages et salaisons du Valais, pain de seigle, pickles maison & chutney de fruits."
       },
       "i2": {
-        "name": "Terrine de campagne maison, parfumée au cognac – 18.– CHF · 180 g",
+        "name": "Terrine de campagne maison, parfumée au cognac – 19.– CHF · 180 g",
         "desc": "Pain de seigle & pickles maison."
       },
       "i3": {
-        "name": "Rillettes de poulet maison au thym – 16.– CHF · 180 g",
-        "desc": "Pain de seigle & pickles maison."
-      },
-      "i4": {
         "name": "Planche Végétarienne – 24.– CHF",
-        "desc": "Houmous de betterave, tapenade, tomates, olives marinées, feta, gressins & chutney de fruits."
+        "desc": "Houmous de betterave, tapenade d’olives, gressins & chutney de fruits."
       }
     },
     "ent": {
       "i1": {
-        "name": "Salade verte, vinaigrette & croûtons maison – 7.– CHF la petite · 13.– CHF la grande"
+        "name": "Salade verte, vinaigrette & croûtons – 7.– CHF la petite · 12.– CHF la grande"
       },
       "i2": {
-        "name": "Salade printanière, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– CHF la petite · 16.– CHF la grande"
+        "name": "Salade d’été, crudités croquantes, flocon de parmesan & vinaigrette maison – 9.– CHF la petite · 15.– CHF la grande"
       },
       "i3": {
-        "name": "Velouté d’asperges maison – 11.– CHF"
+        "name": "Soupe de tomate à l’ancienne maison – 11.– CHF"
       },
       "i4": {
-        "name": "Salade de chèvre chaud croustillant, vinaigrette au miel & noix torréfiées – 17.– CHF"
+        "name": "Tartare estival de pastèque, abricot & feta – 17.– CHF"
       },
       "i5": {
-        "name": "Duo d’asperges vertes & blanches, tomates cerises marinées, crème légère au vinaigre de framboise – 19.– CHF"
+        "name": "Trilogie de tomate, stracciatella & basilic – 15.– CHF la petite · 23.– CHF la grande"
       },
       "i6": {
         "name": "Tartare de bœuf coupé au couteau, pickles & toasts grillés",
-        "desc": "75 g – 21.– CHF · 150 g (servi avec frites) – 38.– CHF"
+        "desc": "75 g – 21.– CHF"
       }
     },
     "plat": {
       "i1": {
-        "name": "Suprême de volaille, sauce aux morilles & grenailles rôties au romarin – 33.– CHF"
+        "name": "Suprême de volaille, sauce aux morilles & grenailles rôties aux herbes de Provence – 32.– CHF"
       },
       "i2": {
-        "name": "Entrecôte de bœuf tranchée, sauce beurre maître d’hôtel, frites croustillantes 200 g – 41.– CHF"
+        "name": "Entrecôte sur pierre ollaire, frites croustillantes, sauce beurre maître d’hôtel & poêlée de légumes de saison, 210 g – 44.– CHF"
       },
       "i3": {
-        "name": "Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison 200 g – 47.– CHF"
+        "name": "Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison, 210 g – 47.– CHF"
       },
       "i4": {
-        "name": "Escalope de veau viennoise, confiture d’airelle, frites croustillantes – 46.– CHF"
+        "name": "Tagliatelles fraîches à la crème de truffe d’été – 35.– CHF"
       },
       "i5": {
-        "name": "Risotto crémeux aux petits pois & champignons poêlés – 29.– CHF"
+        "name": "Le mijoté du chef – 38.– CHF",
+        "desc": "Joue de bœuf façon bourguignon, mijotée, servie avec frites."
       },
       "i6": {
-        "name": "Tagliatelles fraîches à la crème de truffe – 35.– CHF"
-      },
-      "i7": {
-        "name": "Le mijoté du chef – 38.– CHF",
-        "desc": "Joue de bœuf, jus corsé maison accompagné d’une purée de pommes de terre à l’ancienne & brocolis."
+        "name": "Tartare de bœuf coupé au couteau, frites, pickles & toasts grillés",
+        "desc": "180 g – 38.– CHF · + Cognac – 41.– CHF"
       }
     },
     "coin": {
       "i1": {
-        "name": "Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF"
+        "name": "Croque-Monsieur Montagnard, pain de campagne, raclette des Haudères & jambon",
+        "desc": "Avec salade – 26.– CHF · Avec frites – 31.– CHF"
       },
       "i2": {
-        "name": "Supplément lard tranché – 3.– CHF"
+        "name": "Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF",
+        "desc": "Avec lard – 28.– CHF"
       }
     },
     "fondues": {
@@ -106,50 +102,53 @@
       "i4": {
         "name": "Fondue à la truffe – 32.– CHF"
       },
-      "note": "2.– CHF pommes de terre grenailles (sauf fondue tomate)."
+      "note": "Pommes de terre grenailles – 4.– CHF (sauf fondue tomate)."
     },
     "fonduesV": {
       "i1": {
-        "name": "Fondue chinoise 200 g – 40.– CHF",
+        "name": "Fondue chinoise 210 g – 40.– CHF",
         "desc": "Morceaux de viande cuits dans un bouillon de légumes."
       },
       "i2": {
-        "name": "Fondue Bacchus 200 g – 40.– CHF",
+        "name": "Fondue Bacchus 210 g – 40.– CHF",
         "desc": "Morceaux de viande cuits dans du vin rouge."
       },
       "note": "Servies avec sauces maison, frites et salade."
     },
-    "platNote": "<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison, tagliatelles fraîches.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong><br>Café de Paris, Poivre – 5.50 CHF · Morilles – 7.– CHF",
+    "platNote": "<strong>Supplément accompagnement</strong> – 5.– CHF<br>Frites, salade verte, poêlée de légumes de saison.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong><br>Café de Paris, Poivre – 5.50 CHF · Morilles – 7.50 CHF",
     "desserts": {
       "i1": {
-        "name": "Parfait glacé à la vanille, éclats d’amandes et caramel beurre salé – 14.– CHF"
+        "name": "Panna Cotta parfumée à la lavande et sa compotée d’abricot du Valais – 14.– CHF"
       },
       "i2": {
         "name": "Profiteroles, glace vanille & sauce chocolat maison – 16.– CHF"
       },
       "i3": {
+        "name": "“L’incontournable” Tiramisu au café – 14.– CHF"
+      },
+      "i4": {
         "name": "Café gourmand – 16.– CHF",
         "desc": "Café ou thé accompagné de mini desserts."
       },
-      "i4": {
+      "i5": {
         "name": "Affogato – 7.50 CHF",
         "desc": "Glace vanille nappée d’un espresso chaud."
       },
-      "i5": {
-        "name": "Café ou Chocolat Liégeois",
-        "desc": "Glace café/chocolat, nappage, chantilly.<br>Petite – 6.– CHF · Grande – 12.– CHF"
-      },
       "i6": {
-        "name": "Coupe Danemark",
-        "desc": "Glace vanille, chocolat chaud et chantilly.<br>Petite – 6.– CHF · Grande – 12.– CHF"
+        "name": "Café ou Chocolat Liégeois",
+        "desc": "Glace café/chocolat, nappage, chantilly.<br>Petite – 9.– CHF · Grande – 12.– CHF"
       },
       "i7": {
+        "name": "Danemark",
+        "desc": "Glace vanille, chocolat chaud et chantilly.<br>Petite – 9.– CHF · Grande – 12.– CHF"
+      },
+      "i8": {
         "name": "Glaces arrosées – 14.– CHF",
         "desc": "Abricotine · Colonel · Poire."
       },
-      "i8": {
+      "i9": {
         "name": "Glace / Sorbet",
-        "desc": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Straciatella, Noix, Poire, Abricot, Citron, Rhum raisin)."
+        "desc": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Stracciatella, Noix, Poire, Abricot, Citron, Rhum raisin)."
       }
     },
     "enfant": {
