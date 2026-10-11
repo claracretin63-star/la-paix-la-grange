@@ -1168,6 +1168,11 @@ body:not(.page-home) .page-content {
   color: var(--muted-dim);
 }
 
+.form-row input.is-invalid {
+  border-color: rgba(201, 168, 130, 0.85);
+  box-shadow: 0 0 0 3px rgba(107, 79, 61, 0.45);
+}
+
 .form-row input:focus,
 .form-row textarea:focus {
   border-color: rgba(201, 168, 130, 0.55);

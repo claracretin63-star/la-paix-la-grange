@@ -89,6 +89,7 @@
     "hintCouverts": "Pour plus de 10 personnes, merci de nous appeler.",
     "labelDate": "Date de réservation",
     "hintDate": "Ouverture le 02.05.2026 — réservations à partir de cette date.",
+    "hintClosed": "Fermeture du 1er au 23 novembre 2026 — aucune réservation possible sur cette période.",
     "labelTime": "Heure de réservation",
     "labelMessage": "Message",
     "phMessage": "Votre message",
