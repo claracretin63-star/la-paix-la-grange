@@ -1,11 +1,10 @@
 {
   "carte": {
     "hero": {
-      "title": "La carte d’automne",
+      "title": "La carte d’hiver",
       "intro": "Une cuisine de saison, inspirée des produits locaux et des arrivages du marché.<br>Menu du jour proposé du mercredi au vendredi.<br>Suggestion du moment renouvelée au gré des produits et de l’envie du chef."
     },
     "tabs": {
-      "share": "Nos planches",
       "entrees": "Entrées",
       "plats": "Plats",
       "coin": "L’Esprit Montagnard",
@@ -13,7 +12,6 @@
       "enfant": "Menu enfant"
     },
     "h": {
-      "share": "Nos planches",
       "entrees": "Entrées",
       "plats": "Plats",
       "coin": "L’Esprit Montagnard",
@@ -22,31 +20,28 @@
       "desserts": "Desserts",
       "menuEnfant": "Menu enfant"
     },
-    "ap": {
-      "i1": {
-        "name": "Planche du Terroir – Fromages & salaisons – 17.– CHF la petite · 28.– CHF la grande",
-        "desc": "Fromages et salaisons du Valais, pain de seigle, pickles & chutney de fruits maison."
-      },
-      "i2": {
-        "name": "Terrine de campagne maison, parfumée au cognac, 180 g – 19.– CHF",
-        "desc": "Pain de seigle & pickles."
-      }
-    },
     "ent": {
       "i1": {
         "name": "Salade verte, vinaigrette & croûtons – 7.– CHF la petite · 12.– CHF la grande"
       },
       "i2": {
-        "name": "Salade d’automne, légumes croquants, airelles rouges & vinaigrette – 9.– CHF la petite · 15.– CHF la grande"
+        "name": "Salade d’hiver, légumes croquants, airelles rouges & mélange de noix, vinaigrette – 9.– CHF la petite · 15.– CHF la grande"
       },
       "i3": {
         "name": "Velouté de courge à l’amaretto, graines de courge torréfiées – 11.– CHF"
       },
       "i4": {
-        "name": "Tomme des Haudères en feuille de brick, airelles rouges, bouquet de salade & vinaigrette au miel – 18.– CHF"
+        "name": "Betterave marinée à l’huile de noix, crémeux de chèvre et noix torréfiées – 16.– CHF"
       },
       "i5": {
-        "name": "Pâté en croûte de chasse maison, chutney de pommes & pickles – 22.– CHF"
+        "name": "Croquetas aux bolets maison, accompagnées d’un bouquet de salade – 18.– CHF"
+      },
+      "i6": {
+        "name": "Planche du Terroir – Fromages & salaisons – 18.– CHF la petite · 28.– CHF la grande",
+        "desc": "Fromages et salaisons du Valais, pain de seigle, pickles & chutney de fruits maison."
+      },
+      "i7": {
+        "name": "Assiette de viande séchée – 20.– CHF la petite · 30.– CHF la grande"
       }
     },
     "plat": {
@@ -60,26 +55,24 @@
         "name": "Filet de bœuf sur pierre ollaire, frites croustillantes, sauce au poivre & poêlée de légumes de saison, 210 g – 47.– CHF"
       },
       "i4": {
-        "name": "Pavé de cerf sur pierre ollaire, Spätzli, sauce Grand Veneur & garniture de chasse – 45.– CHF"
+        "name": "Mijoté du chef : joue de bœuf braisée & polenta crémeuse – 38.– CHF"
       },
       "i5": {
-        "name": "Civet de chevreuil & polenta crémeuse – 34.– CHF"
-      },
-      "i6": {
         "name": "Tagliatelles fraîches à la crème de truffe – 35.– CHF"
       },
-      "i7": {
+      "i6": {
         "name": "Tagliatelles fraîches aux bolets – 29.– CHF"
       }
     },
+    "platNote": "<strong>Supplément accompagnement</strong> – 5.50 CHF<br>Frites, poêlée de légumes de saison.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Poivre",
     "coin": {
       "i1": {
         "name": "Macaronis du berger, pommes de terre, fromage gratiné & oignons rôtis – 25.– CHF",
-        "desc": "Avec lard – 28.– CHF"
+        "desc": "Supplément lard – 28.– CHF"
       }
     },
     "fondues": {
-      "noteCaquelon": "Caquelon ou dans le pain.",
+      "noteCaquelon": "Caquelon ou dans le pain (sauf fondue tomate).",
       "i1": {
         "name": "Fondue valaisanne – 28.– CHF"
       },
@@ -90,6 +83,12 @@
         "name": "Fondue aux bolets – 29.– CHF"
       },
       "i4": {
+        "name": "Fondue à l’échalote – 29.– CHF"
+      },
+      "i5": {
+        "name": "Fondue aux lardons – 29.– CHF"
+      },
+      "i6": {
         "name": "Fondue à la truffe – 32.– CHF"
       },
       "note": "Pommes de terre grenailles – 4.– CHF (sauf fondue tomate)."
@@ -103,22 +102,17 @@
         "name": "Fondue Bacchus 210 g – 40.– CHF",
         "desc": "Morceaux de viande cuits dans du vin rouge."
       },
-      "i3": {
-        "name": "Fondue de chasse 210 g – 42.– CHF",
-        "desc": "Morceaux de viande de chasse cuits dans du vin rouge."
-      },
       "note": "Servies avec sauces maison & frites."
     },
-    "platNote": "<strong>Supplément accompagnement</strong> – 5.50 CHF<br>Frites, salade verte, poêlée de légumes de saison, Spätzli.<br><br><strong>Supplément frites à la truffe</strong> – 8.– CHF<br><br><strong>Supplément sauce</strong> – 5.50 CHF<br>Café de Paris, Poivre, Grand Veneur",
     "desserts": {
       "i1": {
-        "name": "Crème brûlée à la vanille & marron – 14.– CHF"
+        "name": "Crème brûlée au Cointreau – 14.– CHF"
       },
       "i2": {
         "name": "Profiteroles, glace vanille & sauce chocolat maison – 16.– CHF"
       },
       "i3": {
-        "name": "“L’incontournable” Tiramisu au café – 14.– CHF"
+        "name": "Moelleux au chocolat, coulis aux fruits rouges et glace vanille – 16.– CHF"
       },
       "i4": {
         "name": "Affogato – 7.50 CHF",
@@ -126,7 +120,7 @@
       },
       "i5": {
         "name": "Café ou Chocolat Liégeois",
-        "desc": "Glace café/chocolat, nappage, chantilly.<br>Petite – 9.– CHF · Grande – 12.– CHF"
+        "desc": "Glace café / chocolat, nappage, chantilly.<br>Petite – 9.– CHF · Grande – 12.– CHF"
       },
       "i6": {
         "name": "Danemark",
@@ -145,10 +139,11 @@
         "desc": "1 boule – 4.– CHF · 2 boules – 8.– CHF<br>(Vanille, Chocolat, Fraise, Moka, Stracciatella, Noix, Poire, Abricot, Citron, Rhum raisin)."
       }
     },
+    "legal": "Tous les prix sont en CHF, TVA incluse.<br>Pour toute question concernant les allergènes, notre personnel se tient à votre disposition.",
     "enfant": {
       "i1": {
         "name": "Formule – 15.– CHF",
-        "desc": "<div class=\"menu-enfant-body\"><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Entrée</p><p class=\"menu-enfant-part-text\">Salade verte</p></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Plat au choix</p><ul class=\"menu-enfant-options\"><li>Macaronis du mini berger</li><li>Nuggets, frites & légumes</li></ul></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Dessert</p><p class=\"menu-enfant-part-text\">1 boule de glace au choix</p></div></div>"
+        "desc": "<div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Plat au choix</p><ul class=\"menu-enfant-options\"><li>Macaronis du mini berger</li><li>Nuggets, frites & légumes</li></ul></div><div class=\"menu-enfant-part\"><p class=\"menu-enfant-part-title\">Dessert</p><p class=\"menu-enfant-part-text\">1 boule de glace au choix</p></div>"
       }
     }
   }
